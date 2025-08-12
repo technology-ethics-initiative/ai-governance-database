@@ -1,0 +1,69 @@
+.simulationCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1rem;
+  background-color: var(--cr-bg-primary);
+  border-radius: var(--br-radius-small);
+  overflow: hidden;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.textContainer h3 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.textContainer p {
+  font-size: 1.3em;
+  font-weight: 400;
+  line-height: 1.5;
+
+  margin-bottom: 1rem;
+}
+
+
+.imageContainer img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.buttonContainer button {
+  width: 10rem;
+  height: 2.75rem;
+}
+
+@media (width >= 800px) {
+  .simulationCard.rightAlign {
+    flex-direction: row-reverse;
+  }
+  .textContainer {
+    width: 60%;
+  }
+  .imageContainer {
+    width: 40%;
+  }
+}
+
+@media (width <= 800px) {
+  .simulationCard {
+    flex-direction: column-reverse;
+  }
+}

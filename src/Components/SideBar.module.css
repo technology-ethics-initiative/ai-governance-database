@@ -1,0 +1,46 @@
+.hidden {
+  display: none;
+  width: 0rem;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: var(--sideBar-width);
+  height: calc(100vh - var(--header-height));
+  padding: 0rem;
+  background-color: var(--cr-bg-secondary);
+  color: var(--cr-text-secondary);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  overflow-x: hidden;
+  overflow: visible;
+}
+
+.sideBar a {
+  text-decoration: none;
+}
+
+.sideBar button {
+  width: var(--sideBar-width);
+  border-radius: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 0.5em;
+}
+
+.dropDown {
+  display: none;
+}
+
+.dropDown.open {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropDown.open button {
+  padding-left: 3rem;
+}

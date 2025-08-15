@@ -1,6 +1,6 @@
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import { useState } from "react";
-import { AtIcon, HeartIcon, SUFullIcon } from "./Components/Icons";
+import { HeartIcon, SUFullIcon } from "./Components/Icons";
 import SideBar from "./Components/SideBar";
 import styles from './App.module.css';
 import Home from "./pages/Home";

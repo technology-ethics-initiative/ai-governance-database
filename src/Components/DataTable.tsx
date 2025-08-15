@@ -1,12 +1,11 @@
-import { GitHubIcon, LaunchIcon } from "./Icons";
-import styles from "./DataTable.module.css";
+//import styles from "./DataTable.module.css";
 
 interface DataTableProps {
 
 }
 
 function DataTable(table: DataTableProps) {
-  
+  table;
 
   return (
     <div>

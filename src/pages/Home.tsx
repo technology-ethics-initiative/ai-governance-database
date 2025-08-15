@@ -1,12 +1,8 @@
-//import { useNavigate } from 'react-router-dom';
 import styles from './Home.module.css';
 import { SearchIcon } from '../Components/Icons';
 import PageTitle from '../Components/PageTitle';
 
 export default function Home() {
-  //const navigate = useNavigate();
-  //const handleLearnMoreClick = () => { navigate('/about'); };
-
   return (
     <>
       <PageTitle title="AI Governance Database @ SU | Home" />

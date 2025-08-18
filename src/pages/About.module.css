@@ -1,0 +1,29 @@
+.pageContent {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: calc(100vh - var(--header-height));
+  color: var(--cr-text-primary);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+  overflow-x: hidden;
+  overflow: visible;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.pageContent h2 {
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  user-select: none;
+}
+
+@media (width < 800px) {
+
+  .pageContent {
+    font-size: 0.8em;
+  }
+}

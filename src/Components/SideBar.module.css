@@ -24,12 +24,28 @@
 
 .sideBar button {
   width: var(--sideBar-width);
+  background-color: var(--cr-bg-secondary);
+  color: var(--cr-text-primary);
+  border-color: var(--cr-bg-secondary);
   border-radius: 0%;
+  margin: 0em;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-content: center;
   gap: 0.5em;
+}
+
+.sideBar button:hover {
+  background-color: var(--cr-secondary-hover);
+  border-color: var(--cr-secondary-hover);
+  transform: translateY(-1px);
+}
+
+.sideBar button:active {
+  background-color: var(--cr-secondary-hover-select);
+  border-color: var(--cr-secondary-hover-select);
+  transform: translateY(0);
 }
 
 .dropDown {

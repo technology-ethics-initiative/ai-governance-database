@@ -1,3 +1,22 @@
+button {
+  background-color: var(--cr-bg-primary);
+  color: var(--cr-text-primary);
+  border: 1px solid var(--cr-border-primary);
+  border-radius: 1rem;
+  margin: 0.5rem;
+  display: inline;
+}
+
+button:hover, button.active {
+  background-color: var(--cr-bg-secondary);
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: var(--cr-bg-primary);
+  transform: translateY(0);
+}
+
 .pageContent {
   display: flex;
   flex-direction: column;
@@ -9,13 +28,22 @@
   text-align: center;
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   overflow-x: hidden;
-  overflow: visible;
+  overflow-y: scroll;
+}
+
+.searchBox {
+  width: 80%;
+  margin: 1rem 1rem 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 .searchBar {
-  width: 80%;
-  margin: 1rem;
+  width: 100%;
   padding: 1rem;
+  margin-bottom: 0.5rem;
   background-color: var(--cr-bg-secondary);
   border: 1px solid var(--cr-border-contrast); /* !!!!! Doesn't follow color section */
   border-radius: 5px;
@@ -30,8 +58,87 @@
   background-color: var(--cr-bg-secondary);
   color: var(--cr-text-secondary);
   border: none;
+  outline: none;
   flex-grow: 4;
 }
-.searchBar input[type=search]:focus {
-  outline: none;
+
+.searchBar.hidden, .chartContainer.hidden {
+  display: none;
+}
+
+.chartContainer {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--cr-bg-primary);
+  margin-bottom: 2rem;
+}
+
+.searchButton {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin: 0em;
+}
+
+.advancedMenu {
+  width: 100%;
+  display: none;
+}
+
+.advancedMenu.open {
+  display: flex;
+  flex-direction: column;
+}
+
+.spaceTogether {
+  align-self: start;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+}
+
+.conjuctionButton {
+  border-radius: 10%;
+  margin: 1rem 0.5rem;
+}
+
+.menuButton {
+  margin: 1rem;
+  border-radius: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 0.5em;
+}
+
+.newsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.articleCard {
+  width: 100%;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: var(--cr-bg-secondary);
+  color: var(--cr-text-primary);
+  text-decoration: none;
+  border: 1px solid var(--cr-border-primary);
+  box-shadow: 0.5em 0.5em var(--cr-border-primary);
+}
+
+.spaceBetween {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

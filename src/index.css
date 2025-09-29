@@ -24,14 +24,11 @@
   --cr-contrast-hover: rgb(174, 174, 174);
   --cr-border-contrast: rgba(48, 47, 48, 0.812);
   
-  /*
-  --cr-primary: rgb(255, 255, 255);
-  --cr-primary-light: ;
-  --cr-secondary: rgb(245, 245, 245);
-  --cr-secondary-light: ; 
-  --cr-contrast: rgb(0, 0, 0);
-  --cr-contrast-light: ; // can act as hover, hover select, and border
-  */
+  
+  --cr-primary-white: rgb(255, 255, 255);
+  --cr-tinged-white: rgb(174, 174, 174);  /* can tinge/mix any color appropriate, currently tinged with gray/black */
+  --cr-primary-black: rgb(0, 0, 0);
+  --cr-light-black: rgb(48, 47, 48, 0.812);  
   
   --cr-accent: rgb(114, 143, 196);
   --header-height: 4rem;
@@ -52,6 +49,18 @@
   overflow-x: hidden;
 }
 
+button {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  appearance: none;
+  user-select: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.25rem;
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+/*
 button {
   padding: 0.5rem 1rem;
   display: inline-block;
@@ -113,6 +122,7 @@ button.secondary:active {
   border-color: var(--cr-secondary-hover-select);
   transform: translateY(0);
 }
+*/
 
 /*
 button.contrast {

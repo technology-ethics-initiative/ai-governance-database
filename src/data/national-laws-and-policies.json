@@ -1,0 +1,261 @@
+[
+  {
+    "country": "European Union",
+    "stage": "in effect",
+    "name": "General Data Protection Regulation",
+    "year": 2018,
+    "relevance": "AI-relevant (data privacy and protection)"
+  },
+  {
+    "country": "European Union",
+    "stage": "in effect",
+    "name": "Digital Markets Act",
+    "year": 2022,
+    "relevance": "AI-relevant (market concentration)"
+  },
+  {
+    "country": "European Union",
+    "stage": "in effect",
+    "name": "Digital Services Act",
+    "year": 2022,
+    "relevance": "AI-relevant (online content)"
+  },
+  {
+    "country": "European Union",
+    "stage": "legislative deliberation",
+    "name": "Artificial Intelligence Act",
+    "year": 2021,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "in effect",
+    "name": "Section 230 of the Communications Decency Act",
+    "year": 1996,
+    "relevance": "AI-relevant (platform liability)"
+  },
+  {
+    "country": "United States",
+    "stage": "in effect",
+    "name": "Gramm-Leach-Bliley Act",
+    "year": 1999,
+    "relevance": "AI-relevant (data privacy and protection)"
+  },
+  {
+    "country": "United States",
+    "stage": "in effect",
+    "name": "Health Insurance Portability and Accountability Act",
+    "year": 1996,
+    "relevance": "AI-relevant (privacy)"
+  },
+  {
+    "country": "United States",
+    "stage": "in effect",
+    "name": "Children's Online Privacy Protection Act",
+    "year": 2000,
+    "relevance": "AI-relevant (privacy)"
+  },
+  {
+    "country": "United States",
+    "stage": "legislative deliberation",
+    "name": "REAL Political Ads Act",
+    "year": 2023,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "legislative deliberation",
+    "name": "Children and Teens' Online Privacy Protection Act",
+    "year": 2023,
+    "relevance": "AI-relevant (children's online privacy and protection)"
+  },
+  {
+    "country": "United States",
+    "stage": "legislative deliberation",
+    "name": "Kids Online Safety Act",
+    "year": 2023,
+    "relevance": "AI-relevant (children's online privacy and protection)"
+  },
+  {
+    "country": "United States",
+    "stage": "legislative deliberation",
+    "name": "Proposed AI bill",
+    "year": 2023,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "legislative deliberation",
+    "name": "A bill to waive immunity under section 230 of the Communications Act of 1934 for claims and charges related to generative artificial intelligence",
+    "year": 2023,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "dismissed",
+    "name": "Fundamentally Understanding the Usability and Realistic Evolution of Artificial Intelligence (FUTURE of AI) Act",
+    "year": 2017,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "dismissed",
+    "name": "The Defending Each and Every Person from False Appearances by Keeping Exploitation Subject to (DEEPFAKES) Accountability Act",
+    "year": 2019,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "dismissed",
+    "name": "Commercial Facial Recognition Privacy Act",
+    "year": 2019,
+    "relevance": "AI-relevant (data privacy and protection)"
+  },
+  {
+    "country": "United States",
+    "stage": "dismissed",
+    "name": "National Biometric Information Privacy Act",
+    "year": 2020,
+    "relevance": "AI-relevant (data privacy and protection)"
+  },
+  {
+    "country": "United States",
+    "stage": "dismissed",
+    "name": "The AI for Consumer Product Safety Act",
+    "year": 2020,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "dismissed",
+    "name": "No Biometric Barriers to Housing Act",
+    "year": 2021,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "dismissed",
+    "name": "Algorithmic Accountability Act",
+    "year": 2022,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United States",
+    "stage": "dismissed",
+    "name": "American Data Privacy and Protection Act",
+    "year": 2022,
+    "relevance": ""
+  },
+  {
+    "country": "Canada",
+    "stage": "in effect",
+    "name": "Personal Information Protection and Electronic Documents Act",
+    "year": 2000,
+    "relevance": "AI-relevant (data privacy and protection)"
+  },
+  {
+    "country": "Canada",
+    "stage": "in effect",
+    "name": "Online Streaming Act",
+    "year": 2023,
+    "relevance": "AI-relevant (online content)"
+  },
+  {
+    "country": "Canada",
+    "stage": "legislative deliberation",
+    "name": "Artificial Intelligence and Data Act",
+    "year": 2022,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "Canada",
+    "stage": "legislative deliberation",
+    "name": "Consumer Privacy Protection Act",
+    "year": 2022,
+    "relevance": "AI-relevant (consumer rights)"
+  },
+  {
+    "country": "India",
+    "stage": "in effect",
+    "name": "Digital Personal Data Protection Act",
+    "year": 2023,
+    "relevance": "AI-relevant (data privacy and protection)"
+  },
+  {
+    "country": "India",
+    "stage": "legislative deliberation",
+    "name": "Digital India Act",
+    "year": 2023,
+    "relevance": "AI-relevant (online content)"
+  },
+  {
+    "country": "United Kingdom",
+    "stage": "in effect",
+    "name": "Data Privacy Act",
+    "year": 2023,
+    "relevance": "AI-relevant (data privacy and protection)"
+  },
+  {
+    "country": "United Kingdom",
+    "stage": "legislative deliberation",
+    "name": "Data Protection and Digital Information Bill",
+    "year": 2023,
+    "relevance": "AI-relevant (data privacy and protection)"
+  },
+  {
+    "country": "United Kingdom",
+    "stage": "legislative deliberation",
+    "name": "Artificial Intelligence (Regulation) Bill",
+    "year": 2023,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "United Kingdom",
+    "stage": "legislative deliberation",
+    "name": "Online Safety Bill",
+    "year": 2023,
+    "relevance": "AI-relevant (online content)"
+  },
+  {
+    "country": "Mexico",
+    "stage": "legislative deliberation",
+    "name": "The Ethical Regulation of Artificial Intelligence for the United States of Mexico",
+    "year": 2023,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "Chile",
+    "stage": "legislative deliberation",
+    "name": "Bill that regulates artificial intelligence systems, robotics and related technologies in their different fields of application",
+    "year": 2023,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "Brazil",
+    "stage": "legislative deliberation",
+    "name": "Provision for the Use of Artificial Intelligence",
+    "year": 2023,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "Colombia",
+    "stage": "legislative deliberation",
+    "name": "(The law) by which the duty of information for the responsible use of artificial intelligence is established and other provisions are issued in Colombia",
+    "year": 2023,
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "Venezuela",
+    "stage": "legislative deliberation",
+    "name": "No name",
+    "year": "2023 (deliberation began)",
+    "relevance": "AI-centric"
+  },
+  {
+    "country": "China",
+    "stage": "legislative deliberation",
+    "name": "No name",
+    "year": "2023 (deliberation began)",
+    "relevance": "AI-centric"
+  }
+]

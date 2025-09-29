@@ -11,8 +11,8 @@
   width: var(--sideBar-width);
   height: calc(100vh - var(--header-height));
   padding: 0rem;
-  background-color: var(--cr-bg-secondary);
-  color: var(--cr-text-secondary);
+  background-color: var(--cr-shaded-white);
+  color: var(--cr-primary-black);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   overflow-x: hidden;
   overflow: visible;
@@ -24,9 +24,9 @@
 
 .sideBar button {
   width: var(--sideBar-width);
-  background-color: var(--cr-bg-secondary);
-  color: var(--cr-text-primary);
-  border-color: var(--cr-bg-secondary);
+  background-color: var(--cr-shaded-white);
+  color: var(--cr-primary-black);
+  border-color: var(--cr-shaded-white);
   border-radius: 0%;
   margin: 0em;
   display: flex;
@@ -37,14 +37,14 @@
 }
 
 .sideBar button:hover {
-  background-color: var(--cr-secondary-hover);
-  border-color: var(--cr-secondary-hover);
+  background-color: var(--cr-primary-white);
+  border-color: var(--cr-primary-white);
   transform: translateY(-1px);
 }
 
 .sideBar button:active {
-  background-color: var(--cr-secondary-hover-select);
-  border-color: var(--cr-secondary-hover-select);
+  background-color: var(--cr-shaded-white);
+  border-color: var(--cr-shaded-white);
   transform: translateY(0);
 }
 

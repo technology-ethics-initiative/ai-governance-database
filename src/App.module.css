@@ -5,8 +5,8 @@
   align-items: center;
   width: 100%;
   height: var(--header-height);
-  background-color: var(--cr-bg-contrast);
-  color: var(--cr-text-contrast);
+  background-color: var(--cr-primary-black);
+  color: var(--cr-primary-white);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   z-index: 1000;
   font-size: 1.5em;
@@ -21,7 +21,7 @@
   width: 100%;
   max-width: 90rem;
   height: var(--header-height);
-  color: var(--cr-text-contrast);
+  color: var(--cr-primary-white);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 
@@ -31,7 +31,7 @@
   gap: 0.3rem;
   font-size: 1.75rem;
   font-weight: 700;
-  color: var(--cr-text-contrast);
+  color: var(--cr-primary-white);
   user-select: none;
   cursor: pointer;
 }
@@ -41,7 +41,7 @@
 }
 
 .nav a:hover, .mobileMenu a:hover {
-  color: var(--cr-contrast-hover);
+  color: var(--cr-tinged-white);
 }
 
 @media (width <= 800px) {
@@ -55,13 +55,13 @@
     padding: 0 1rem;
     width: 100%;
     height: var(--header-height);
-    color: var(--cr-text-contrast);
+    color: var(--cr-primary-white);
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   }
   .header {
     position: sticky;
     top: 0;
-    border-bottom: 1px solid var(--cr-border-primary);
+    border-bottom: 1px solid var(--cr-light-black);
   }
 }
 
@@ -84,9 +84,9 @@
   align-items: center;
   padding: 1rem;
   margin: 0;
-  color: var(--cr-text-contrast);
+  color: var(--cr-primary-white);
   transition: color 0.25s ease-in-out;
-  border-bottom: 1px solid var(--cr-border-primary);
+  border-bottom: 1px solid var(--cr-light-black);
   text-decoration: none;
   font-weight: 500;
 }
@@ -97,11 +97,11 @@
   position: absolute;
   top: var(--header-height);
   right: 0;
-  background-color: var(--cr-bg-contrast);
+  background-color: var(--cr-primary-black);
   width: 100%;
   z-index: 500;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.25);
-  border-top: 1px solid var(--cr-border-contrast);
+  border-top: 1px solid var(--cr-light-black);
 }
 
 button.menuButton {
@@ -111,7 +111,7 @@ button.menuButton {
 }
 
 button.menuButton:not(:disabled):hover {
-  background-color: var(--cr-contrast-hover);
+  background-color: var(--cr-tinged-white);
 }
 
 .hamburger {
@@ -139,7 +139,7 @@ button.menuButton:not(:disabled):hover {
   width: 20px;
   height: 2px;
   border-radius: 1px;
-  background-color: var(--cr-text-contrast);
+  background-color: var(--cr-primary-white);
 }
 
 .hamburger span::before {
@@ -159,9 +159,9 @@ section.content {
   align-items: center;
   width: 100%;
   min-height: calc(100vh - var(--header-height));
-  color: var(--cr-text-primary);
+  color: var(--cr-primary-black);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-  background-color: var(--cr-bg-primary);
+  background-color: var(--cr-primary-white);
   background-repeat: no-repeat;
   background-size: 1920px 1080px;
   overflow-x: hidden;
@@ -176,15 +176,15 @@ section.content {
   align-items: center;
   width: 100%;
   min-height: 7rem;
-  background-color: var(--cr-bg-contrast);
-  color: var(--cr-text-contrast);
+  background-color: var(--cr-primary-black);
+  color: var(--cr-primary-white);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   font-size: 1rem;
   padding: 3rem;
 }
 
 .footer a {
-  color: var(--cr-text-contrast);
+  color: var(--cr-primary-white);
   text-decoration: none;
   transition: color 0.25s ease-in-out, transform 0.15s ease-in-out;
 }

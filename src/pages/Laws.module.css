@@ -15,7 +15,7 @@
 .chartContainer {
   width: 100%;
   height: fit-content;
-  background-color: var(--cr-bg-primary);
+  background-color: var(--cr-primary-white);
   margin-bottom: 2rem;
 }
 
@@ -30,8 +30,8 @@
 .dataCard {
   width: 20rem;
   min-height: fit-content;
-  background-color: var(--cr-bg-secondary);
+  background-color: var(--cr-shaded-white);
   padding: 1rem;
   margin: 1rem 0.5rem;
-  border: 1px solid var(--cr-text-primary);
+  border: 1px solid var(--cr-primary-black);
 }

@@ -6,7 +6,7 @@
   justify-content: flex-start;
   width: 100%;
   min-height: calc(100vh - var(--header-height));
-  color: var(--cr-text-primary);
+  color: var(--cr-primary-black);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   overflow-x: hidden;
   overflow: visible;

@@ -6,31 +6,13 @@
   font-family: "Montserrat", Avenir, Helvetica, Arial, sans-serif;
 }
 
-:root {
-  --cr-bg-primary: rgba(255, 255, 255);
-  --cr-text-primary: rgb(0, 0, 0);
-  --cr-primary-hover: rgba(185, 150, 211, 0.8);
-  --cr-primary-hover-select: rgba(88, 226, 125, 0.7);
-  --cr-border-primary: rgba(48, 47, 48, 0.812);
-
-  --cr-bg-secondary: rgb(245, 245, 245);
-  --cr-text-secondary: rgb(0, 0, 0);
-  --cr-secondary-hover: rgb(255, 255, 255);
-  --cr-secondary-hover-select: rgb(245, 245, 245);
-  --cr-border-secondary: rgba(245, 245, 245, 0.9);
-  
-  --cr-bg-contrast: rgb(0, 0, 0);
-  --cr-text-contrast: rgb(255, 255, 255);
-  --cr-contrast-hover: rgb(174, 174, 174);
-  --cr-border-contrast: rgba(48, 47, 48, 0.812);
-  
-  
+:root {  
   --cr-primary-white: rgb(255, 255, 255);
-  --cr-tinged-white: rgb(174, 174, 174);  /* can tinge/mix any color appropriate, currently tinged with gray/black */
+  --cr-shaded-white: rgb(245, 245, 245); /* can shade/mix any color, currently tinged with gray/black */
+  --cr-tinged-white: rgb(174, 174, 174);
   --cr-primary-black: rgb(0, 0, 0);
   --cr-light-black: rgb(48, 47, 48, 0.812);  
   
-  --cr-accent: rgb(114, 143, 196);
   --header-height: 4rem;
   --sideBar-width: 19rem;
   
@@ -41,8 +23,8 @@
 }
 
 #root {
-  color: var(--cr-text-primary);
-  background-color: var(--cr-bg-secondary);
+  color: var(--cr-primary-black);
+  background-color: var(--cr-shaded-white);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   min-height: 100lvh;
   min-height: 100vh;
@@ -60,3 +42,86 @@ button {
   line-height: 1.25rem;
   transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, transform 0.15s ease-in-out;
 }
+/*
+button {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  appearance: none;
+  user-select: none;
+  background-color: var(--cr-bg-primary);
+  color: var(--cr-text-primary);
+  border: 1px solid var(--cr-border-primary);
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.25rem;
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+
+button.icon-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button.icon-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+button:not(:disabled):hover {
+  background-color: var(--cr-primary-hover);
+  border-color: var(--cr-primary-hover);
+  transform: translateY(-1px);
+}
+
+button:not(:disabled):active {
+  background-color: var(--cr-primary-hover-select);
+  border-color: var(--cr-primary-hover-select);
+  transform: translateY(0);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background-color: var(--cr-bg-secondary);
+  color: var(--cr-text-primary);
+  border: 1px solid var(--cr-border-secondary);
+}
+
+button.secondary:hover {
+  background-color: var(--cr-secondary-hover);
+  border-color: var(--cr-secondary-hover);
+  transform: translateY(-1px);
+}
+
+button.secondary:active {
+  background-color: var(--cr-secondary-hover-select);
+  border-color: var(--cr-secondary-hover-select);
+  transform: translateY(0);
+}
+*/
+
+/*
+button.contrast {
+  background-color: var(--cr-bg-contrast);
+  color: var(--cr-text-contrast);
+  border: 1px solid var(--cr-border-contrast);
+}
+
+button.contrast:active {
+  background-color: var(--cr-contrast-hover);
+  border-color: var(--cr-contrast-hover);
+  transform: translateY(0);
+}
+
+button.contrast:hover {
+  background-color: var(--cr-contrast-hover);
+  border-color: var(--cr-contrast-hover);
+  transform: translateY(1);
+}
+*/

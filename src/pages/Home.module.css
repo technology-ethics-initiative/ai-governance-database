@@ -1,19 +1,19 @@
 button {
-  background-color: var(--cr-bg-primary);
-  color: var(--cr-text-primary);
-  border: 1px solid var(--cr-border-primary);
+  background-color: var(--cr-primary-white);
+  color: var(--cr-primary-black);
+  border: 1px solid var(--cr-light-black);
   border-radius: 1rem;
   margin: 0.5rem;
   display: inline;
 }
 
 button:hover, button.active {
-  background-color: var(--cr-bg-secondary);
+  background-color: var(--cr-shaded-white);
   transform: translateY(-1px);
 }
 
 button:active {
-  background-color: var(--cr-bg-primary);
+  background-color: var(--cr-primary-white);
   transform: translateY(0);
 }
 
@@ -44,8 +44,8 @@ button:active {
   width: 100%;
   padding: 1rem;
   margin-bottom: 0.5rem;
-  background-color: var(--cr-bg-secondary);
-  border: 1px solid var(--cr-border-contrast); /* !!!!! Doesn't follow color section */
+  background-color: var(--cr-shaded-white);
+  border: 1px solid var(--cr-light-black); /* !!!!! Doesn't follow color section */
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -55,8 +55,8 @@ button:active {
 
 .searchBar input[type=search] {
   margin-left: 0.5em;
-  background-color: var(--cr-bg-secondary);
-  color: var(--cr-text-secondary);
+  background-color: var(--cr-shaded-white);
+  color: var(--cr-primary-black);
   border: none;
   outline: none;
   flex-grow: 4;
@@ -69,7 +69,7 @@ button:active {
 .chartContainer {
   width: 100%;
   height: fit-content;
-  background-color: var(--cr-bg-primary);
+  background-color: var(--cr-primary-white);
   margin-bottom: 2rem;
 }
 
@@ -126,11 +126,11 @@ button:active {
   width: 100%;
   margin: 0.5rem;
   padding: 1rem 2rem;
-  background-color: var(--cr-bg-secondary);
-  color: var(--cr-text-primary);
+  background-color: var(--cr-shaded-white);
+  color: var(--cr-primary-black);
   text-decoration: none;
-  border: 1px solid var(--cr-border-primary);
-  box-shadow: 0.5em 0.5em var(--cr-border-primary);
+  border: 1px solid var(--cr-light-black);
+  box-shadow: 0.5em 0.5em var(--cr-light-black);
 }
 
 .spaceBetween {

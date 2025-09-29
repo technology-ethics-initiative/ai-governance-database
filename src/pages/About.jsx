@@ -12,7 +12,7 @@ export default function About() {
         <p>AI Governance Database @ SU is ...</p>
         <h3>Contributors</h3>
         <p>Our team is composed of students and professors from multiple cohorts and disciplines.</p>
-        <h4>Seattle University Law Department</h4>
+        <h4>Technology Ethics Initiative</h4>
         <ul>
           <li>Dr. Onur Bakiner</li>
           <li>Swarnim Swasti</li>
@@ -21,11 +21,6 @@ export default function About() {
         <ul>
           <li>Dr. Nate Kremer-Herman</li>
           <li>Rena Ahn</li>
-        </ul>
-        <h4>Special Thanks</h4>
-        <p>The following are ...</p>
-        <ul>
-          <li>BioSims?</li>
         </ul>
       </div>
     </>

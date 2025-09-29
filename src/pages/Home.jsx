@@ -4,7 +4,6 @@ import { Line } from "react-chartjs-2";
 import styles from "./Home.module.css";
 import { MinusIcon, PlusIcon, SearchIcon } from "../Components/Icons";
 import PageTitle from "../Components/PageTitle";
-import old_news from "../data/old_news.json";
 import news from "../data/news";
 
 export default function Home() {
@@ -25,7 +24,6 @@ export default function Home() {
       let articleTitle = article.title ? article.title.toLowerCase() : "";
       return articleTitle.includes(searchTitle);
     });
-    //console.log(results);       !!! DELETE FOR FINAL !!!
     return results;
   };
   const filterRegion = (articles, searchRegion) => {  // filter search by region and sort by number of appearances/mentions
@@ -41,7 +39,6 @@ export default function Home() {
     let sortedResults = filteredResults.sort((articleA, articleB) => {
       return articleB.region[searchRegion] - articleA.region[searchRegion];
     })
-    //console.log(filteredResults);       !!! DELETE FOR FINAL
     return sortedResults;
   };
   const searchNews = (articles) => { // search and filter to get the final list of resulting news articles
@@ -68,10 +65,8 @@ export default function Home() {
         let articlesSet = new Set([...filteredArticles]);   // conversion to Set to remove duplicates
         filteredArticles = [...articlesSet];
       }
-      console.log(filteredArticles);
       resultArticles = filteredArticles;  // back to results to converge into one variable name
     }
-    console.log(resultArticles);    // !!! DELETE FOR FINAL !!!
 
     let newDict = toDict(resultArticles);
     let newLabels = Object.keys(newDict);
@@ -94,7 +89,6 @@ export default function Home() {
         articlesDict[parseInt(article.date)] = [article,];
       }
     }
-    console.log(articlesDict);  // !!! DELETE FOR FINAL !!!
     return articlesDict;
   }
 

@@ -15,14 +15,12 @@ function Laws() {
     let lawsDict = {};  // law data processed as dictionary based on year
     for(let i = 0; i < data.length; i++) {
       let law = data[i];
-      console.log(law);
       if (lawsDict[parseInt(law.year)]) {
         lawsDict[parseInt(law.year)].push(law);
       } else {
         lawsDict[parseInt(law.year)] = [law,];
       }
     }
-    console.log(lawsDict);    // !!! DELETE ON FINAL !!!
     let yearLabels = Object.keys(lawsDict);  // list of years to display in timeline chart
 
     const [year, setYear] = useState(yearLabels[yearLabels.length-1]);  // year selected (defualt: most recent year)

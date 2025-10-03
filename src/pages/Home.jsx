@@ -5,6 +5,7 @@ import styles from "./Home.module.css";
 import { MinusIcon, PlusIcon, SearchIcon } from "../Components/Icons";
 import PageTitle from "../Components/PageTitle";
 import news from "../data/news";
+import { merge } from "chart.js/helpers";
 
 export default function Home() {
   const [newsResults, setNewsResults] = useState([]);   // news articles resulting from search
@@ -19,6 +20,12 @@ export default function Home() {
   }); // state (visible or hidden) of 'regionInputB' search bar through whether 'and' 'or' buttons are selected
 
   /* Search Functionality */
+  const mergeArray = (arrayA, arrayB) => {
+    let mergedArray = new Set([...arrayA.concat(arrayB)]);  // convert to Set to remove duplicates
+    console.log(mergedArray);
+    return [...mergedArray];
+  };
+
   const searchTitle = (articles, searchTitle) => {  // search articles by title
     let results = articles.filter((article) => {
       let articleTitle = article.title ? article.title.toLowerCase() : "";
@@ -52,18 +59,14 @@ export default function Home() {
       if (showTitleB.And) {
         resultArticles = searchTitle(resultArticles, titleB);
       } else if (showTitleB.Or && titleB !== "") {
-        resultArticles = resultArticles.concat(searchTitle(articles, titleB));
-        let articlesSet = new Set([...resultArticles]);   // conversion to Set to remove duplicates
-        resultArticles = [...articlesSet];
+        resultArticles = mergeArray(resultArticles, searchTitle(articles, titleB));
       }
 
       let filteredArticles = filterRegion(resultArticles, regionA);
       if (showRegionB.And) {
         filteredArticles = filterRegion(filteredArticles, regionB);
       } else if (showRegionB.Or && regionB !== "") {
-        filteredArticles = filteredArticles.concat(filterRegion(resultArticles, regionB));
-        let articlesSet = new Set([...filteredArticles]);   // conversion to Set to remove duplicates
-        filteredArticles = [...articlesSet];
+        filteredArticles = mergeArray(filteredArticles, filterRegion(resultArticles, regionB));
       }
       resultArticles = filteredArticles;  // back to results to converge into one variable name
     }

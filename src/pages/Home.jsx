@@ -217,7 +217,7 @@ export default function Home() {
         </section>
         <div className={styles.newsContainer}>
           {filteredNews.map((article) => (
-            <a className={styles.articleCard} key={article.uniqueID} href={article.proquestLink}>
+            <a className={styles.articleCard} key={article.uniqueID} href={article.proquest}>
               <b>Title: {article.title}</b>
               <p className={styles.spaceBetween}>
                 <span>Author: {article.author}</span>

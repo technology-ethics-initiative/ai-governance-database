@@ -105,25 +105,6 @@ function HeartIcon (props) {
   );
 }
 
-function ListIcon (props) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      width={props.width || "1em"}
-      height={props.height || "1em"}
-      fill="currentColor"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M20 4H4C3.44771 4 3 4.44772 3 5V19C3 19.5523 3.44772 20 4 20H20C20.5523 20 21 19.5523 21 19V5C21 4.44771 20.5523 4 20 4ZM4 2C2.34315 2 1 3.34315 1 5V19C1 20.6569 2.34315 22 4 22H20C21.6569 22 23 20.6569 23 19V5C23 3.34315 21.6569 2 20 2H4ZM6 7H8V9H6V7ZM11 7C10.4477 7 10 7.44772 10 8C10 8.55228 10.4477 9 11 9H17C17.5523 9 18 8.55228 18 8C18 7.44772 17.5523 7 17 7H11ZM8 11H6V13H8V11ZM10 12C10 11.4477 10.4477 11 11 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H11C10.4477 13 10 12.5523 10 12ZM8 15H6V17H8V15ZM10 16C10 15.4477 10.4477 15 11 15H17C17.5523 15 18 15.4477 18 16C18 16.5523 17.5523 17 17 17H11C10.4477 17 10 16.5523 10 16Z"
-      />
-    </svg>
-  )
-}
-
 function MinusIcon (props) {
   return(
     <svg
@@ -197,6 +178,80 @@ function SearchIcon (props) {
   );
 }
 
+
+function BrowseIcon (props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width={props.width || "1em"}
+      height={props.height || "1em"}
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M14.364 13.1214C15.2876 14.045 15.4831 15.4211 14.9504 16.5362L16.4853 18.0711C16.8758 18.4616 16.8758 19.0948 16.4853 19.4853C16.0948 19.8758 15.4616 19.8758 15.0711 19.4853L13.5361 17.9504C12.421 18.4831 11.045 18.2876 10.1213 17.364C8.94975 16.1924 8.94975 14.2929 10.1213 13.1214C11.2929 11.9498 13.1924 11.9498 14.364 13.1214ZM12.9497 15.9498C13.3403 15.5593 13.3403 14.9261 12.9497 14.5356C12.5592 14.145 11.9261 14.145 11.5355 14.5356C11.145 14.9261 11.145 15.5593 11.5355 15.9498C11.9261 16.3403 12.5592 16.3403 12.9497 15.9498Z"
+      />
+      <path d="M8 5H16V7H8V5Z" />
+      <path d="M16 9H8V11H16V9Z" />
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M4 4C4 2.34315 5.34315 1 7 1H17C18.6569 1 20 2.34315 20 4V20C20 21.6569 18.6569 23 17 23H7C5.34315 23 4 21.6569 4 20V4ZM7 3H17C17.5523 3 18 3.44772 18 4V20C18 20.5523 17.5523 21 17 21H7C6.44772 21 6 20.5523 6 20V4C6 3.44772 6.44771 3 7 3Z"
+      />
+    </svg>
+  )
+}
+
+function GitHubIcon(props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width={props.width || "1em"}
+      height={props.height || "1em"}
+      fill="currentColor"
+      {...props}
+    >
+      <path d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.94 0 4.21-2.57 5.13-5.04 5.4.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27" />
+    </svg>
+  );
+}
+
+function HomeIcon (props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width={props.width || "1em"}
+      height={props.height || "1em"}
+      fill="currentColor"
+      {...props}
+    >
+      <path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1" />
+    </svg>
+  );
+}
+
+function ListIcon (props) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      width={props.width || "1em"}
+      height={props.height || "1em"}
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M20 4H4C3.44771 4 3 4.44772 3 5V19C3 19.5523 3.44772 20 4 20H20C20.5523 20 21 19.5523 21 19V5C21 4.44771 20.5523 4 20 4ZM4 2C2.34315 2 1 3.34315 1 5V19C1 20.6569 2.34315 22 4 22H20C21.6569 22 23 20.6569 23 19V5C23 3.34315 21.6569 2 20 2H4ZM6 7H8V9H6V7ZM11 7C10.4477 7 10 7.44772 10 8C10 8.55228 10.4477 9 11 9H17C17.5523 9 18 8.55228 18 8C18 7.44772 17.5523 7 17 7H11ZM8 11H6V13H8V11ZM10 12C10 11.4477 10.4477 11 11 11H17C17.5523 11 18 11.4477 18 12C18 12.5523 17.5523 13 17 13H11C10.4477 13 10 12.5523 10 12ZM8 15H6V17H8V15ZM10 16C10 15.4477 10.4477 15 11 15H17C17.5523 15 18 15.4477 18 16C18 16.5523 17.5523 17 17 17H11C10.4477 17 10 16.5523 10 16Z"
+      />
+    </svg>
+  )
+}
+
 function SUFullIcon(props) {
   return (
     <svg
@@ -234,12 +289,15 @@ export {
   AlbumIcon,
   AtIcon,
   BookIcon,
+  //BrowseIcon,
   CheckIcon,
+  //GitHubIcon,
   HeartIcon,
-  ListIcon,
+  //HomeIcon,
+  //ListIcon,
   MinusIcon,
   PersonIcon,
   PlusIcon,
   SearchIcon,
-  SUFullIcon,
+  //SUFullIcon,
 };

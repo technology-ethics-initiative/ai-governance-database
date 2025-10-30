@@ -1,17 +1,18 @@
-//import { useState } from "react";
-import { useParams } from "react-router-dom";
+import PageTitle from "../Components/PageTitle";
+import SearchContent from "../Components/SearchContent";
 import styles from "./Solutions.module.css";
+import data from "../data/news";
+
+const solutions = data.solutions;
 
 function Solutions() {
-    let { option } = useParams();  // option for type of solution, to determine appropriate dataset
-    const label = option == "ai-for-social-good" ? "AI for Social Good" :
-                  option == "human-in-the-loop" ? "Human-in-the-Loop" :
-                  option == "de-biasing" ? "De-Biasing" :
-                  option == "testing" ? "Testing" : "AI Detection";
+
     return (
       <>
+        <PageTitle title="Solutions | AI Governance Database" />
         <div className={styles.pageContent}>
-          <h2>{label} Solutions</h2>
+          <h2>Technical Solutions</h2>
+          {/*<SearchContent news={lawsuits} />*/}
         </div>
       </>
     );

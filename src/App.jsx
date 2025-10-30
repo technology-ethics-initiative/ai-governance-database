@@ -10,7 +10,6 @@ import BusinessRegulation from "./pages/BusinessRegulation";
 import Solutions from "./pages/Solutions";
 import styles from "./App.module.css";
 
-
 const router = createHashRouter([
     {
     path: "/about",
@@ -21,19 +20,19 @@ const router = createHashRouter([
     element: <Home />
   },
   {
-    path: "/laws-and-policies/:option",
+    path: "/laws-and-policies",
     element: <Laws />
   },
     {
-    path: "/lawsuits/:option",
+    path: "/lawsuits",
     element: <Lawsuits />
   },
   {
-    path: "/business-self-regulation/:option",
+    path: "/business-self-regulation",
     element: <BusinessRegulation />
   },
   {
-    path: "/technical-solutions/:option",
+    path: "/technical-solutions",
     element: <Solutions />
   },
 ]);
@@ -87,7 +86,7 @@ function App() {
         </div>
         <nav className={styles.mobileMenu + " " + (menuOpen ? styles.open : "")}>
           <a href="#/about">About</a>
-          <a href="#">News</a>
+          <a href="#/">News</a>
         </nav>
       </header>
       <section className={styles.content}>

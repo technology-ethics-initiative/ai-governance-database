@@ -1,15 +1,18 @@
-//import { useState } from "react";
-import { useParams } from "react-router-dom";
+import PageTitle from "../Components/PageTitle";
+import SearchContent from "../Components/SearchContent";
 import styles from "./BusinessRegulation.module.css";
+import data from "../data/news";
+
+const regulations = data.regulations;
 
 function BusinessRegulation() {
-    let { option } = useParams(); // option, to determine appropriate dataset
-    const label = option == "principles-and-standards" ? "Principles and Standards" : 
-                  option == "boards-and-councils" ? "Boards and Councils" : "Teams";
+
     return (
       <>
+        <PageTitle title="Business Regulation | AI Governance Database" />
         <div className={styles.pageContent}>
-          <h2>{label}</h2>
+          <h2>Business Self Regulation</h2>
+          <SearchContent news={regulations} />
         </div>
       </>
     );

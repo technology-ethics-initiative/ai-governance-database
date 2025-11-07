@@ -203,7 +203,7 @@ export default function SearchContent(searchProps) {
         <div className={styles.newsContainer}>
         {filteredNews ? (
           filteredNews.map((article) => (
-            <a className={styles.articleCard} key={article.uniqueID} href={article.proquest}>
+            <a className={styles.articleCard} key={article.uniqueID} href={article.url ? article.url : article.proquest}>
               <b>Title: {article.title}</b>
               <p className={styles.spaceBetween}>
                 <span>Author: {article.author}</span>

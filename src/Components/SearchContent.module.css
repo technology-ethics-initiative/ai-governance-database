@@ -48,7 +48,7 @@ button:active {
   flex-grow: 4;
 }
 
-.searchBar.hidden, .chartContainer.hidden {
+button.hidden, .searchBar.hidden, .chartContainer.hidden {
   display: none;
 }
 

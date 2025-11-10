@@ -154,35 +154,36 @@ export default function SearchContent(searchProps) {
   return (
     <>
         <div className={styles.searchBox}>
-          <div className={styles.searchBar}>
-            <SearchIcon width="1.2em" height="1.2em" />
-            <input id="titleInputA" type="search" placeholder={"Search" + (filterDrop ? " for a title" : "") + "..."} />
+          <div className={styles.spaceTogether}>
+            <div className={styles.searchBar}>
+              <SearchIcon width="1.2em" height="1.2em" />
+              <input id="titleInputA" type="search" placeholder={"Search" + (filterDrop ? " for a title" : "") + "..."} />
+            </div>
+            <button id="titleAnd" className={(showTitleB.And ? styles.active : "") + " " + (filterDrop ? styles.open : styles.hidden)}
+                    onClick={() => setShowTitleB({And: !showTitleB.And, Or: false})}>And</button>
+            <button id="titleOr" className={(showTitleB.Or ? styles.active : "") + " " + (filterDrop ? styles.open : styles.hidden)}
+                    onClick={() => setShowTitleB({And: false, Or: !showTitleB.Or})}>Or</button>
           </div>
 
           <div className={styles.advancedMenu + " " + (filterDrop ? styles.open : "")}>
-            <div className={styles.spaceTogether}>
-              <button id="titleAnd" className={showTitleB.And ? styles.active : ""}
-                      onClick={() => setShowTitleB({And: !showTitleB.And, Or: false})}>And</button>
-              <button id="titleOr" className={showTitleB.Or ? styles.active : ""}
-                      onClick={() => setShowTitleB({And: false, Or: !showTitleB.Or})}>Or</button>
-              <div className={styles.searchBar + " " + (showTitleB.And || showTitleB.Or ? "" : styles.hidden)}>
-                <SearchIcon width="1.2em" height="1.2em" />
-                <input id="titleInputB" type="search" placeholder="Search for another title..." />
-              </div>
-            </div>
-            <div className={styles.searchBar}>
+            <div className={styles.searchBar + " " + (showTitleB.And || showTitleB.Or ? "" : styles.hidden)}>
               <SearchIcon width="1.2em" height="1.2em" />
-              <input id="regionInputA" type="search" placeholder="Search for a region or country..." />
+              <input id="titleInputB" type="search" placeholder="Search for another title..." />
             </div>
+            <br />
             <div className={styles.spaceTogether}>
+              <div className={styles.searchBar}>
+                <SearchIcon width="1.2em" height="1.2em" />
+                <input id="regionInputA" type="search" placeholder="Search for a region or country..." />
+              </div>
               <button id="regionAnd" className={showRegionB.And ? styles.active : ""}
                       onClick={() => setShowRegionB({And: !showRegionB.And, Or: false})}>And</button>
               <button id="regionOr" className={showRegionB.Or ? styles.active : ""}
                       onClick={() => setShowRegionB({And: false, Or: !showRegionB.Or})}>Or</button>
-              <div className={styles.searchBar + " " + (showRegionB.And || showRegionB.Or ? "" : styles.hidden)}>
-                <SearchIcon width="1.2em" height="1.2em" />
-                <input id="regionInputB" type="search" placeholder="Search for another region or country..." />
-              </div>
+            </div>
+            <div className={styles.searchBar + " " + (showRegionB.And || showRegionB.Or ? "" : styles.hidden)}>
+              <SearchIcon width="1.2em" height="1.2em" />
+              <input id="regionInputB" type="search" placeholder="Search for another region or country..." />
             </div>
           </div>
 

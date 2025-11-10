@@ -6,7 +6,7 @@ let data = {
     laws: [],
     lawsuits: [],
     regulations: [],
-    // technical solutions
+    solutions: [],
 }
 
 const types = {
@@ -14,7 +14,7 @@ const types = {
     laws: "law",
     lawsuits: "lawsuit",
     regulations: "selfGovernance",
-    solutions: "tbd",
+    solutions: "solution",
 }
 
 for (const key in database) {
@@ -26,11 +26,16 @@ for (const key in database) {
 
     if(database[key].type) {
         let type = database[key].type;
-        if(type == types.news) { data.news.push(database[key]); }
+        for (const typeKey in types) {
+            if(type == types[typeKey]) {
+                data.news.push(data[typeKey].push(database[key]));
+            }
+        }
+        /*if(type == types.news) { data.news.push(database[key]); }
         else if(type == types.laws) { data.laws.push(database[key]); }
         else if(type == types.lawsuits) { data.lawsuits.push(database[key]); }
         else if(type == types.regulations) { data.regulations.push(database[key]); }
-        else { /* technical solutions */ }
+        else { }*/
     }
 }
 

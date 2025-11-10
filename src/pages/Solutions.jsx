@@ -12,7 +12,7 @@ function Solutions() {
         <PageTitle title="Solutions | AI Governance Database" />
         <div className={styles.pageContent}>
           <h2>Technical Solutions</h2>
-          {/*<SearchContent news={lawsuits} />*/}
+          <SearchContent news={solutions} />
         </div>
       </>
     );

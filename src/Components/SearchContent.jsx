@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./SearchContent.module.css";
 import { MinusIcon, PlusIcon, SearchIcon } from "../Components/Icons";
 import TimelineChart from "../Components/TimelineChart";
@@ -15,6 +15,15 @@ export default function SearchContent(searchProps) {
     And: false,
     Or: false,
   }); // state (visible or hidden) of 'regionInputB' search bar through whether 'and' 'or' buttons are selected
+  const [showCompanyB, setShowCompanyB] = useState({
+    And: false,
+    Or: false,
+  }); // state (visible or hidden) of 'companyInputB' search bar through whether 'and' 'or' buttons are selected
+  const [showConceptB, setShowConceptB] = useState({
+    And: false,
+    Or: false,
+  }); // state (visible or hidden) of 'conceptInputB' search bar through whether 'and' 'or' buttons are selected
+  
 
   /* Search Functionality */
   function mergeArray(arrayA, arrayB) {
@@ -32,7 +41,21 @@ export default function SearchContent(searchProps) {
   function filterRegion(articles, term) { // filters articles by region using the given term
     return articles.filter((article) => {
       let articleRegions = JSON.stringify(article.region);
-      return articleRegions && articleRegions.includes(term);
+      return articleRegions && articleRegions.toLowerCase().includes(term);
+    });
+  }
+
+  function filterCompanies(articles, term) { // filters articles by company using the given term
+    return articles.filter((article) => {
+      let articleCompanies = JSON.stringify(article.company);
+      return articleCompanies && articleCompanies.toLowerCase().includes(term); 
+    })
+  }
+
+  function filterConcepts(articles, term) { // filters articles by concept using the given term
+    return articles.filter((article) => {
+      let articleConcepts = JSON.stringify(article.concept);
+      return articleConcepts && articleConcepts.toLowerCase().includes(term);
     });
   }
 
@@ -84,18 +107,18 @@ export default function SearchContent(searchProps) {
   
   function searchNews(articles) { // search and filter to get the final list of resulting news articles
     let titleA = document.getElementById("titleInputA").value;
-    let regionA = document.getElementById("regionInputA").value;
     let resultArticles = searchInput(articles, titleA, filterTitle);
 
     if (filterDrop) {
       let titleB = document.getElementById("titleInputB").value;
-      let regionB = document.getElementById("regionInputB").value;
       if (showTitleB.And) {
         resultArticles = searchInput(resultArticles, titleB, filterTitle);
       } else if (showTitleB.Or && titleB !== "") {
         resultArticles = mergeArray(resultArticles, searchInput(articles, titleB, filterTitle));
       }
 
+      let regionA = document.getElementById("regionInputA").value;
+      let regionB = document.getElementById("regionInputB").value;
       let filteredArticles = resultArticles;
       if(regionA !== "") {
         filteredArticles = searchInput(resultArticles, regionA, filterRegion);
@@ -105,6 +128,31 @@ export default function SearchContent(searchProps) {
       } else if (showRegionB.Or && regionB !== "") {
         filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, regionB, filterRegion));
       }
+      
+      let companyA = document.getElementById("companyInputA").value;
+      let companyB = document.getElementById("companyInputB").value;
+      resultArticles = filteredArticles;  // store previous results of filter
+      if(companyA !== "") {
+        filteredArticles = searchInput(resultArticles, companyA, filterCompanies);
+      }
+      if(showCompanyB.And && companyB !== "") {
+        filteredArticles = searchInput(filteredArticles, companyB, filterCompanies);
+      } else if(showCompanyB.Or && companyB !== "") {
+        filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, companyB, filterCompanies));
+      }
+
+      let conceptA = document.getElementById("conceptInputA").value;
+      let conceptB = document.getElementById("conceptInputB").value;
+      resultArticles = filteredArticles;  // store previous results of filter
+      if(conceptA !== "") {
+        filteredArticles = searchInput(resultArticles, conceptA, filterConcepts);
+      }
+      if(showConceptB.And && conceptB !== "") {
+        filteredArticles = searchInput(filteredArticles, conceptB, filterConcepts);
+      } else if(showConceptB.Or && conceptB !== "") {
+        filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, conceptB, filterConcepts));
+      }
+
       resultArticles = filteredArticles;  // back to results to converge into one variable name
     }
 
@@ -117,6 +165,10 @@ export default function SearchContent(searchProps) {
     setFilteredNews(newDict[newYear]);
     return resultArticles;
   };
+
+  useEffect(() => {   // handles update of news by general tab pages
+    searchNews(news);
+  }, [news])
 
   /* Graph Functionality */
   const toDict = (articles) => {  // convert news articles to a dictionary key-ed by year
@@ -184,6 +236,36 @@ export default function SearchContent(searchProps) {
             <div className={styles.searchBar + " " + (showRegionB.And || showRegionB.Or ? "" : styles.hidden)}>
               <SearchIcon width="1.2em" height="1.2em" />
               <input id="regionInputB" type="search" placeholder="Search for another region or country..." />
+            </div>
+            <br />
+            <div className={styles.spaceTogether}>
+              <div className={styles.searchBar}>
+                <SearchIcon width="1.2em" height="1.2em" />
+                <input id="companyInputA" type="search" placeholder="Search for a company..." />
+              </div>
+              <button id="companyAnd" className={showCompanyB.And ? styles.active : ""}
+                      onClick={() => setShowCompanyB({And: !showCompanyB.And, Or: false})}>And</button>
+              <button id="companyOr" className={showCompanyB.Or ? styles.active : ""}
+                      onClick={() => setShowCompanyB({And: false, Or: !showCompanyB.Or})}>Or</button>
+            </div>
+            <div className={styles.searchBar + " " + (showCompanyB.And || showCompanyB.Or ? "" : styles.hidden)}>
+              <SearchIcon width="1.2em" height="1.2em" />
+              <input id="companyInputB" type="search" placeholder="Search for another company..." />
+            </div>
+            <br />
+            <div className={styles.spaceTogether}>
+              <div className={styles.searchBar}>
+                <SearchIcon width="1.2em" height="1.2em" />
+                <input id="conceptInputA" type="search" placeholder="Search for a concept..." />
+              </div>
+              <button id="conceptAnd" className={showConceptB.And ? styles.active : ""}
+                      onClick={() => setShowConceptB({And: !showConceptB.And, Or: false})}>And</button>
+              <button id="conceptOr" className={showConceptB.Or ? styles.active : ""}
+                      onClick={() => setShowConceptB({And: false, Or: !showConceptB.Or})}>Or</button>
+            </div>
+            <div className={styles.searchBar + " " + (showConceptB.And || showConceptB.Or ? "" : styles.hidden)}>
+              <SearchIcon width="1.2em" height="1.2em" />
+              <input id="conceptInputB" type="search" placeholder="Search for another concept..." />
             </div>
           </div>
 

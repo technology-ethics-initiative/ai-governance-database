@@ -1,7 +1,7 @@
 import styles from "./Home.module.css";
 import PageTitle from "../Components/PageTitle";
 import SearchContent from "../Components/SearchContent";
-import data from "../data/news";
+import { data } from "../data/news";
 
 const news = data.all;  // change to news if specificity was intended
 

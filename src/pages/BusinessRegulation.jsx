@@ -1,7 +1,7 @@
 import PageTitle from "../Components/PageTitle";
 import SearchContent from "../Components/SearchContent";
 import styles from "./BusinessRegulation.module.css";
-import data from "../data/news";
+import { data } from "../data/news";
 
 const regulations = data.regulations;
 

@@ -23,8 +23,16 @@ const router = createHashRouter([
     path: "/laws-and-policies",
     element: <Laws />
   },
-    {
+  {
+    path: "/laws-and-policies/:country",
+    element: <Laws />
+  },
+  {
     path: "/lawsuits",
+    element: <Lawsuits />
+  },
+  {
+    path: "/lawsuits/:company",
     element: <Lawsuits />
   },
   {

@@ -1,7 +1,7 @@
 import PageTitle from "../Components/PageTitle";
 import SearchContent from "../Components/SearchContent";
 import styles from "./Solutions.module.css";
-import data from "../data/news";
+import { data } from "../data/news";
 
 const solutions = data.solutions;
 

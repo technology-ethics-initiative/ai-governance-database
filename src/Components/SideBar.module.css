@@ -15,7 +15,7 @@
   color: var(--cr-primary-black);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   overflow-x: hidden;
-  overflow: visible;
+  overflow-y: scroll;
 }
 
 .sideBar a {
@@ -46,4 +46,17 @@
   background-color: var(--cr-shaded-white);
   border-color: var(--cr-shaded-white);
   transform: translateY(0);
+}
+
+.dropDown {
+  display: none;
+}
+
+.dropDown.open {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropDown.open button {
+  padding-left: 3rem;
 }

@@ -14,10 +14,6 @@ const categories = { // general categories: string representation in database (l
     solutions: "solution",
 };
 
-// list of dropdown pages
-//const lawPages = ["United States", "China", "United Kingdom", "European Union", "India", "Russian Federation", "France", "Israel", "Germany", "Japan", "Australia", "Canada"];
-//const lawsuitPages = ["OpenAI", "NVidia", "Google", "TikTok", "New York Times Co.", "Facebook", "DeepSeek", "Microsoft", "Bytedance", "Twitter", "X Corp", "DeepMind", "X.AI", "YouTube", "Apple"];
-
 const dropCategories = { // categories with dropdowns: name of column with data for dropdown categories
     laws: "region",
     lawsuits: "company",
@@ -83,34 +79,17 @@ function parseDict(value) { // dictionary processing
     return JSON.parse(value);
 }
 
-for (const key in database) { // temporary processing : combine data in database and news
+for (const key in database) { // database processing for web
     database[key].uniqueID = key;
+    
+    //if(database[key].date == null) {
+    //    database[key].date = "Unknown";
+    //}
 
-    let item = getItem(key);
+    let item = getItem(key); // temporary processing : retrieve original link from csvjson
     if(!database[key].url && item && item.originalLink && item.originalLink != "") {
         database[key].url = item.originalLink;
     }
-    /*
-    if(item && item.concept_metadata) {
-        try {
-            database[key].concepts = JSON.parse(JSON.stringify(parseDict(item.concept_metadata)).toLowerCase());
-            temp = {}
-            for (const term in database[key].concepts) {
-                if(database[key].concepts[term] > 0) {
-                    temp[term] = database[key].concepts[term];
-                }
-            }
-            database[key].concepts = temp;
-        } catch {
-        }
-        
-    }
-    if(item && item.company_metadata) {
-        try {
-            database[key].companies = JSON.parse(JSON.stringify(parseDict(item.company_metadata)).toLowerCase());
-        } catch {
-        }
-    }*/
 
     // populate data dictionary
     data.all.push(database[key]);

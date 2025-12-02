@@ -175,7 +175,7 @@ export default function SearchContent(searchProps) {
     let articlesDict = {};  // law data processed as dictionary based on year
     for(let i = 0; i < articles.length; i++) {
       let article = articles[i];
-      let label = article.date == null ? "Uknown" : parseInt(article.date);
+      let label = article.date == null ? "Unknown" : parseInt(article.date);
 
       if (articlesDict[label]) {
         articlesDict[label].push(article);
@@ -183,12 +183,14 @@ export default function SearchContent(searchProps) {
         articlesDict[label] = [article,];
       }
     }
+    articlesDict.All = articles;
+
     return articlesDict;
   }
 
   const [dataDict, setDataDict] = useState(toDict(news));   // dictionary with data per year
   const [yearLabels, setYearLabels] = useState(Object.keys(dataDict));  // list of years to display in timeline chart
-  const [year, setYear] = useState(yearLabels[yearLabels.length-1]);  // year selected (defualt: most recent year)
+  const [year, setYear] = useState("All");  // year selected (defualt: most recent year)
   const [filteredNews, setFilteredNews] = useState(dataDict[year]); // filtered list of laws to display
 
   const chartData = {
@@ -199,7 +201,10 @@ export default function SearchContent(searchProps) {
 
   function handleClick(event, elements) {
     let index = elements[0].index;
-    if (yearLabels[index]) {
+    if (year == yearLabels[index]) {
+      setYear("All");
+      setFilteredNews(dataDict.All);
+    } else if (yearLabels[index]) {
       setYear(yearLabels[index]);
       setFilteredNews(dataDict[yearLabels[index]]);
     }

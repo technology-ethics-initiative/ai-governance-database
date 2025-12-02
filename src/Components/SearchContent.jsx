@@ -175,10 +175,12 @@ export default function SearchContent(searchProps) {
     let articlesDict = {};  // law data processed as dictionary based on year
     for(let i = 0; i < articles.length; i++) {
       let article = articles[i];
-      if (articlesDict[parseInt(article.date)]) {
-        articlesDict[parseInt(article.date)].push(article);
+      let label = article.date == null ? "Uknown" : parseInt(article.date);
+
+      if (articlesDict[label]) {
+        articlesDict[label].push(article);
       } else {
-        articlesDict[parseInt(article.date)] = [article,];
+        articlesDict[label] = [article,];
       }
     }
     return articlesDict;
@@ -287,10 +289,10 @@ export default function SearchContent(searchProps) {
         {filteredNews ? (
           filteredNews.map((article) => (
             <a className={styles.articleCard} key={article.uniqueID} href={article.url ? article.url : article.proquest}>
-              <b>Title: {article.title}</b>
+              <b>{/*Title:*/} {article.title}</b>
               <p className={styles.spaceBetween}>
                 <span>Author: {article.author}</span>
-                <span>Date: {article.date}</span>
+                <span>Date: {article.date ? article.date : "Unknown"}</span>
                 <span>Publication: {article.publication}</span>
               </p>
               {/*<p>Summary: {article.summary}</p>*/}

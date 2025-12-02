@@ -46,6 +46,11 @@ const TimelineChart = (chartProps) => {
         },
         border: {
           display: false,
+        },
+        ticks: {
+          autoSkip: false,
+          minRotation: 0,
+          maxRotation: 0,
         }
       },
       y: {

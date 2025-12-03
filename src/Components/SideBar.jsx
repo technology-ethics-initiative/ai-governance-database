@@ -10,25 +10,41 @@ const companies = Object.keys(pagesData.lawsuits);
 function SideBar(props) {
   const [lawsDrop, setLawsDrop] = useState(false);
   const [suitsDrop, setSuitsDrop] = useState(false);
+  const [selectedButton, setSelectedButton] = useState(null);
+
+  const buttons = document.querySelectorAll('button');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      buttons.forEach(btn => btn.classList.remove('selected'));
+      button.classList.add('selected');
+    });
+  });
 
   return (
     <>
       {props.open ? (
         <nav className={styles.sideBar}>
           <a href="#/about">
-            <button>
+            <button id="about"
+              className={(selectedButton == "about" ? styles.selected : "")}
+              onClick={() => {setSelectedButton("about")}}>
               <AboutIcon height="1.2em" width="1.2em" />
               About
             </button>
           </a>
           <a href="#/">
-            <button>
+            <button id="news"
+              className={(selectedButton == "news" ? styles.selected : "")}
+              onClick={() => {setSelectedButton("news")}}>
               <BookIcon height="1.2em" width="1.2em" />
               News Articles
             </button>
           </a>
           <a href="#/laws-and-policies">
-            <button id="lawsDropdown" onClick={() => setLawsDrop(!lawsDrop)}>
+            <button id="lawsDropdown"
+              className={(selectedButton == "lawsDropDown" ? styles.selected : "")}
+              onClick={() => {setLawsDrop(!lawsDrop); setSelectedButton("lawsDropDown"); }}>
               <AlbumIcon height="1.2em" width="1.2em" />
               Laws and Policies
               { lawsDrop ? (
@@ -42,12 +58,15 @@ function SideBar(props) {
           <div className={styles.dropDown + " " + (lawsDrop ? styles.open : "")}>
             {countries.map((country) => (
               <a key={country} href={"#/laws-and-policies/" + country}>
-                <button>{country}</button>
+                <button className={selectedButton == ("laws-"+country) ? styles.selected : ""}
+                  onClick={() => setSelectedButton("laws-"+country)}>{country}</button>
               </a>
             ))}
           </div>
           <a href="#/lawsuits">
-            <button id="suitsDropdown" onClick={() => setSuitsDrop(!suitsDrop)}>
+            <button id="suitsDropdown"
+              className={(selectedButton == "suitsDropDown" ? styles.selected : "")}
+              onClick={() => {setSuitsDrop(!suitsDrop); setSelectedButton("suitsDropDown"); }}>
               <ListIcon height="1.2em" width="1.2em" />
               Lawsuits
               { suitsDrop ? (
@@ -61,18 +80,23 @@ function SideBar(props) {
           <div className={styles.dropDown + " " + (suitsDrop ? styles.open : "")}>
             {companies.map((company) => (
               <a key={company} href={"#/lawsuits/" + company}>
-                <button>{company}</button>
+                <button className={selectedButton == ("suits-"+company) ? styles.selected : ""}
+                  onClick={() => setSelectedButton("suits-"+company)}>{company}</button>
               </a>
             ))}
           </div>
           <a href="#/business-self-regulation">
-            <button>
+            <button id="business"
+              className={(selectedButton == "business" ? styles.selected : "")}
+              onClick={() => {setSelectedButton("business")}}>
               <PersonIcon height="1.2em" width="1.2em" />
               Business Self Regulation
             </button>
           </a>
           <a href="#/technical-solutions">
-            <button>
+            <button id="solutions"
+              className={(selectedButton == "solutions" ? styles.selected : "")}
+              onClick={() => {setSelectedButton("solutions")}}>
               <CheckIcon height="1.2em" width="1.2em" />
               Technical Solutions
             </button>

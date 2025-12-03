@@ -3,14 +3,13 @@ import { AboutIcon, AlbumIcon, BookIcon, CheckIcon, ListIcon, MinusIcon, PersonI
 import styles from './SideBar.module.css';
 import { pagesData } from "../data/news";
 
-console.log(Object.keys(pagesData.laws))
 const countries = Object.keys(pagesData.laws);
 const companies = Object.keys(pagesData.lawsuits);
 
 function SideBar(props) {
   const [lawsDrop, setLawsDrop] = useState(false);
   const [suitsDrop, setSuitsDrop] = useState(false);
-  const [selectedButton, setSelectedButton] = useState(null);
+  const [selectedButton, setSelectedButton] = useState("news");
 
   const buttons = document.querySelectorAll('button');
 

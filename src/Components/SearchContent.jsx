@@ -45,14 +45,14 @@ export default function SearchContent(searchProps) {
     });
   }
 
-  function filterCompanies(articles, term) { // filters articles by company using the given term
+  function filterCompany(articles, term) { // filters articles by company using the given term
     return articles.filter((article) => {
       let articleCompanies = JSON.stringify(article.company);
       return articleCompanies && articleCompanies.toLowerCase().includes(term); 
     })
   }
 
-  function filterConcepts(articles, term) { // filters articles by concept using the given term
+  function filterConcept(articles, term) { // filters articles by concept using the given term
     return articles.filter((article) => {
       let articleConcepts = JSON.stringify(article.concept);
       return articleConcepts && articleConcepts.toLowerCase().includes(term);
@@ -69,7 +69,20 @@ export default function SearchContent(searchProps) {
     else { return indexOr < indexAnd ? indexOr : indexAnd; }
   }
 
-  function searchInput(articles, input, filterFunc) { // search by particular field using given input
+  function resetPriority(articles) { // resets priority attribute of articles
+    articles.forEach((article) => {
+      article.priority = 0;
+    });
+  }
+
+  function addPriority(articles, metadataKey, searchTerm) { // adds count to priority of articles
+    articles.forEach((article) => {
+      article.priority += (article[metadataKey] && article[metadataKey][searchTerm] ? article[metadataKey][searchTerm] : 0);
+    });
+    return articles;
+  }
+
+  function searchInput(articles, input, filterFunc, metadataKey) { // search by particular field using given input
     input = input.replace("AND", "&").replace("OR", "|").toLowerCase();
     let index = -1;  // index of next "&" or "|" (if it exists)
     let searchTerm = "";  // search term for each iteration
@@ -97,6 +110,7 @@ export default function SearchContent(searchProps) {
         else { searchTerm = input.substring(0, index).trim(); }
         results = filterFunc(results, searchTerm);
       }
+      results = addPriority(results, metadataKey, searchTerm);
 
       if (index < 0) { input = "" }
       else { input = input.substring(index); }
@@ -106,6 +120,7 @@ export default function SearchContent(searchProps) {
   }
   
   function searchNews(articles) { // search and filter to get the final list of resulting news articles
+    resetPriority(articles);
     let titleA = document.getElementById("titleInputA").value;
     let resultArticles = searchInput(articles, titleA, filterTitle);
 
@@ -121,41 +136,56 @@ export default function SearchContent(searchProps) {
       let regionB = document.getElementById("regionInputB").value;
       let filteredArticles = resultArticles;
       if(regionA !== "") {
-        filteredArticles = searchInput(resultArticles, regionA, filterRegion);
+        filteredArticles = searchInput(resultArticles, regionA, filterRegion, "region");
       }
       if (showRegionB.And && regionB !== "") {
-        filteredArticles = searchInput(filteredArticles, regionB, filterRegion);
+        filteredArticles = searchInput(filteredArticles, regionB, filterRegion, "region");
       } else if (showRegionB.Or && regionB !== "") {
-        filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, regionB, filterRegion));
+        filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, regionB, filterRegion, "region"));
       }
       
       let companyA = document.getElementById("companyInputA").value;
       let companyB = document.getElementById("companyInputB").value;
       resultArticles = filteredArticles;  // store previous results of filter
       if(companyA !== "") {
-        filteredArticles = searchInput(resultArticles, companyA, filterCompanies);
+        filteredArticles = searchInput(resultArticles, companyA, filterCompany, "company");
       }
       if(showCompanyB.And && companyB !== "") {
-        filteredArticles = searchInput(filteredArticles, companyB, filterCompanies);
+        filteredArticles = searchInput(filteredArticles, companyB, filterCompany, "company");
       } else if(showCompanyB.Or && companyB !== "") {
-        filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, companyB, filterCompanies));
+        filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, companyB, filterCompany, "company"));
       }
 
       let conceptA = document.getElementById("conceptInputA").value;
       let conceptB = document.getElementById("conceptInputB").value;
       resultArticles = filteredArticles;  // store previous results of filter
       if(conceptA !== "") {
-        filteredArticles = searchInput(resultArticles, conceptA, filterConcepts);
+        filteredArticles = searchInput(resultArticles, conceptA, filterConcept, "concept");
       }
       if(showConceptB.And && conceptB !== "") {
-        filteredArticles = searchInput(filteredArticles, conceptB, filterConcepts);
+        filteredArticles = searchInput(filteredArticles, conceptB, filterConcept, "concept");
       } else if(showConceptB.Or && conceptB !== "") {
-        filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, conceptB, filterConcepts));
+        filteredArticles = mergeArray(filteredArticles, searchInput(resultArticles, conceptB, filterConcept, "concept"));
       }
 
       resultArticles = filteredArticles;  // back to results to converge into one variable name
+    } else {
+      resultArticles = mergeArray(resultArticles, searchInput(articles, titleA, filterRegion, "region"));
+      resultArticles = mergeArray(resultArticles, searchInput(articles, titleA, filterCompany, "company"));
+      resultArticles = mergeArray(resultArticles, searchInput(articles, titleA, filterConcept, "concept"));
     }
 
+    // sort resultArticles in descending order of priority
+    resultArticles = resultArticles.sort((articleA, articleB) => (articleB.priority - articleA.priority));
+
+    return resultArticles;
+  };
+
+  function updateResults(articles) {
+    const resultArticles = searchNews(articles);  // get search results
+
+
+    // update 
     let newDict = toDict(resultArticles);
     let newLabels = Object.keys(newDict);
     let newYear = newLabels[newLabels.length-1];
@@ -163,11 +193,10 @@ export default function SearchContent(searchProps) {
     setYearLabels(newLabels);
     setYear(newYear);
     setFilteredNews(newDict[newYear]);
-    return resultArticles;
-  };
+  }
 
   useEffect(() => {   // handles update of news by general tab pages
-    searchNews(news);
+    updateResults(news);
   }, [news])
 
   /* Graph Functionality */
@@ -175,7 +204,7 @@ export default function SearchContent(searchProps) {
     let articlesDict = {};  // law data processed as dictionary based on year
     for(let i = 0; i < articles.length; i++) {
       let article = articles[i];
-      let label = article.date == null ? "Unknown" : parseInt(article.date);
+      let label = article.date == null ? "?" : parseInt(article.date);
 
       if (articlesDict[label]) {
         articlesDict[label].push(article);
@@ -276,7 +305,7 @@ export default function SearchContent(searchProps) {
             </div>
           </div>
 
-          <button className={styles.searchButton} type='submit' onClick={() => setNewsResults(searchNews(news))}>Search</button>
+          <button className={styles.searchButton} type='submit' onClick={() => setNewsResults(updateResults(news))}>Search</button>
           <button className={styles.menuButton} onClick={() => setFilterDrop(!filterDrop)}>
             { filterDrop ? (
               <MinusIcon height="1.2em" width="1.2em" />

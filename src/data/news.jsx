@@ -79,12 +79,21 @@ function parseDict(value) { // dictionary processing
     return JSON.parse(value);
 }
 
+function getLowered(item) {
+    const lowered = {};
+    for (const key in item) {
+        const loweredKey = key.toLowerCase();
+        lowered[loweredKey] = item[key];
+    }
+    return lowered;
+}
+
 for (const key in database) { // database processing for web
     database[key].uniqueID = key;
     
-    //if(database[key].date == null) {
-    //    database[key].date = "Unknown";
-    //}
+    database[key].region = getLowered(database[key].region);
+    database[key].company = getLowered(database[key].company);
+    database[key].concept = getLowered(database[key].concept);
 
     let item = getItem(key); // temporary processing : retrieve original link from csvjson
     if(!database[key].url && item && item.originalLink && item.originalLink != "") {

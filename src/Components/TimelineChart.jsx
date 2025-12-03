@@ -9,7 +9,7 @@ const TimelineChart = (chartProps) => {
   let max = 1;  // greatest number of articles for a year; used in determining size of points
   if (yearLabels.length > 0) {
     for(let i = 0; i < yearLabels.length; i++) {
-      if(dataDict[yearLabels[i]].length > max) {
+      if(yearLabels[i] != "All" && dataDict[yearLabels[i]].length > max) {
         max = dataDict[yearLabels[i]].length
       }
     }
@@ -24,9 +24,11 @@ const TimelineChart = (chartProps) => {
         borderColor: "rgb(0, 0, 0)",  // (--cr-primary-black)
         pointHitRadius: 10,
         pointRadius: yearLabels.map((value) => {
+          if(value == "All") { return 15; }
           return 5 + ((dataDict[value].length/max) * 10);
         }),
         hoverRadius: yearLabels.map((value) => {
+          if(value == "All") { return 18; }
           return 8 + ((dataDict[value].length/max) * 10);
         }),
         pointBackgroundColor: yearLabels.map((value => {
@@ -67,8 +69,17 @@ const TimelineChart = (chartProps) => {
         display: false,
       },
       tooltip: {
-        enabled: false,
-      }
+        displayColors: false,
+        callbacks: {
+          label: function(tooltipItems, data) { 
+            let label = yearLabels[tooltipItems.dataIndex];
+            return dataDict[label].length + " articles";
+          },
+          labelColor: function(context) {
+            return undefined;
+          }
+        },
+      },
     },
     maintainAspectRatio: false,
     onClick: clickHandle,

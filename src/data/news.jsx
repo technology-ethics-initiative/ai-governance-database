@@ -117,7 +117,7 @@ for (const key in database) { // database processing for web
         let category_keys = database[key][dropCategories[category]]
         if(category_keys) {
             for(const dropCategory in pagesData[category]) {    // for each dropdown category
-                if(dropCategory in category_keys) {
+                if(dropCategory.toLowerCase() in category_keys) {
                     pagesData[category][dropCategory].push(database[key])
                 }
             }

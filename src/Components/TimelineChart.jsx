@@ -21,7 +21,7 @@ const TimelineChart = (chartProps) => {
       {
         data: yearLabels.map((x) => 0), // array of 0s to acheive a straight uniform graph
         fill: false,
-        borderColor: "rgb(0, 0, 0)",  // (--cr-primary-black)
+        borderColor: "#003747",  // (--cr-primary-black)
         pointHitRadius: 10,
         pointRadius: yearLabels.map((value) => {
           if(value == "All") { return 15; }
@@ -32,7 +32,7 @@ const TimelineChart = (chartProps) => {
           return 8 + ((dataDict[value].length/max) * 10);
         }),
         pointBackgroundColor: yearLabels.map((value => {
-          return value == year ? "rgb(174, 174, 174)" : "rgb(0, 0, 0)"; // (--cr-bg-secondary) : (--cr-text-primary)
+          return value == year ? "#9ef7ff" : "#003747"; // (--cr-shaded-main) : (--cr-dark-main)
         }))
 
       },

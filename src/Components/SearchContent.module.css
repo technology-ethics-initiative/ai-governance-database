@@ -1,7 +1,7 @@
 button {
   background-color: var(--cr-primary-white);
-  color: var(--cr-primary-black);
-  border: 1px solid var(--cr-light-black);
+  color: var(--cr-primary-main);
+  border: 1px solid var(--cr-light-main);
   border-radius: 1rem;
   margin: 0.5rem;
   display: inline;
@@ -31,7 +31,7 @@ button:active {
   padding: 1rem;
   margin-bottom: 0.5rem;
   background-color: var(--cr-shaded-white);
-  border: 1px solid var(--cr-light-black);
+  border: 1px solid var(--cr-light-main);
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -42,7 +42,7 @@ button:active {
 .searchBar input[type=search] {
   margin-left: 0.5em;
   background-color: var(--cr-shaded-white);
-  color: var(--cr-primary-black);
+  color: var(--cr-primary-main);
   border: none;
   outline: none;
   flex-grow: 4;
@@ -65,7 +65,7 @@ button.hidden, .searchBar.hidden, .chartContainer.hidden {
   width: fit-content;
   padding: 0.5em;
   font-size: small;
-  border: 1px solid var(--cr-light-black);
+  border: 1px solid var(--cr-light-main);
   border-radius: 5em;
 }
 
@@ -130,10 +130,10 @@ button.hidden, .searchBar.hidden, .chartContainer.hidden {
   margin: 0.5rem;
   padding: 1rem 2rem;
   background-color: var(--cr-shaded-white);
-  color: var(--cr-primary-black);
+  color: var(--cr-primary-main);
   text-decoration: none;
-  border: 1px solid var(--cr-light-black);
-  box-shadow: 0.5em 0.5em var(--cr-light-black);
+  border: 1px solid var(--cr-light-main);
+  box-shadow: 0.5em 0.5em var(--cr-light-main);
 }
 
 .spaceBetween {

@@ -37,8 +37,8 @@
 }
 
 .sideBar button:hover, .sideBar button.selected {
-  background-color: var(--cr-primary-white);
-  border-color: var(--cr-primary-white);
+  background-color: var(--cr-shaded-main); /*var(--cr-primary-white);*/
+  border-color: var(--cr-shaded-main); /*var(--cr-primary-white);*/
   transform: translateY(-1px);
 }
 

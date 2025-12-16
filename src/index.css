@@ -8,10 +8,14 @@
 
 :root {  
   --cr-primary-white: rgb(255, 255, 255);
-  --cr-shaded-white: rgb(245, 245, 245); /* can shade/mix any color, currently tinged with gray/black */
+  --cr-shaded-white: #ffffff; /*rgb(245, 245, 245);*/
   --cr-tinged-white: rgb(174, 174, 174);
   --cr-primary-black: rgb(0, 0, 0);
-  --cr-light-black: rgb(48, 47, 48, 0.812);  
+
+  --cr-primary-main: #003747;
+  --cr-shaded-main: #9ef7ff; /*#daf6f4; /*#d1f7f3; /* can shade/mix any color, currently tinged with gray/black */
+  --cr-dark-main: #003747;
+  --cr-light-main: #06768d; /*rgb(48, 47, 48, 0.812);*/
   
   --header-height: 4rem;
   --sideBar-width: 23rem;

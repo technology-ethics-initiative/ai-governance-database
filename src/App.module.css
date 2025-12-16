@@ -5,7 +5,7 @@
   align-items: center;
   width: 100%;
   height: var(--header-height);
-  background-color: var(--cr-primary-black);
+  background-color: var(--cr-dark-main);
   color: var(--cr-primary-white);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   z-index: 1000;
@@ -61,7 +61,7 @@
   .header {
     position: sticky;
     top: 0;
-    border-bottom: 1px solid var(--cr-light-black);
+    border-bottom: 1px solid var(--cr-light-main);
   }
 }
 
@@ -86,7 +86,7 @@
   margin: 0;
   color: var(--cr-primary-white);
   transition: color 0.25s ease-in-out;
-  border-bottom: 1px solid var(--cr-light-black);
+  border-bottom: 1px solid var(--cr-shaded-main);
   text-decoration: none;
   font-weight: 500;
 }
@@ -97,11 +97,11 @@
   position: absolute;
   top: var(--header-height);
   right: 0;
-  background-color: var(--cr-primary-black);
+  background-color: var(--cr-dark-main);
   width: 100%;
   z-index: 500;
   box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.25);
-  border-top: 1px solid var(--cr-light-black);
+  border-top: 1px solid var(--cr-shaded-main);
 }
 
 button.menuButton {
@@ -176,7 +176,7 @@ section.content {
   align-items: center;
   width: 100%;
   min-height: 7rem;
-  background-color: var(--cr-primary-black);
+  background-color: var(--cr-dark-main);
   color: var(--cr-primary-white);
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   font-size: 1rem;
@@ -203,4 +203,28 @@ section.content {
 .footerHeartMsg svg {
   color: rgb(254, 37, 27);
   fill: rgb(254, 37, 27);;
+}
+
+.keyContainer {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 1em;
+}
+
+.keyContainer button:first-child {
+  margin: 0em;
+  padding: 0em;
+  color: var(--cr-primary-white);
+  background-color: var(--cr-dark-main);
+  border: none;
+}
+
+.keyContainer input {
+  display: none;
+}
+
+.keyContainer input.active {
+  display: block;
 }

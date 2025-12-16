@@ -7,6 +7,9 @@ export default function SearchContent(searchProps) {
   const { news, term } = searchProps;
   const [newsResults, setNewsResults] = useState(news);   // news articles resulting from search
   const [terms, setTerms] = useState(term ? [term,] : []);
+
+  const [isAdmin, setIsAdmin] = useState(localStorage.getItem("userAuthority") == "admin");
+  console.log(isAdmin);
   const [filterDrop, setFilterDrop] = useState(false);  // state (visible or hidden) of 'Advanced Search' menu
   const [showTitleB, setShowTitleB] = useState({
     And: false,
@@ -227,7 +230,7 @@ export default function SearchContent(searchProps) {
 
   useEffect(() => {   // handles update of news by general tab pages
     updateResults(news);
-  }, [news])
+  }, [news]);
 
   /* Graph Functionality */
   const toDict = (articles) => {  // convert news articles to a dictionary key-ed by year
@@ -357,7 +360,7 @@ export default function SearchContent(searchProps) {
         <div className={styles.newsContainer}>
         {filteredNews ? (
           filteredNews.map((article) => (
-            <a className={styles.articleCard} key={article.uniqueID} href={article.url ? article.url : article.proquest}>
+            <a className={styles.articleCard} key={article.uniqueID} href={isAdmin ? article.proquest : article.url ? article.url : ""}>
               <b>{/*Title:*/} {article.title}</b>
               <p className={styles.spaceBetween}>
                 <span>Author: {article.author}</span>

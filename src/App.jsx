@@ -1,6 +1,6 @@
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import { useState } from "react";
-import { HeartIcon, SUFullIcon } from "./Components/Icons";
+import { BrowseIcon, HeartIcon, SUFullIcon } from "./Components/Icons";
 import SideBar from "./Components/SideBar";
 import About from "./pages/About";
 import Home from "./pages/Home";
@@ -49,6 +49,7 @@ function App() {
   let mobile = window.innerWidth > 800;
   const [sideOpen, setNavOpen] = useState(mobile);  // state (visible or hidden) of sidebar
   const [menuOpen, setMenuOpen] = useState(false);  // state (visible or hidden) of mobile menu
+  const [showKeyInput, setShowKeyInput] = useState(false);
 
   const MainLogo = () => {
     return (
@@ -78,6 +79,19 @@ function App() {
     }
   });
 
+  function handleKeyClick() {
+    const key = document.getElementById("keyInput").value;
+    if(key  && key == "AIgovDB-25FQ") {
+      localStorage.setItem("userAuthority", "admin");
+      location.reload();
+    } else if(key == "ADMIN-RESET") {
+      localStorage.setItem("userAuthority", "public");
+      location.reload();
+    }
+
+    setShowKeyInput(!showKeyInput);
+  }
+
   return (
     <>
       <header className={styles.header}>
@@ -105,6 +119,12 @@ function App() {
         <SUFullIcon />
         <p className={styles.footerHeartMsg}>We <HeartIcon /> open source!</p>
         <a href="https://github.com/">Visit our GitHub</a>
+        <div className={styles.keyContainer}>
+          <button id="keyButton" onClick={() => handleKeyClick()}><BrowseIcon height="1.2em" width="1.2em" /></button>
+          <input id="keyInput"
+                 className={(showKeyInput ? styles.active : "")}
+                 placeholder="Enter key..."></input>
+        </div>
       </footer>
     </>
   )

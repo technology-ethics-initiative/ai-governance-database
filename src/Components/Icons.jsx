@@ -288,7 +288,7 @@ export {
   AlbumIcon,
   AtIcon,
   BookIcon,
-  //BrowseIcon,
+  BrowseIcon,
   CheckIcon,
   //GitHubIcon,
   HeartIcon,

@@ -4,8 +4,9 @@ import { MinusIcon, PlusIcon, SearchIcon } from "../Components/Icons";
 import TimelineChart from "../Components/TimelineChart";
 
 export default function SearchContent(searchProps) {
-  const { news } = searchProps;
+  const { news, term } = searchProps;
   const [newsResults, setNewsResults] = useState(news);   // news articles resulting from search
+  const [terms, setTerms] = useState(term ? [term,] : []);
   const [filterDrop, setFilterDrop] = useState(false);  // state (visible or hidden) of 'Advanced Search' menu
   const [showTitleB, setShowTitleB] = useState({
     And: false,
@@ -181,9 +182,36 @@ export default function SearchContent(searchProps) {
     return resultArticles;
   };
 
+  function updateTerms() { // updates 
+    let tempTerms = term ? [term, ] : [];
+    let titleA = document.getElementById("titleInputA").value;
+    if(titleA) { tempTerms.push(titleA); }
+
+    if(filterDrop) {
+      let titleB = document.getElementById("titleInputB").value;
+      if(titleB) { tempTerms.push(titleB); }
+
+      let regionA = document.getElementById("regionInputA").value;
+      if(regionA) { tempTerms.push(regionA); }
+      let regionB = document.getElementById("regionInputB").value;
+      if(regionB) { tempTerms.push(regionB); }
+
+      let companyA = document.getElementById("companyInputA").value;
+      if(companyA) { tempTerms.push(companyA); }
+      let companyB = document.getElementById("companyInputB").value;
+      if(companyB) { tempTerms.push(companyB); }
+
+      let conceptA = document.getElementById("conceptInputA").value;
+      if(conceptA) { tempTerms.push(conceptA); }
+      let conceptB = document.getElementById("conceptInputB").value;
+      if(conceptB) { tempTerms.push(conceptB); }
+    }
+
+    setTerms(tempTerms);
+  }
+
   function updateResults(articles) {
     const resultArticles = searchNews(articles);  // get search results
-
 
     // update 
     let newDict = toDict(resultArticles);
@@ -193,6 +221,8 @@ export default function SearchContent(searchProps) {
     setYearLabels(newLabels);
     setYear(newYear);
     setFilteredNews(newDict[newYear]);
+
+    updateTerms();
   }
 
   useEffect(() => {   // handles update of news by general tab pages
@@ -316,6 +346,11 @@ export default function SearchContent(searchProps) {
           </button>
         </div>
         
+        <div className={styles.tagContainer}>
+          {terms.map((term) => (
+            <div className={styles.tag} key={term}>{term}</div>
+          ))}
+        </div>
         <section className={styles.chartContainer + " " + (newsResults ? "" : "hidden")}>
           <TimelineChart data={chartData} clickHandle={handleClick} />
         </section>

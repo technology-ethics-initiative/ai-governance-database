@@ -52,6 +52,23 @@ button.hidden, .searchBar.hidden, .chartContainer.hidden {
   display: none;
 }
 
+.tagContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 1em;
+}
+
+.tag {
+  width: fit-content;
+  padding: 0.5em;
+  font-size: small;
+  border: 1px solid var(--cr-light-black);
+  border-radius: 5em;
+}
+
 .chartContainer {
   width: 100%;
   height: 6rem;

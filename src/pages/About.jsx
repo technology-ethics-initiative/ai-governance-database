@@ -12,22 +12,13 @@ export default function About() {
         <p>AI Governance Database @ SU is ...</p>
         <h3>Contributors</h3>
         <p>Our team is composed of students and professors from multiple cohorts and disciplines.</p>
-        <h4>Seattle University Ethics Initiative</h4>
         <ul>
-          <li>Dr. Onur Bakiner</li>
-          <li>Swarnim Swasti</li>
-        </ul>
-        <h4>Seattle University Computer Science Department</h4>
-        <ul>
-          <li>Dr. Nate Kremer-Herman</li>
-          <li>Rena Ahn</li>
-        </ul>
-        <h4>Special Thanks</h4>
-        <p>The following are ...</p>
-        <ul>
-          <li>BioSims?</li>
+          <li>Rena Ahn - Department of Computer Science</li>
+          <li>Dr. Onur Bakiner - Technology Ethics Initiative, Department of Political Science</li>
+          <li>Dr. Nate Kremer-Herman - Technology Ethics Initiative, Department of Computer Science</li>
+          <li>Swarnim Swasti - Technology Ethics Initiative, School of Law</li>
         </ul>
       </div>
     </>
   )
-};
+}

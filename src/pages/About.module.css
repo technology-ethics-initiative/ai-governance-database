@@ -17,13 +17,27 @@
 .pageContent h2 {
   font-size: 4em;
   font-weight: 700;
-  margin-bottom: 1rem;
   user-select: none;
 }
 
+.pageContent hr {
+  width: 8rem;
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  border-style: inset;
+  border: 1px solid var(--cr-primary-main);
+}
+
+.pageContent ul {
+list-style: none;
+}
+
+/*
 @media (width < 800px) {
 
   .pageContent {
     font-size: 0.8em;
   }
 }
+*/

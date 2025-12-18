@@ -46,7 +46,7 @@ let pagesData = { // dropdown pages dictionary (keys must match that of 'dropCat
     },
     lawsuits: {
         "OpenAI": [],
-        "NVidia": [],
+        "Nvidia": [],
         "Google": [],
         "TikTok": [],
         //"New York Times Co.": [],

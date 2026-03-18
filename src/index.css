@@ -8,7 +8,7 @@
 
 :root {  
   --cr-primary-white: rgb(255, 255, 255);
-  --cr-shaded-white: #ffffff; /*rgb(245, 245, 245);*/
+  --cr-shaded-white: rgb(245, 245, 245); /*rgb(245, 245, 245);*/
   --cr-tinged-white: rgb(174, 174, 174);
   --cr-primary-black: rgb(0, 0, 0);
 

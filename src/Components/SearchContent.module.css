@@ -12,11 +12,6 @@ button:hover, button.active {
   transform: translateY(-1px);
 }
 
-button:active {
-  background-color: var(--cr-primary-white);
-  transform: translateY(0);
-}
-
 .searchBox {
   width: 80%;
   margin: 1rem 1rem 0rem 1rem;
@@ -30,7 +25,7 @@ button:active {
   width: 100%;
   padding: 1rem;
   margin-bottom: 0.5rem;
-  background-color: var(--cr-shaded-white);
+  background-color: var(--cr-primary-white);
   border: 1px solid var(--cr-light-main);
   border-radius: 5px;
   display: flex;
@@ -41,7 +36,7 @@ button:active {
 
 .searchBar input[type=search] {
   margin-left: 0.5em;
-  background-color: var(--cr-shaded-white);
+  background-color: var(--cr-primary-white);
   color: var(--cr-primary-main);
   border: none;
   outline: none;
@@ -100,11 +95,6 @@ button.hidden, .searchBar.hidden, .chartContainer.hidden {
   flex-wrap: nowrap;
   justify-content: start;
   align-items: center;
-}
-
-.conjuctionButton {
-  border-radius: 10%;
-  margin: 1rem 0.5rem;
 }
 
 .menuButton {

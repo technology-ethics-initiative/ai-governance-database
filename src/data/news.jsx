@@ -1,32 +1,25 @@
 import database from "./database.json";
-import news from "./csvjson.json";
 
-/* Process database and news to generate:
-   - a data dictionary for the general categories
-   - a dictionary for each category's dropdown pages
-*/
-
-const categories = { // general categories: string representation in database (listed under 'type')
-    news: "news",
-    laws: "law",
-    lawsuits: "lawsuit",
-    regulations: "selfGovernance",
-    solutions: "solution",
-};
-
-const dropCategories = { // categories with dropdowns: name of column with data for dropdown categories
-    laws: "region",
-    lawsuits: "company",
-};
-
+function getLowered(item) {
+    const lowered = {};
+    for (const key in item) {
+        const loweredKey = key.toLowerCase();
+        lowered[loweredKey] = item[key];
+    }
+    return lowered;
+}
 
 let data = { // data dictionary (keys except "all" must match that of 'categories' variable)
     all: [],
-    news: [],
     laws: [],
     lawsuits: [],
-    regulations: [],
+    boards: [],
     solutions: [],
+};
+
+const dropSections = { // categories with dropdowns: name of column with data for dropdown categories
+    laws: "region",
+    lawsuits: "company",
 };
 
 let pagesData = { // dropdown pages dictionary (keys must match that of 'dropCategories' variable)
@@ -49,83 +42,58 @@ let pagesData = { // dropdown pages dictionary (keys must match that of 'dropCat
         "Nvidia": [],
         "Google": [],
         "TikTok": [],
-        //"New York Times Co.": [],
+        "New York Times Co.": [],
         "Facebook": [],
-        //"DeepSeek": [],
+        "DeepSeek": [],
         "Microsoft": [],
         "Bytedance": [],
         "Twitter": [],
-        //"X Corp": [],
+        "X Corp": [],
         "DeepMind": [],
-        //"X.AI": [],
+        "X.AI": [],
         "YouTube": [],
         "Apple": [],
     },
 }
 
-function getItem(key) { // to parse news and get appropriate item (json)
-    for(let i = 0; i < news.length; i++) {
-        if(news[i].uniqueID == key) {
-            return news[i];
-        }
-    }
-    return [];
-}
 
-function parseDict(value) { // dictionary processing
-    value = value.replaceAll("{'", '{"');
-    value = value.replaceAll(", '", ', "');
-    value = value.replaceAll("':", '":');
-    return JSON.parse(value);
-}
 
-function getLowered(item) {
-    const lowered = {};
-    for (const key in item) {
-        const loweredKey = key.toLowerCase();
-        lowered[loweredKey] = item[key];
-    }
-    return lowered;
-}
-
-for (const key in database) { // database processing for web
-    database[key].uniqueID = key;
-    
-    database[key].region = getLowered(database[key].region);
-    database[key].company = getLowered(database[key].company);
-    database[key].concept = getLowered(database[key].concept);
-
-    let item = getItem(key); // temporary processing : retrieve original link from csvjson
-    if(!database[key].url && item && item.originalLink && item.originalLink != "") {
-        database[key].url = item.originalLink;
-    }
+for (const [key, item] of Object.entries(database)) {
+    item.uniqueID = key     // add unique ID to item dictionary
 
     // populate data dictionary
-    data.all.push(database[key]);
-    if(database[key].type) {
-        let type = database[key].type;
-        for (const category in categories) {
-            if(type == categories[category]) {
-                //data.news.push(data[category].push(database[key]));
-                data[category].push(database[key])
-            }
-        }
-    }
+    data.all.push(item);
 
-    // populate pagesData dictionary
-    for (const category in pagesData) {    // for each general category with dropdowns
-        let category_keys = database[key][dropCategories[category]]
-        if(category_keys) {
-            for(const dropCategory in pagesData[category]) {    // for each dropdown category
-                if(dropCategory.toLowerCase() in category_keys) {
-                    pagesData[category][dropCategory].push(database[key])
+    if (item.primaryType) {
+        data[item.primaryType].push(item);
+
+        if (Object.keys(dropSections).includes(item.primaryType)) {
+            for (const tag of Object.keys(item[dropSections[item.primaryType]])) {
+                if (pagesData[item.primaryType][tag]) {
+                    pagesData[item.primaryType][tag].push(item)
                 }
             }
         }
-        
+
+        if (item.secondaryType) {
+            data[item.secondaryType].push(item);
+
+            if (Object.keys(dropSections).includes(item.secondaryType)) {
+            for (const tag of Object.keys(item[dropSections[item.secondaryType]])) {
+                if (pagesData[item.secondaryType][tag]) {
+                    pagesData[item.secondaryType][tag].push(item)
+                }
+            }
+        }
+        }
     }
+
+    database[key].region = getLowered(database[key].region);
+    database[key].company = getLowered(database[key].company);
+    database[key].concept = getLowered(database[key].concept);
 }
-console.log(data);
+
+
 
 export {
     data,

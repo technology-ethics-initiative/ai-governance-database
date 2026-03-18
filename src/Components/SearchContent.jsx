@@ -9,7 +9,6 @@ export default function SearchContent(searchProps) {
   const [terms, setTerms] = useState(term ? [term,] : []);
 
   const [isAdmin, setIsAdmin] = useState(localStorage.getItem("userAuthority") == "admin");
-  console.log(isAdmin);
   const [filterDrop, setFilterDrop] = useState(false);  // state (visible or hidden) of 'Advanced Search' menu
   const [showTitleB, setShowTitleB] = useState({
     And: false,

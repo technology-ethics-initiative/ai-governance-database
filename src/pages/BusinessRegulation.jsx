@@ -3,7 +3,7 @@ import SearchContent from "../Components/SearchContent";
 import styles from "./BusinessRegulation.module.css";
 import { data } from "../data/news";
 
-const regulations = data.regulations;
+const boards = data.boards;
 
 function BusinessRegulation() {
 
@@ -12,7 +12,7 @@ function BusinessRegulation() {
         <PageTitle title="Business Regulation | AI Governance Database" />
         <div className={styles.pageContent}>
           <h2>Business Self Regulation</h2>
-          <SearchContent news={regulations} />
+          <SearchContent news={boards} />
         </div>
       </>
     );

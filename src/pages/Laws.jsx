@@ -11,12 +11,6 @@ const country_laws = pagesData.laws;
 
 function Laws() {
     const { country } = useParams();
-    /*const [news, setNews] = useState(laws);
-    useEffect(() => {
-      if(country) { setNews(filterRegion(laws, country.toLowerCase())); }
-    }, country)
-    //console.log(country ? filterRegion(laws, country.toLowerCase()) : laws);
-    console.log(news);*/
 
     return (
       <>

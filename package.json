@@ -1,6 +1,6 @@
 {
   "name": "ai-database",
-  "homepage": "https://technology-ethics-initiative.github.io/ai-governance-database/",
+  "homepage": ".",
   "private": true,
   "version": "0.0.0",
   "type": "module",

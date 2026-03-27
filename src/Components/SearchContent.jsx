@@ -261,6 +261,7 @@ export default function SearchContent(searchProps) {
   }
 
   function handleClick(event, elements) {
+    console.log(elements);
     let index = elements[0].index;
     if (year == yearLabels[index]) {
       setYear("All");

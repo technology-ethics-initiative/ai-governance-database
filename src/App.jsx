@@ -46,8 +46,7 @@ const router = createHashRouter([
 ]);
 
 function App() {
-  let mobile = window.innerWidth > 800;
-  const [sideOpen, setNavOpen] = useState(mobile);  // state (visible or hidden) of sidebar
+  const [sideOpen, setNavOpen] = useState(window.innerWidth >= 800);  // state (visible or hidden) of sidebar
   const [menuOpen, setMenuOpen] = useState(false);  // state (visible or hidden) of mobile menu
   const [showKeyInput, setShowKeyInput] = useState(false);
 
@@ -109,6 +108,10 @@ function App() {
         <nav className={styles.mobileMenu + " " + (menuOpen ? styles.open : "")}>
           <a href="#/about">About</a>
           <a href="#/">News</a>
+          <a href="#/laws-and-policies">Laws and Policies</a>
+          <a href="#/lawsuits">Lawsuits</a>
+          <a href="#/business-self-regulation">Business Self Regulation</a>
+          <a href="#/technical-solutions">Solutions</a>
         </nav>
       </header>
       <section className={styles.content}>

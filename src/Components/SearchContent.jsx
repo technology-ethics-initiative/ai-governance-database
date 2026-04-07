@@ -260,6 +260,11 @@ export default function SearchContent(searchProps) {
     year: year,
   }
 
+  const clickHandles = {
+    year: setYear,
+    news: setFilteredNews,
+  }
+  
   function handleClick(event, elements) {
     console.log(elements);
     let index = elements[0].index;
@@ -355,7 +360,7 @@ export default function SearchContent(searchProps) {
           ))}
         </div>
         <section className={styles.chartContainer + " " + (newsResults ? "" : "hidden")}>
-          <TimelineChart data={chartData} clickHandle={handleClick} />
+          <TimelineChart data={chartData} clickHandle={clickHandles} />
         </section>
         <div className={styles.newsContainer}>
         {filteredNews ? (

@@ -66,9 +66,13 @@ button.hidden, .searchBar.hidden, .chartContainer.hidden {
 
 .chartContainer {
   width: 100%;
-  height: fit-content;
+  height: 6rem;
   background-color: var(--cr-primary-white);
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-center;
+  align-content: center;
 }
 
 .searchButton {
@@ -135,3 +139,16 @@ button.hidden, .searchBar.hidden, .chartContainer.hidden {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+@media (width <= 800px) {
+  .chartContainer {
+    width: 100vw;
+  }
+}
+
+@media (width > 800px) {
+  .chartContainer {
+    width: 100%;
+  }
+}
+

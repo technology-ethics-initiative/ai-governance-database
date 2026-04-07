@@ -4,9 +4,9 @@ import { Line, Scatter } from "react-chartjs-2";
 import styles from './TimelineChart.module.css';
 
 const TimelineChart = (chartProps) => {
+  /* Process Data */
   const { data, clickHandle } = chartProps;
   const { yearLabels, dataDict, year } = data;
-  const [mobile, setMobile] = useState(window.innerWidth < 800);
   //console.log(dataDict);  // !!! DELETE FOR FINAL !!!
 
   let max = 1;  // greatest number of articles for a year; used in determining size of points
@@ -17,7 +17,6 @@ const TimelineChart = (chartProps) => {
       }
     }
   }
-
   let chartData = {   // 1D data and labels for timeline component
     labels: yearLabels,
     datasets: [
@@ -41,7 +40,62 @@ const TimelineChart = (chartProps) => {
       },
     ],
   };
+
+  function getDataSlice(start, end) {
+    let originalDataset = chartData.datasets[0]  
+    let slicedDatasets = {}
+    slicedDatasets.data = originalDataset.data.slice(start, end);
+    slicedDatasets.fill = originalDataset.fill;
+    slicedDatasets.borderColor = originalDataset.borderColor;
+    slicedDatasets.pointHitRadius = originalDataset.pointHitRadius;
+    slicedDatasets.pointRadius = originalDataset.pointRadius.slice(start, end);
+    slicedDatasets.hoverRadius = originalDataset.hoverRadius.slice(start, end);
+    slicedDatasets.pointBackgroundColor = originalDataset.pointBackgroundColor.slice(start, end);
+
+    let dataSlice = {};
+    dataSlice.labels = chartData.labels.slice(start, end);
+    dataSlice.datasets = [slicedDatasets]
+    return dataSlice;
+  }
+  let mobileData = []
+  let c = 0;
+  while(c < yearLabels.length-1) {   // display 10 points at a time for mobile
+    let endI = ((c+10 < yearLabels.length) ? c+10 : yearLabels.length)
+    mobileData.push(getDataSlice(c, endI))
+    c += 10;
+  }
+  let desktopData = [chartData];
+
   
+  /* Handle Chart & Button Interactions */
+  const [mobile, setMobile] = useState(window.innerWidth < 800);
+  const [displayData, setDisplayData] = useState(mobile ? mobileData : desktopData);
+  const [chartIndex, setChartIndex] = useState(displayData.length-1);
+  
+  // when the window resizes, change slicedData accordingly
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 800) {
+      setMobile(false);
+      setDisplayData(desktopData);
+      setChartIndex(desktopData.length-1);
+    } else {
+      setMobile(true);
+      setDisplayData(mobileData);
+      setChartIndex(mobileData.length-1);
+    }
+  });
+
+  function handleClick(event, elements) {
+    let index = elements[0].index;
+    if (year == displayData[chartIndex].labels[index]) {
+      clickHandle.year("All");
+      clickHandle.news(dataDict.All);
+      setChartIndex(displayData.length-1);
+    } else if (displayData[chartIndex].labels[index]) {
+      clickHandle.year(displayData[chartIndex].labels[index]);
+      clickHandle.news(dataDict[displayData[chartIndex].labels[index]]);
+    }
+  }
   const chartOptions = { // chart options for timeline component
     scales: {
       x: {
@@ -85,58 +139,24 @@ const TimelineChart = (chartProps) => {
       },
     },
     maintainAspectRatio: false,
-    onClick: clickHandle,
+    onClick: handleClick,
   };
-
-  function getDataSlice(start, end) {
-    let originalDataset = chartData.datasets[0]  
-    let slicedDatasets = {}
-    slicedDatasets.data = originalDataset.data.slice(start, end);
-    slicedDatasets.fill = originalDataset.fill;
-    slicedDatasets.borderColor = originalDataset.borderColor;
-    slicedDatasets.pointHitRadius = originalDataset.pointHitRadius;
-    slicedDatasets.pointRadius = originalDataset.pointRadius.slice(start, end);
-    slicedDatasets.hoverRadius = originalDataset.hoverRadius.slice(start, end);
-    slicedDatasets.pointBackgroundColor = originalDataset.pointBackgroundColor.slice(start, end);
-
-    let dataSlice = {};
-    dataSlice.labels = chartData.labels.slice(start, end);
-    dataSlice.datasets = [slicedDatasets]
-    return dataSlice;
-  }
-
-  let slicedData = []
-  if (mobile) {
-    let c = 0;
-    while(c < yearLabels.length-1) {   // display 10 points at a time for mobile
-      let endI = ((c+10 < yearLabels.length-1) ? c+10 : yearLabels.length-1)
-      slicedData.push(getDataSlice(c, endI))
-      c += 10;
-    }
-  }
-
-  // when the window resizes, change slicedData accordingly
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 800) {
-      setMobile(false);
-    } else {
-      setMobile(true)
-    }
-  });
 
   return (
     <>
-      {mobile ? (
-        slicedData.map((data, i) => (
-          <div key={"timeline" + i} className={styles.chart}>
-            <Line data={data} options={chartOptions} />
-          </div>
-        ))
-      ) : (
-        <div className={styles.chart}>
-          <Line id="timeline" data={chartData} options={chartOptions} />
-        </div>
-      )}
+      <button id="prevButton"
+              className={(chartIndex == 0 ? styles.disabled : "") + " " + (mobile ? "" : styles.hidden)}
+              onClick={() => setChartIndex(chartIndex - 1)}>
+        «
+      </button>
+      <div className={styles.chart}>
+        <Line id="timeline" data={mobile ? mobileData[chartIndex] : desktopData[chartIndex]} options={chartOptions} />
+      </div>
+      <button id="nextButton"
+              className={(chartIndex == displayData.length-1 ? styles.disabled : "") + " " + (mobile ? "" : styles.hidden)}
+              onClick={() => setChartIndex(chartIndex + 1)}>
+        »
+      </button>
     </>
   );
 };

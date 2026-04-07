@@ -56,8 +56,6 @@ let pagesData = { // dropdown pages dictionary (keys must match that of 'dropCat
     },
 }
 
-
-
 for (const [key, item] of Object.entries(database)) {
     item.uniqueID = key     // add unique ID to item dictionary
 

@@ -1,3 +1,14 @@
 .chart {
     height: 6rem;
+    width: 100%;
+}
+
+button.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button.hidden {
+    display: none;
 }

@@ -7,7 +7,7 @@ const TimelineChart = (chartProps) => {
   /* Process Data */
   const { data, clickHandle } = chartProps;
   const { yearLabels, dataDict, year } = data;
-  //console.log(dataDict);  // !!! DELETE FOR FINAL !!!
+  console.log(dataDict);  // !!! DELETE FOR FINAL !!!
 
   let max = 1;  // greatest number of articles for a year; used in determining size of points
   if (yearLabels.length > 0) {
@@ -69,31 +69,29 @@ const TimelineChart = (chartProps) => {
   
   /* Handle Chart & Button Interactions */
   const [mobile, setMobile] = useState(window.innerWidth < 800);
-  const [displayData, setDisplayData] = useState(mobile ? mobileData : desktopData);
-  const [chartIndex, setChartIndex] = useState(displayData.length-1);
+  const [chartIndex, setChartIndex] = useState(mobile ? mobileData.length-1 : desktopData.length-1);
   
   // when the window resizes, change slicedData accordingly
   window.addEventListener("resize", () => {
     if (window.innerWidth > 800) {
       setMobile(false);
-      setDisplayData(desktopData);
       setChartIndex(desktopData.length-1);
     } else {
       setMobile(true);
-      setDisplayData(mobileData);
       setChartIndex(mobileData.length-1);
     }
   });
 
   function handleClick(event, elements) {
     let index = elements[0].index;
-    if (year == displayData[chartIndex].labels[index]) {
+    let currData = mobile ? mobileData : desktopData;
+    if (year == currData[chartIndex].labels[index]) {
       clickHandle.year("All");
       clickHandle.news(dataDict.All);
-      setChartIndex(displayData.length-1);
-    } else if (displayData[chartIndex].labels[index]) {
-      clickHandle.year(displayData[chartIndex].labels[index]);
-      clickHandle.news(dataDict[displayData[chartIndex].labels[index]]);
+      setChartIndex(currData.length-1);
+    } else if (currData[chartIndex].labels[index]) {
+      clickHandle.year(currData[chartIndex].labels[index]);
+      clickHandle.news(dataDict[currData[chartIndex].labels[index]]);
     }
   }
   const chartOptions = { // chart options for timeline component
@@ -128,8 +126,9 @@ const TimelineChart = (chartProps) => {
       tooltip: {
         displayColors: false,
         callbacks: {
-          label: function(tooltipItems, data) { 
-            let label = yearLabels[tooltipItems.dataIndex];
+          label: function(tooltipItems, data) {
+            let currData = mobile ? mobileData : desktopData;
+            let label = currData[chartIndex].labels[tooltipItems.dataIndex];
             return dataDict[label].length + " articles";
           },
           labelColor: function(context) {
@@ -153,7 +152,7 @@ const TimelineChart = (chartProps) => {
         <Line id="timeline" data={mobile ? mobileData[chartIndex] : desktopData[chartIndex]} options={chartOptions} />
       </div>
       <button id="nextButton"
-              className={(chartIndex == displayData.length-1 ? styles.disabled : "") + " " + (mobile ? "" : styles.hidden)}
+              className={(chartIndex == (mobile ? mobileData : desktopData).length-1 ? styles.disabled : "") + " " + (mobile ? "" : styles.hidden)}
               onClick={() => setChartIndex(chartIndex + 1)}>
         »
       </button>

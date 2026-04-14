@@ -9,16 +9,26 @@ const companies = Object.keys(pagesData.lawsuits);
 function SideBar(props) {
   const [lawsDrop, setLawsDrop] = useState(false);
   const [suitsDrop, setSuitsDrop] = useState(false);
-  const [selectedButton, setSelectedButton] = useState("news");
 
+  let page = "news";
+  if (localStorage.getItem("page") !== null) {
+    page = localStorage.getItem("page");
+  }
+  const [selectedButton, setSelectedButton] = useState(page);
+
+  function handleSelect(page) {
+    setSelectedButton(page);
+    localStorage.setItem("page", page);
+  }
+
+  /*
   const buttons = document.querySelectorAll('button');
-
   buttons.forEach(button => {
     button.addEventListener('click', () => {
       buttons.forEach(btn => btn.classList.remove('selected'));
       button.classList.add('selected');
     });
-  });
+  });*/
 
   return (
     <>
@@ -27,7 +37,7 @@ function SideBar(props) {
           <a href="#/about">
             <button id="about"
               className={(selectedButton == "about" ? styles.selected : "")}
-              onClick={() => {setSelectedButton("about")}}>
+              onClick={() => {handleSelect("about")}}>
               <AboutIcon height="1.2em" width="1.2em" />
               About
             </button>
@@ -35,7 +45,7 @@ function SideBar(props) {
           <a href="#/">
             <button id="news"
               className={(selectedButton == "news" ? styles.selected : "")}
-              onClick={() => {setSelectedButton("news")}}>
+              onClick={() => {handleSelect("news")}}>
               <BookIcon height="1.2em" width="1.2em" />
               News Articles
             </button>
@@ -43,7 +53,7 @@ function SideBar(props) {
           <a href="#/laws-and-policies">
             <button id="lawsDropdown"
               className={(selectedButton == "lawsDropDown" ? styles.selected : "")}
-              onClick={() => {setLawsDrop(!lawsDrop); setSelectedButton("lawsDropDown"); }}>
+              onClick={() => {setLawsDrop(!lawsDrop); handleSelect("lawsDropDown"); }}>
               <AlbumIcon height="1.2em" width="1.2em" />
               Laws and Policies
               { lawsDrop ? (
@@ -58,14 +68,14 @@ function SideBar(props) {
             {countries.map((country) => (
               <a key={country} href={"#/laws-and-policies/" + country}>
                 <button className={selectedButton == ("laws-"+country) ? styles.selected : ""}
-                  onClick={() => setSelectedButton("laws-"+country)}>{country}</button>
+                  onClick={() => handleSelect("laws-"+country)}>{country}</button>
               </a>
             ))}
           </div>
           <a href="#/lawsuits">
             <button id="suitsDropdown"
               className={(selectedButton == "suitsDropDown" ? styles.selected : "")}
-              onClick={() => {setSuitsDrop(!suitsDrop); setSelectedButton("suitsDropDown"); }}>
+              onClick={() => {setSuitsDrop(!suitsDrop); handleSelect("suitsDropDown"); }}>
               <ListIcon height="1.2em" width="1.2em" />
               Lawsuits
               { suitsDrop ? (
@@ -80,14 +90,14 @@ function SideBar(props) {
             {companies.map((company) => (
               <a key={company} href={"#/lawsuits/" + company}>
                 <button className={selectedButton == ("suits-"+company) ? styles.selected : ""}
-                  onClick={() => setSelectedButton("suits-"+company)}>{company}</button>
+                  onClick={() => handleSelect("suits-"+company)}>{company}</button>
               </a>
             ))}
           </div>
           <a href="#/business-self-regulation">
             <button id="business"
               className={(selectedButton == "business" ? styles.selected : "")}
-              onClick={() => {setSelectedButton("business")}}>
+              onClick={() => {handleSelect("business")}}>
               <PersonIcon height="1.2em" width="1.2em" />
               Business Self Regulation
             </button>
@@ -95,7 +105,7 @@ function SideBar(props) {
           <a href="#/technical-solutions">
             <button id="solutions"
               className={(selectedButton == "solutions" ? styles.selected : "")}
-              onClick={() => {setSelectedButton("solutions")}}>
+              onClick={() => {handleSelect("solutions")}}>
               <CheckIcon height="1.2em" width="1.2em" />
               Technical Solutions
             </button>

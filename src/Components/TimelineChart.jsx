@@ -106,8 +106,8 @@ const TimelineChart = (chartProps) => {
         },
         ticks: {
           autoSkip: false,
-          minRotation: 0,
-          maxRotation: 0,
+          minRotation: 45,
+          maxRotation: 90,
         }
       },
       y: {

@@ -220,7 +220,7 @@ export default function SearchContent(searchProps) {
     let newLabels = Object.keys(newDict);
     let newYear = newLabels[newLabels.length-1];
     setDataDict(newDict);
-    setYearLabels(newLabels);
+    setYearLabels(toYearLabels(newLabels));
     setYear(newYear);
     setFilteredNews(newDict[newYear]);
 
@@ -249,8 +249,15 @@ export default function SearchContent(searchProps) {
     return articlesDict;
   }
 
+  const toYearLabels = (labels) => {
+    labels.splice(labels.indexOf("NaN"), 1);  // remove NaN near end
+    labels.splice(0, 0, "NaN");               // add to front of list for ordering
+    return labels;
+  }
+
   const [dataDict, setDataDict] = useState(toDict(news));   // dictionary with data per year
-  const [yearLabels, setYearLabels] = useState(Object.keys(dataDict));  // list of years to display in timeline chart
+  const [yearLabels, setYearLabels] = useState(toYearLabels(Object.keys(dataDict)));  // list of years to display in timeline chart
+  console.log(yearLabels)
   const [year, setYear] = useState("All");  // year selected (defualt: most recent year)
   const [filteredNews, setFilteredNews] = useState(dataDict[year]); // filtered list of laws to display
 

@@ -85,6 +85,13 @@ export default function SearchContent(searchProps) {
     return articles;
   }
 
+  function multiplyPriority(articles, metadataKey, searchTerm) { // multiplies priority of articles
+    articles.forEach((article) => {
+      article.priority *= (article[metadataKey] && article[metadataKey][searchTerm] ? article[metadataKey][searchTerm] : 1);
+    });
+    return articles;
+  }
+
   function searchInput(articles, input, filterFunc, metadataKey) { // search by particular field using given input
     input = input.replace("AND", "&").replace("OR", "|").toLowerCase();
     let index = -1;  // index of next "&" or "|" (if it exists)
@@ -113,7 +120,7 @@ export default function SearchContent(searchProps) {
         else { searchTerm = input.substring(0, index).trim(); }
         results = filterFunc(results, searchTerm);
       }
-      results = addPriority(results, metadataKey, searchTerm);
+      results = multiplyPriority(results, metadataKey, searchTerm);
 
       if (index < 0) { input = "" }
       else { input = input.substring(index); }
@@ -236,7 +243,7 @@ export default function SearchContent(searchProps) {
     let articlesDict = {};  // law data processed as dictionary based on year
     for(let i = 0; i < articles.length; i++) {
       let article = articles[i];
-      let label = article.date == null ? "?" : parseInt(article.date);
+      let label = article.date == null ? "?" : parseInt(article.date.substring(article.date.length-4));
 
       if (articlesDict[label]) {
         articlesDict[label].push(article);
@@ -250,14 +257,15 @@ export default function SearchContent(searchProps) {
   }
 
   const toYearLabels = (labels) => {
-    labels.splice(labels.indexOf("NaN"), 1);  // remove NaN near end
-    labels.splice(0, 0, "NaN");               // add to front of list for ordering
+    if (labels.includes("NaN")) {
+      labels.splice(labels.indexOf("NaN"), 1);
+      labels.splice(0, 0, "NaN");
+    }
     return labels;
   }
 
   const [dataDict, setDataDict] = useState(toDict(news));   // dictionary with data per year
   const [yearLabels, setYearLabels] = useState(toYearLabels(Object.keys(dataDict)));  // list of years to display in timeline chart
-  console.log(yearLabels)
   const [year, setYear] = useState("All");  // year selected (defualt: most recent year)
   const [filteredNews, setFilteredNews] = useState(dataDict[year]); // filtered list of laws to display
 
@@ -272,6 +280,7 @@ export default function SearchContent(searchProps) {
     news: setFilteredNews,
   }
   
+  /*
   function handleClick(event, elements) {
     console.log(elements);
     let index = elements[0].index;
@@ -282,7 +291,7 @@ export default function SearchContent(searchProps) {
       setYear(yearLabels[index]);
       setFilteredNews(dataDict[yearLabels[index]]);
     }
-  }
+  }*/
 
   return (
     <>
@@ -377,11 +386,11 @@ export default function SearchContent(searchProps) {
                target={isAdmin ? (article.proquest ? "_blank" : "_self") : (article.url ? "_blank" : "_self")}>
               <b>{/*Title:*/} {article.title}</b>
               <p className={styles.spaceBetween}>
-                <span>Author: {article.author}</span>
+                <span>Author: {article.author ? article.author : "Unknown"}</span>
                 <span>Date: {article.date ? article.date : "Unknown"}</span>
-                <span>Publication: {article.publication}</span>
+                <span>Publication: {article.publication ? article.publication : "Unknown"}</span>
               </p>
-              {/*<p>Summary: {article.summary}</p>*/}
+              {article.summary ? <p>Summary: {article.summary}</p> : null}
             </a>
           ))
         ) : <p>0 results.</p>}

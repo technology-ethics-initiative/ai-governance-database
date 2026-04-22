@@ -58,6 +58,7 @@ let pagesData = { // dropdown pages dictionary (keys must match that of 'dropCat
 
 for (const [key, item] of Object.entries(database)) {
     item.uniqueID = key     // add unique ID to item dictionary
+    item.priority = 1       // add initial priority to item dictionary (to be used for search result ranking)
 
     // populate data dictionary
     data.all.push(item);

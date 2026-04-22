@@ -140,6 +140,11 @@ button.hidden, .searchBar.hidden, .chartContainer.hidden {
   justify-content: space-between;
 }
 
+.disabledLink {
+  pointer-events: none;
+  cursor: default;
+}
+
 @media (width <= 800px) {
   .chartContainer {
     width: 100vw;

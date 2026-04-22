@@ -5,10 +5,10 @@ import TimelineChart from "../Components/TimelineChart";
 
 export default function SearchContent(searchProps) {
   const { news, term } = searchProps;
+  const [isAdmin, setIsAdmin] = useState(localStorage.getItem("userAuthority") == "admin");
   const [newsResults, setNewsResults] = useState(news);   // news articles resulting from search
   const [terms, setTerms] = useState(term ? [term,] : []);
 
-  const [isAdmin, setIsAdmin] = useState(localStorage.getItem("userAuthority") == "admin");
   const [filterDrop, setFilterDrop] = useState(false);  // state (visible or hidden) of 'Advanced Search' menu
   const [showTitleB, setShowTitleB] = useState({
     And: false,
@@ -29,7 +29,7 @@ export default function SearchContent(searchProps) {
   
 
   /* Search Functionality */
-  function mergeArray(arrayA, arrayB) {
+  function mergeArray(arrayA, arrayB) {  // merges two arrays into one (duplicates removed)
     let mergedArray = new Set([...arrayA.concat(arrayB)]);  // conversion to Set to remove duplicates
     return [...mergedArray];
   }
@@ -74,7 +74,7 @@ export default function SearchContent(searchProps) {
 
   function resetPriority(articles) { // resets priority attribute of articles
     articles.forEach((article) => {
-      article.priority = 0;
+      article.priority = 1;
     });
   }
 
@@ -127,6 +127,25 @@ export default function SearchContent(searchProps) {
     }
     
     return results;
+  }
+
+  function sortNews(articles) { // sorts news articles by priority and whether they have active links
+    // sort articles in descending order of priority
+    let sortedArticles = articles.sort((articleA, articleB) => (articleB.priority - articleA.priority));
+
+    // sort articles with no links to the end of the list
+    let linkArticles = []
+    let noLinkArticles = []
+    for (let i = 0; i < sortedArticles.length; i++) {
+      let noLink = isAdmin ? sortedArticles[i].proquest === "" : sortedArticles[i].url === "";
+      if (noLink) {
+        noLinkArticles.push(sortedArticles[i]);
+      } else {
+        linkArticles.push(sortedArticles[i]);
+      }
+    }
+
+    return [...linkArticles, ...noLinkArticles];
   }
   
   function searchNews(articles) { // search and filter to get the final list of resulting news articles
@@ -185,10 +204,7 @@ export default function SearchContent(searchProps) {
       resultArticles = mergeArray(resultArticles, searchInput(articles, titleA, filterConcept, "concept"));
     }
 
-    // sort resultArticles in descending order of priority
-    resultArticles = resultArticles.sort((articleA, articleB) => (articleB.priority - articleA.priority));
-
-    return resultArticles;
+    return sortNews(resultArticles);
   };
 
   function updateTerms() { // updates 
@@ -219,27 +235,10 @@ export default function SearchContent(searchProps) {
     setTerms(tempTerms);
   }
 
-  function updateResults(articles) {
-    const resultArticles = searchNews(articles);  // get search results
-
-    // update 
-    let newDict = toDict(resultArticles);
-    let newLabels = Object.keys(newDict);
-    let newYear = newLabels[newLabels.length-1];
-    setDataDict(newDict);
-    setYearLabels(toYearLabels(newLabels));
-    setYear(newYear);
-    setFilteredNews(newDict[newYear]);
-
-    updateTerms();
-  }
-
-  useEffect(() => {   // handles update of news by general tab pages
-    updateResults(news);
-  }, [news]);
-
   /* Graph Functionality */
   const toDict = (articles) => {  // convert news articles to a dictionary key-ed by year
+    if (articles.length <= 0) { return {}; }
+
     let articlesDict = {};  // law data processed as dictionary based on year
     for(let i = 0; i < articles.length; i++) {
       let article = articles[i];
@@ -264,10 +263,30 @@ export default function SearchContent(searchProps) {
     return labels;
   }
 
-  const [dataDict, setDataDict] = useState(toDict(news));   // dictionary with data per year
+  const [dataDict, setDataDict] = useState(toDict(sortNews(news)));   // dictionary with data per year
   const [yearLabels, setYearLabels] = useState(toYearLabels(Object.keys(dataDict)));  // list of years to display in timeline chart
-  const [year, setYear] = useState("All");  // year selected (defualt: most recent year)
+  const [year, setYear] = useState("All");  // year selected (default: most recent year)
   const [filteredNews, setFilteredNews] = useState(dataDict[year]); // filtered list of laws to display
+  console.log(filteredNews);
+
+  function updateNewsResults(articles) {
+    const resultArticles = searchNews(articles);  // get search results
+
+    // update 
+    let newDict = toDict(resultArticles);
+    let newLabels = Object.keys(newDict);
+    let newYear = newLabels[newLabels.length-1];
+    setDataDict(newDict);
+    setYearLabels(toYearLabels(newLabels));
+    setYear(newYear);
+    setFilteredNews(newDict[newYear]);
+
+    updateTerms();
+  }
+
+  useEffect(() => {   // handles update of news by general tab pages
+    updateNewsResults(news);
+  }, [news]);
 
   const chartData = {
     yearLabels: yearLabels,
@@ -359,7 +378,7 @@ export default function SearchContent(searchProps) {
             </div>
           </div>
 
-          <button className={styles.searchButton} type='submit' onClick={() => setNewsResults(updateResults(news))}>Search</button>
+          <button className={styles.searchButton} type='submit' onClick={() => setNewsResults(updateNewsResults(news))}>Search</button>
           <button className={styles.menuButton} onClick={() => setFilterDrop(!filterDrop)}>
             { filterDrop ? (
               <MinusIcon height="1.2em" width="1.2em" />
@@ -381,8 +400,8 @@ export default function SearchContent(searchProps) {
         <div className={styles.newsContainer}>
         {filteredNews ? (
           filteredNews.map((article) => (
-            <a className={styles.articleCard} key={article.uniqueID}
-               href={isAdmin ? article.proquest : article.url ? article.url : "javascript:void(0)"}
+            <a className={styles.articleCard + " " + (isAdmin && article.proquest ? "" : (!isAdmin && article.url ? "" : styles.disabledLink))} key={article.uniqueID}
+               href={isAdmin ? article.proquest : article.url ? article.url : ""}
                target={isAdmin ? (article.proquest ? "_blank" : "_self") : (article.url ? "_blank" : "_self")}>
               <b>{/*Title:*/} {article.title}</b>
               <p className={styles.spaceBetween}>

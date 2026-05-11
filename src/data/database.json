@@ -287972,14 +287972,15 @@
     "primaryType": "solutions",
     "secondaryType": null
   },
+  
   "3117140072": {
     "title": "KPMG Australia an AI pioneer",
     "author": "",
-    "date": "2024-10-17",
     "publication": "The Australian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/kpmg-australia-ai-pioneer/docview/3117140072/se-2?accountid=28598",
     "summary": "",
+    "date": "10-17-2024",
     "organization": "KPMG Australia",
     "region": {
       "Australia": 3,
@@ -288001,11 +288002,11 @@
   "3219231869": {
     "title": "Synapxe signs agreements with OpenAI, Databricks and Google Cloud to boost AI skills and solutions",
     "author": "Cher, Benjamin",
-    "date": "2025-06-17",
     "publication": "The Business Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/synapxe-signs-agreements-with-openai-databricks/docview/3219231869/se-2?accountid=28598",
     "summary": "",
+    "date": "06-17-2025",
     "organization": "OpenAI",
     "region": {
       "China": 1,
@@ -288034,11 +288035,11 @@
   "3281549302": {
     "title": "Ethics, return on investment are key to nailing the benefits of AI",
     "author": "",
-    "date": "2025-12-12",
     "publication": "The Australian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ethics-return-on-investment-are-key-nailing/docview/3281549302/se-2?accountid=28598",
     "summary": "",
+    "date": "12-12-2025",
     "organization": "",
     "region": {
       "Australia": 3
@@ -288060,11 +288061,11 @@
   "3331796144": {
     "title": "Minister backing Firmus blockbuster",
     "author": "",
-    "date": "2026-04-21",
     "publication": "The Australian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/minister-backing-firmus-blockbuster/docview/3331796144/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "NVidia Corp",
     "region": {
       "Australia": 6,
@@ -288085,11 +288086,11 @@
   "3332594575": {
     "title": "The Hypocrisy of OpenAI and Palantir",
     "author": "New York Times (Video). New York Times Company. Apr 21, 2026.",
-    "date": "2026-04-21",
     "publication": "New York Times",
     "url": "https://www.nytimes.com/video/opinion/100000010844899/the-hypocrisy-of-openai-and-palantir.html",
     "proquest": "https://www.proquest.com/audio-video-works/hypocrisy-openai-palantir/docview/3332594575/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -288111,11 +288112,11 @@
   "3332339091": {
     "title": "Why the oil shock can be China\u2019s buying moment",
     "author": "",
-    "date": "2026-04-21",
     "publication": "The Business Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/why-oil-shock-can-be-china-s-buying-moment/docview/3332339091/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "",
     "region": {
       "China": 27,
@@ -288137,11 +288138,11 @@
   "3332296491": {
     "title": "UK watchdog to investigate Telegram over alleged child sexual abuse material",
     "author": "Campbell, Sin\u00e9ad",
-    "date": "2026-04-21",
     "publication": "Guardian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/uk-watchdog-investigate-telegram-over-alleged/docview/3332296491/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "Office of Communications-UK",
     "region": {
       "Italy": 1,
@@ -288166,11 +288167,11 @@
   "3332268016": {
     "title": "SpaceX Strikes Deal With Cursor for $60 Billion",
     "author": "Griffith, Erin; Isaac, Mike; Ryan, Mac",
-    "date": "2026-04-21",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/spacex-strikes-deal-with-cursor-60-billion/docview/3332268016/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "Space Exploration Technologies Corp",
     "region": {},
     "usState": {},
@@ -288191,11 +288192,11 @@
   "3332147862": {
     "title": "Faster attacks, quicker exploits: Early testers of new AI models warn of their new abilities",
     "author": "Sabin, Sam",
-    "date": "2026-04-21",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/faster-attacks-quicker-exploits-early-testers-new/docview/3332147862/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "OpenAI",
     "region": {
       "China": 1,
@@ -288220,11 +288221,11 @@
   "3332144469": {
     "title": "Chip-Equipment Supplier ASM International Logs Higher Sales on Booming AI Demand; Chip makers continue to invest in tools to make increasingly sophisticated semiconductors in a bid to satisfy booming demand for AI",
     "author": "Orru, Mauro",
-    "date": "2026-04-21",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/chip-equipment-supplier-asm-international-logs/docview/3332144469/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "ASML",
     "region": {
       "Netherlands": 1
@@ -288244,11 +288245,11 @@
   "3332149225": {
     "title": "Study Finds More Reliance On GenAI Is Linked To Lower Confidence In Independent Thinking",
     "author": "Dorisca, Samantha",
-    "date": "2026-04-21",
     "publication": "AfroTech",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/study-finds-more-reliance-on-genai-is-linked/docview/3332149225/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -288270,11 +288271,11 @@
   "3332096686": {
     "title": "Florida Officials Say ChatGPT May Have Advised Gunman in School Shooting",
     "author": "Mazzei, Patricia",
-    "date": "2026-04-21",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/florida-officials-say-chatgpt-may-have-advised/docview/3332096686/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "Florida State University",
     "region": {},
     "usState": {
@@ -288296,11 +288297,11 @@
   "3332082026": {
     "title": "Diplomatic duties for Tim Cook after stepping down as Apple CEO",
     "author": "Montgomery, Blake",
-    "date": "2026-04-21",
     "publication": "Guardian",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/diplomatic-duties-tim-cook-after-stepping-down-as/docview/3332082026/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "OpenAI",
     "region": {
       "Bahrain": 1,
@@ -288338,11 +288339,11 @@
   "3331909531": {
     "title": "\u2018Software engineers are busier than ever\u2019: Nvidia CEO Jensen Huang dismisses \u2018AI destroying jobs\u2019 narrative",
     "author": "",
-    "date": "2026-04-21",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/software-engineers-are-busier-than-ever-nvidia/docview/3331909531/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "NVidia Corp",
     "region": {},
     "usState": {},
@@ -288363,11 +288364,11 @@
   "3331882030": {
     "title": "Why Are Palantir and OpenAI Scared of Alex Bores?: The Ezra Klein Show",
     "author": "Klein, Ezra; Galvin, Annie",
-    "date": "2026-04-21",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/why-are-palantir-openai-scared-alex-bores/docview/3331882030/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "OpenAI",
     "region": {
       "China": 1,
@@ -288407,11 +288408,11 @@
   "3331841186": {
     "title": "Musk Ignores Prosecutors In France, Widening a Rift: [Foreign Desk]",
     "author": "Porter, Catherine",
-    "date": "2026-04-21",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/musk-ignores-prosecutors-france-widening-rift/docview/3331841186/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "European Union",
     "region": {
       "France": 9,
@@ -288433,11 +288434,11 @@
   "3331841158": {
     "title": "California Suit Says Amazon Skewed Prices: [National Desk]",
     "author": "McCabe, David",
-    "date": "2026-04-21",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/california-suit-says-amazon-skewed-prices/docview/3331841158/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "Best Buy Co Inc",
     "region": {},
     "usState": {
@@ -288460,11 +288461,11 @@
   "3331821753": {
     "title": "Atomic impact: Nuclear-powered AI infrastructure could be India\u2019s geopolitical moat",
     "author": "Lohchab, Himanshi",
-    "date": "2026-04-21",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/atomic-impact-nuclear-powered-ai-infrastructure/docview/3331821753/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "",
     "region": {
       "India": 14
@@ -288486,11 +288487,11 @@
   "3332129407": {
     "title": "More Harvard Business School students are opting for startups. Why?",
     "author": "Pressman, Aaron",
-    "date": "2026-04-21",
     "publication": "Boston Globe",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/more-harvard-business-school-students-are-opting/docview/3332129407/se-2?accountid=28598",
     "summary": "",
+    "date": "04-21-2026",
     "organization": "Harvard Business School",
     "region": {},
     "usState": {
@@ -288518,11 +288519,11 @@
   "3332611887": {
     "title": "Northern Illinois spared worst of power bill spike",
     "author": "Monica Eng Alex Fitzpatrick",
-    "date": "2026-04-22",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/northern-illinois-spared-worst-power-bill-spike/docview/3332611887/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "",
     "region": {
       "India": 1,
@@ -288551,11 +288552,11 @@
   "3332878440": {
     "title": "AI\u2019s future at work looks more like OpenClaw than OpenAI",
     "author": "Vaidya, Sumeet",
-    "date": "2026-04-22",
     "publication": "The Business Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ai-s-future-at-work-looks-more-like-openclaw-than/docview/3332878440/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -288575,11 +288576,11 @@
   "3332878379": {
     "title": "Strategic decisiveness is key for businesses in fragmented world: DPM Gan",
     "author": "Oh, Tessa",
-    "date": "2026-04-22",
     "publication": "The Business Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/strategic-decisiveness-is-key-businesses/docview/3332878379/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "",
     "region": {
       "China": 1,
@@ -288604,11 +288605,11 @@
   "3332649865": {
     "title": "Hill Republicans give federal data privacy another go",
     "author": "Gold, Ashley",
-    "date": "2026-04-22",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/hill-republicans-give-federal-data-privacy/docview/3332649865/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "Republican Party",
     "region": {},
     "usState": {},
@@ -288626,11 +288627,11 @@
   "3332635405": {
     "title": "Google Steps Up Its Long Running Challenge to Nvidia With New AI Chips",
     "author": "Levine, Adam",
-    "date": "2026-04-22",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/google-steps-up-long-running-challenge-nvidia/docview/3332635405/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "NVidia Corp",
     "region": {},
     "usState": {},
@@ -288655,11 +288656,11 @@
   "3332604735": {
     "title": "Google Introduces Specialized Chip for New Wave of AI Computing; New version of company's TPU is first designed for inference as agent boom sends demand soaring",
     "author": "Whelan, Robbie; Blunt, Katherine",
-    "date": "2026-04-22",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/google-introduces-specialized-chip-new-wave-ai/docview/3332604735/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "Broadcom Inc",
     "region": {},
     "usState": {},
@@ -288685,11 +288686,11 @@
   "3332890839": {
     "title": "AI & Tech Brief: Beijing tightens grip on AI startups",
     "author": "",
-    "date": "2026-04-22",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/ai-amp-tech-brief-beijing-tightens-grip-on/docview/3332890839/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "Washington Post Co",
     "region": {
       "China": 18,
@@ -288718,11 +288719,11 @@
   "3332570152": {
     "title": "Are Meme Stocks Headed for Your Index Fund? Plus, cease-fire celebration",
     "author": "Jakab, Spencer",
-    "date": "2026-04-22",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/are-meme-stocks-headed-your-index-fund-plus-cease/docview/3332570152/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "Deutsche Telekom AG",
     "region": {
       "China": 1,
@@ -288749,11 +288750,11 @@
   "3332463539": {
     "title": "\u2018Heinous designs of terrorists will never succeed\u2019: PM Modi pays homage to victims a year after Pahalgam attack",
     "author": "",
-    "date": "2026-04-22",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/heinous-designs-terrorists-will-never-succeed-pm/docview/3332463539/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "Army-India",
     "region": {
       "India": 12,
@@ -288772,11 +288773,11 @@
   "3332453379": {
     "title": "Graham Platner Went to Hell and Back. He Has a Simple Message for Democrats.: Guest Essay",
     "author": "Rhodes, Ben",
-    "date": "2026-04-22",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/graham-platner-went-hell-back-he-has-simple/docview/3332453379/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "Democratic Party",
     "region": {
       "Afghanistan": 3,
@@ -288809,11 +288810,11 @@
   "3332410991": {
     "title": "These AI Stocks Aren't for Faint of Heart",
     "author": "Jakab, Spencer",
-    "date": "2026-04-22",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/these-ai-stocks-arent-faint-heart/docview/3332410991/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -288831,11 +288832,11 @@
   "3332385902": {
     "title": "Amazon Says It Will Invest Billions More In Anthropic: [Business/Financial Desk]",
     "author": "Metz, Cade; Weise, Karen",
-    "date": "2026-04-22",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/amazon-says-will-invest-billions-more-anthropic/docview/3332385902/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -288858,11 +288859,11 @@
   "3332385879": {
     "title": "Investigation Into ChatGPT On Ties to School Shooting: [National Desk]",
     "author": "Mazzei, Patricia",
-    "date": "2026-04-22",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/investigation-into-chatgpt-on-ties-school/docview/3332385879/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "Florida State University",
     "region": {},
     "usState": {
@@ -288884,11 +288885,11 @@
   "3332362866": {
     "title": "SUSE eyes deeper India push as CEO flags growth, open-source demand",
     "author": "Suraksha, P",
-    "date": "2026-04-22",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/suse-eyes-deeper-india-push-as-ceo-flags-growth/docview/3332362866/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "",
     "region": {
       "Germany": 2,
@@ -288911,11 +288912,11 @@
   "3332597892": {
     "title": "Anthropic\u2019s Leaked Code Tests Copyright Challenges in A.I. Era",
     "author": "Tobin, Meaghan",
-    "date": "2026-04-22",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/anthropic-s-leaked-code-tests-copyright/docview/3332597892/se-2?accountid=28598",
     "summary": "",
+    "date": "04-22-2026",
     "organization": "New York Times Co",
     "region": {
       "United States": 2
@@ -288941,11 +288942,11 @@
   "3333247553": {
     "title": "The Billionaire Math Geek Who Turned AI Into a Money-Printing Machine; Alex Gerko's XTX Markets uses Nvidia chips and 'deep learning' to forecast price moves",
     "author": "Osipovich, Alexander",
-    "date": "2026-04-23",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/billionaire-math-geek-who-turned-ai-into-money/docview/3333247553/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "LinkedIn Corp",
     "region": {
       "Finland": 2,
@@ -288976,11 +288977,11 @@
   "3333253177": {
     "title": "Blackstone Stock Falls After Earnings. Private Credit Remains in Focus.",
     "author": "Mackenzie Tatananni",
-    "date": "2026-04-23",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/blackstone-stock-falls-after-earnings-private/docview/3333253177/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -289000,11 +289001,11 @@
   "3333281674": {
     "title": "Elon Musk and Sam Altman\u2019s Epic Fight Heads to Court",
     "author": "Metz, Cade",
-    "date": "2026-04-23",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/elon-musk-sam-altman-s-epic-fight-heads-court/docview/3333281674/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "OpenAI",
     "region": {
       "China": 1
@@ -289030,11 +289031,11 @@
   "3333322044": {
     "title": "Meta to Lay Off 10% of Employees in May; Company says workforce cut of 8,000 needed to run more efficiently and offset other investments",
     "author": "Bobrowsky, Meghan",
-    "date": "2026-04-23",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/meta-lay-off-10-employees-may-company-says/docview/3333322044/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "Meta Platforms Inc",
     "region": {},
     "usState": {},
@@ -289052,11 +289053,11 @@
   "3333303385": {
     "title": "Robot Supreme? Table tennis clanker Ace beats elite human players in AI milestone",
     "author": "Henson, Steve",
-    "date": "2026-04-23",
     "publication": "Los Angeles Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/robot-supreme-table-tennis-clanker-ace-beats/docview/3333303385/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -289076,11 +289077,11 @@
   "3333316601": {
     "title": "Tim Cook wrote a winning recipe for Apple",
     "author": "",
-    "date": "2026-04-23",
     "publication": "The Economist",
     "url": "",
     "proquest": "https://www.proquest.com/magazines/tim-cook-wrote-winning-recipe-apple/docview/3333316601/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "Apple Inc",
     "region": {
       "China": 5,
@@ -289106,11 +289107,11 @@
   "3333471903": {
     "title": "Could AI poison the stock market?: Technology smarter and faster than mere mortals has been manipulating markets for years",
     "author": "Gay, Chris",
-    "date": "2026-04-23",
     "publication": "The Globe and Mail",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/could-ai-poison-stock-market/docview/3333471903/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "",
     "region": {
       "Canada": 1,
@@ -289134,11 +289135,11 @@
   "3333298821": {
     "title": "OpenAI Unveils Its New, More Powerful Model",
     "author": "Metz, Cade",
-    "date": "2026-04-23",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/openai-unveils-new-more-powerful-model/docview/3333298821/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -289162,11 +289163,11 @@
   "3333024410": {
     "title": "These Stocks Are Today's Movers: Tesla, IBM, Oklo, ServiceNow, United Rentals, and More",
     "author": "Mackenzie Tatananni; Glover, George; Norton, Kit; Smith, Connor",
-    "date": "2026-04-23",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/these-stocks-are-todays-movers-tesla-ibm-oklo/docview/3333024410/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "Lam Research Corp",
     "region": {
       "Indonesia": 1
@@ -289188,11 +289189,11 @@
   "3333245129": {
     "title": "DealBook: Tesla\u2019s $25 billion A.I. bet",
     "author": "",
-    "date": "2026-04-23",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/dealbook-tesla-s-25-billion-i-bet/docview/3333245129/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "Nike Inc",
     "region": {
       "China": 2,
@@ -289225,11 +289226,11 @@
   "3332942293": {
     "title": "Google to Offer AI 'Inference' Chip --- New version of the company's TPU is customized for querying models",
     "author": "Whelan, Robbie; Blunt, Katherine",
-    "date": "2026-04-23",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/google-offer-ai-inference-chip-new-version/docview/3332942293/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "NVidia Corp",
     "region": {},
     "usState": {},
@@ -289254,11 +289255,11 @@
   "3332939457": {
     "title": "SpaceX Strikes a Deal With Cursor for $60 Billion: [Business/Financial Desk]",
     "author": "Griffith, Erin; Isaac, Mike; Ryan, Mac",
-    "date": "2026-04-23",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/spacex-strikes-deal-with-cursor-60-billion/docview/3332939457/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "X.AI Corp",
     "region": {},
     "usState": {},
@@ -289279,11 +289280,11 @@
   "3332939453": {
     "title": "Leaked Code Tests Value Of Copyright: [Business/Financial Desk]",
     "author": "Tobin, Meaghan",
-    "date": "2026-04-23",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/leaked-code-tests-value-copyright/docview/3332939453/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "New York Times Co",
     "region": {
       "Canada": 1,
@@ -289311,11 +289312,11 @@
   "3332930577": {
     "title": "Shares of Apple Supplier STMicroelectronics Jump After Strong Quarter; Revenue climbed 23%, lifted by its businesses in personal electronics, computers and other equipment",
     "author": "Orru, Mauro",
-    "date": "2026-04-23",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/shares-apple-supplier-stmicroelectronics-jump/docview/3332930577/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "STMicroelectronics",
     "region": {
       "Germany": 1,
@@ -289341,11 +289342,11 @@
   "3332893816": {
     "title": "Women-only retreats in a fight for survival",
     "author": "",
-    "date": "2026-04-23",
     "publication": "USA Today",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/women-only-retreats-fight-survival/docview/3332893816/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "Equal Employment Opportunity Commission--EEOC",
     "region": {
       "United States": 4
@@ -289369,11 +289370,11 @@
   "3332886093": {
     "title": "Microsoft to Invest $18 Billion to Expand Australia's AI Capacity by 2029; Microsoft will train three million locals with AI skills by 2028",
     "author": "Kao, Kimberley",
-    "date": "2026-04-23",
     "publication": "Wall Street Journal",
     "url": "https://www.wsj.com/podcasts/the-journal/when-ai-comes-for-your-art/6873601d-dc2f-496b-ac14-2c0829e7b068",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/microsoft-invest-18-billion-expand-australias-ai/docview/3332886093/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "",
     "region": {
       "Australia": 9,
@@ -289402,11 +289403,11 @@
   "3332863499": {
     "title": "The next big opportunity for GCCs",
     "author": "",
-    "date": "2026-04-23",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/next-big-opportunity-gccs/docview/3332863499/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "",
     "region": {
       "India": 19
@@ -289429,11 +289430,11 @@
   "3332861881": {
     "title": "The algorithm will see you now",
     "author": "",
-    "date": "2026-04-23",
     "publication": "The Australian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/algorithm-will-see-you-now/docview/3332861881/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "Food & Drug Administration--FDA",
     "region": {
       "Georgia": 1
@@ -289460,11 +289461,11 @@
   "3332782534": {
     "title": "Sundar Pichai reaffirms $185 billion capex spending by Google in 2026",
     "author": "Chakraborty, Subhayan",
-    "date": "2026-04-23",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/sundar-pichai-reaffirms-185-billion-capex/docview/3332782534/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "",
     "region": {
       "Iran (Islamic Republic of)": 1
@@ -289488,11 +289489,11 @@
   "3332527759": {
     "title": "China, Mozambique upgrade ties as Xi, Chapo hold talks",
     "author": "",
-    "date": "2026-04-23",
     "publication": "Beijing Review",
     "url": "",
     "proquest": "https://www.proquest.com/magazines/china-mozambique-upgrade-ties-as-xi-chapo-hold/docview/3332527759/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "",
     "region": {
       "China": 35,
@@ -289511,11 +289512,11 @@
   "3332942345": {
     "title": "Family & Tech: AI Bot Helps Dementia Patients Practice Their Cognitive Skills --- Online exercises paired with telehealth visits can act as 'physical therapy for the brain'",
     "author": "Jargon, Julie",
-    "date": "2026-04-23",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/family-amp-tech-ai-bot-helps-dementia-patients/docview/3332942345/se-2?accountid=28598",
     "summary": "",
+    "date": "04-23-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -289541,11 +289542,11 @@
   "3333667661": {
     "title": "Google Commits to Invest Up to $40 Billion in Anthropic",
     "author": "Mickle, Tripp",
-    "date": "2026-04-24",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/google-commits-invest-up-40-billion-anthropic/docview/3333667661/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "OpenAI",
     "region": {
       "United States": 1
@@ -289572,11 +289573,11 @@
   "3333680231": {
     "title": "Officials hugely underestimated impact of AI datacentres on UK carbon emissions",
     "author": "Gayle, Damien",
-    "date": "2026-04-24",
     "publication": "Guardian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/officials-hugely-underestimated-impact-ai/docview/3333680231/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {
       "United Kingdom": 6
@@ -289596,11 +289597,11 @@
   "3333754694": {
     "title": "Justice Department joins xAI challenge to Colorado AI law",
     "author": "Gold, Ashley",
-    "date": "2026-04-24",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/justice-department-joins-xai-challenge-colorado/docview/3333754694/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "X.AI Corp",
     "region": {},
     "usState": {
@@ -289620,11 +289621,11 @@
   "3333604011": {
     "title": "5 Tall Tasks for Apple\u2019s Next C.E.O.",
     "author": "Huang, Kalley",
-    "date": "2026-04-24",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/5-tall-tasks-apple-s-next-c-e-o/docview/3333604011/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {
       "China": 5,
@@ -289654,11 +289655,11 @@
   "3334219463": {
     "title": "KPMG Layoffs: Big Four firm to cut 10% of US audit partners amid slower attrition and cost pressure",
     "author": "",
-    "date": "2026-04-24",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/kpmg-layoffs-big-four-firm-cut-10-us-audit/docview/3334219463/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "Wall Street Journal",
     "region": {
       "United States": 2
@@ -289680,11 +289681,11 @@
   "3334050920": {
     "title": "Dell AI Infrastructure Deal Shows That Hyperscalers Aren't the Only Players. Plus, Adobe and 4 More Stocks.",
     "author": "",
-    "date": "2026-04-24",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/dell-ai-infrastructure-deal-shows-that/docview/3334050920/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "New York Stock Exchange--NYSE",
     "region": {
       "Iran (Islamic Republic of)": 1,
@@ -289706,11 +289707,11 @@
   "3334055332": {
     "title": "Review & Preview: Dot-Com Glory Days",
     "author": "Eule, Alex",
-    "date": "2026-04-24",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/review-amp-preview-dot-com-glory-days/docview/3334055332/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "Federal Open Market Committee--FOMC",
     "region": {
       "Iran (Islamic Republic of)": 1,
@@ -289738,11 +289739,11 @@
   "3334172646": {
     "title": "A ceasefire in name, pressure in practice",
     "author": "Keinon, Herb",
-    "date": "2026-04-24",
     "publication": "Jerusalem Post",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ceasefire-name-pressure-practice/docview/3334172646/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {
       "Iran (Islamic Republic of)": 23,
@@ -289764,11 +289765,11 @@
   "3334044875": {
     "title": "This AI Stock Has Tripled Since Its IPO. Its CEO Just Cashed In.",
     "author": "Mackenzie Tatananni",
-    "date": "2026-04-24",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/this-ai-stock-has-tripled-since-ipo-ceo-just/docview/3334044875/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "Securities & Exchange Commission",
     "region": {},
     "usState": {},
@@ -289788,11 +289789,11 @@
   "3333593935": {
     "title": "The rise of AI-first healthcare systems: Are we ready for the shift?",
     "author": "",
-    "date": "2026-04-24",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/rise-ai-first-healthcare-systems-are-we-ready/docview/3333593935/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {
       "India": 7
@@ -289814,11 +289815,11 @@
   "3333483682": {
     "title": "OpenAI Unveils Its New, More Powerful Model, and Shares It With Chatbot Users: [Business/Financial Desk]",
     "author": "Metz, Cade",
-    "date": "2026-04-24",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/openai-unveils-new-more-powerful-model-shares/docview/3333483682/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -289842,11 +289843,11 @@
   "3333588247": {
     "title": "Oracle Stock Is No High-Risk AI Play, Says Analyst. Why It Can Challenge Microsoft, Amazon.",
     "author": "Clark, Adam",
-    "date": "2026-04-24",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/oracle-stock-is-no-high-risk-ai-play-says-analyst/docview/3333588247/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -289871,11 +289872,11 @@
   "3333588249": {
     "title": "Amazon Is a Big AI Chip Player Now. Just Look at Its Deal with Meta.",
     "author": "Clark, Adam",
-    "date": "2026-04-24",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/amazon-is-big-ai-chip-player-now-just-look-at/docview/3333588249/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -289896,11 +289897,11 @@
   "3333419702": {
     "title": "Microsoft to spend $25bn on Australian AI blitz",
     "author": "",
-    "date": "2026-04-24",
     "publication": "The Australian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/microsoft-spend-25bn-on-australian-ai-blitz/docview/3333419702/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "Australian Signals Directorate",
     "region": {
       "Australia": 27,
@@ -289925,11 +289926,11 @@
   "3333436889": {
     "title": "Behind Meta's Huge Layoffs Is a Relentless Shift Toward AI; As company envisions smaller teams and supersmart agents, some employees wonder how they fit in",
     "author": "Bobrowsky, Meghan",
-    "date": "2026-04-24",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/behind-metas-huge-layoffs-is-relentless-shift/docview/3333436889/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -289949,11 +289950,11 @@
   "3333453275": {
     "title": "Digest",
     "author": "",
-    "date": "2026-04-24",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/digest/docview/3333453275/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {
       "France": 3,
@@ -289983,11 +289984,11 @@
   "3333461814": {
     "title": "Anthropic looking to hire talent to drive Europe expansion: Report",
     "author": "",
-    "date": "2026-04-24",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/anthropic-looking-hire-talent-drive-europe/docview/3333461814/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "OpenAI",
     "region": {
       "Norway": 1
@@ -290014,11 +290015,11 @@
   "3333483657": {
     "title": "Musk's Fight With Altman Goes to Court: [Business/Financial Desk]",
     "author": "Metz, Cade",
-    "date": "2026-04-24",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/musks-fight-with-altman-goes-court/docview/3333483657/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "OpenAI",
     "region": {
       "China": 1
@@ -290044,11 +290045,11 @@
   "3333499845": {
     "title": "Meta Layoffs Take Aim At Rising AI Costs",
     "author": "Bobrowsky, Meghan",
-    "date": "2026-04-24",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/meta-layoffs-take-aim-at-rising-ai-costs/docview/3333499845/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "Meta Platforms Inc",
     "region": {},
     "usState": {},
@@ -290066,11 +290067,11 @@
   "3333552427": {
     "title": "Bangladesh media highlights 24 Apr 26",
     "author": "",
-    "date": "2026-04-24",
     "publication": "BBC Monitoring South Asia",
     "url": "",
     "proquest": "https://www.proquest.com/wire-feeds/bangladesh-media-highlights-24-apr-26/docview/3333552427/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "",
     "region": {
       "Bangladesh": 27,
@@ -290098,11 +290099,11 @@
   "3333564950": {
     "title": "Meta Layoffs Used to Boost the Stock. Why Markets Aren't Buying It This Time.",
     "author": "",
-    "date": "2026-04-24",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/meta-layoffs-used-boost-stock-why-markets-arent/docview/3333564950/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "Atlanta Braves",
     "region": {},
     "usState": {
@@ -290126,11 +290127,11 @@
   "3333542428": {
     "title": "Sam Altman\u2019s Next High-Wire Act: Getting OpenAI to Make More Money",
     "author": "Isaac, Mike",
-    "date": "2026-04-24",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/sam-altman-s-next-high-wire-act-getting-openai/docview/3333542428/se-2?accountid=28598",
     "summary": "",
+    "date": "04-24-2026",
     "organization": "Space Exploration Technologies Corp",
     "region": {},
     "usState": {},
@@ -290154,11 +290155,11 @@
   "3333348773": {
     "title": "Take the iPhone, garnish with globalisation",
     "author": "",
-    "date": "2026-04-25",
     "publication": "The Economist",
     "url": "",
     "proquest": "https://www.proquest.com/magazines/take-iphone-garnish-with-globalisation/docview/3333348773/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "",
     "region": {
       "China": 5,
@@ -290184,11 +290185,11 @@
   "3333942521": {
     "title": "Google Is Promising to Invest Up to $40 Billion in Anthropic: [Business/Financial Desk]",
     "author": "Mickle, Tripp",
-    "date": "2026-04-25",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/google-is-promising-invest-up-40-billion/docview/3333942521/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "OpenAI",
     "region": {
       "United States": 1
@@ -290215,11 +290216,11 @@
   "3333951730": {
     "title": "Why this money manager owns Caterpillar, TSMC and Canadian dividend ETF",
     "author": "Bouw, Brenda",
-    "date": "2026-04-25",
     "publication": "The Globe and Mail",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/why-this-money-manager-owns-caterpillar-tsmc/docview/3333951730/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -290237,11 +290238,11 @@
   "3333955242": {
     "title": "Leaked Code Tests Value Of Copyright",
     "author": "Tobin, Meaghan",
-    "date": "2026-04-25",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/leaked-code-tests-value-copyright/docview/3333955242/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "New York Times Co",
     "region": {
       "United States": 2
@@ -290267,11 +290268,11 @@
   "3333957055": {
     "title": "Turn Off Social Media'S Psychological Tricks",
     "author": "Olson, Parmy",
-    "date": "2026-04-25",
     "publication": "Pittsburgh Post - Gazette",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/turn-off-social-medias-psychological-tricks/docview/3333957055/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "",
     "region": {
       "Australia": 1,
@@ -290307,11 +290308,11 @@
   "3334014446": {
     "title": "Why are copper prices near high and will the momentum continue?",
     "author": "",
-    "date": "2026-04-25",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/why-are-copper-prices-near-high-will-momentum/docview/3334014446/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "",
     "region": {
       "China": 4,
@@ -290333,11 +290334,11 @@
   "3334015266": {
     "title": "US tech giant Microsoft announces voluntary retirement: What is it, who is eligible and what is the math used in calculation?",
     "author": "Desk, Trending",
-    "date": "2026-04-25",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/us-tech-giant-microsoft-announces-voluntary/docview/3334015266/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "",
     "region": {
       "Italy": 1
@@ -290360,11 +290361,11 @@
   "3334061831": {
     "title": "EXCHANGE --- The Billionaire Math Geek Who Made a Money-Printing Machine Out of AI --- Alex Gerko's XTX Markets uses Nvidia chips and 'deep learning' to forecast price moves",
     "author": "Osipovich, Alexander",
-    "date": "2026-04-25",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/exchange-billionaire-math-geek-who-made-money/docview/3334061831/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "LinkedIn Corp",
     "region": {
       "Finland": 2,
@@ -290395,11 +290396,11 @@
   "3334061881": {
     "title": "Meta's Embrace of AI Propels Huge Layoffs",
     "author": "Bobrowsky, Meghan",
-    "date": "2026-04-25",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/metas-embrace-ai-propels-huge-layoffs/docview/3334061881/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -290419,11 +290420,11 @@
   "3334067955": {
     "title": "The Race to Make the World's Most In-Demand Machine; ASML is the only supplier of the machines needed to make cutting edge AI chips at scale",
     "author": "Kim Mackrael",
-    "date": "2026-04-25",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/race-make-worlds-most-demand-machine-asml-is-only/docview/3334067955/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "ASML",
     "region": {
       "Germany": 2,
@@ -290453,11 +290454,11 @@
   "3334074312": {
     "title": "My Quest to Solve Bitcoin\u2019s Great Mystery",
     "author": "Carreyrou, John; Freedman, Dylan",
-    "date": "2026-04-25",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/my-quest-solve-bitcoin-s-great-mystery/docview/3334074312/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "New York Times Co",
     "region": {
       "Argentina": 1,
@@ -290498,11 +290499,11 @@
   "3333988180": {
     "title": "Maryland should welcome data centers",
     "author": "",
-    "date": "2026-04-25",
     "publication": "The Baltimore Sun",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/maryland-should-welcome-data-centers/docview/3333988180/se-2?accountid=28598",
     "summary": "",
+    "date": "04-25-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -290520,11 +290521,11 @@
   "3334151221": {
     "title": "Carney versus Spain's PM on globalization and Trump",
     "author": "",
-    "date": "2026-04-26",
     "publication": "Toronto Star",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/carney-versus-spains-pm-on-globalization-trump/docview/3334151221/se-2?accountid=28598",
     "summary": "",
+    "date": "04-26-2026",
     "organization": "",
     "region": {
       "Canada": 2,
@@ -290558,11 +290559,11 @@
   "3334164615": {
     "title": "Blue Island leaders cautious as new owners of hospital site set to propose data center",
     "author": "Wr ight, Addison",
-    "date": "2026-04-26",
     "publication": "Chicago Tribune",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/blue-island-leaders-cautious-as-new-owners/docview/3334164615/se-2?accountid=28598",
     "summary": "",
+    "date": "04-26-2026",
     "organization": "Lockwood Development",
     "region": {},
     "usState": {},
@@ -290578,11 +290579,11 @@
   "3334116038": {
     "title": "A Deep Dive Aims To Find The Creator Of Bitcoin: [Money and Business/Financial Desk]",
     "author": "Carreyrou, John; Freedman, Dylan",
-    "date": "2026-04-26",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/deep-dive-aims-find-creator-bitcoin/docview/3334116038/se-2?accountid=28598",
     "summary": "",
+    "date": "04-26-2026",
     "organization": "",
     "region": {
       "Argentina": 1,
@@ -290621,11 +290622,11 @@
   "3334102580": {
     "title": "Have machine in the loop: It is time to flip the human-in-the-loop model",
     "author": "Bindra, Jaspreet",
-    "date": "2026-04-26",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/have-machine-loop-is-time-flip-human-model/docview/3334102580/se-2?accountid=28598",
     "summary": "",
+    "date": "04-26-2026",
     "organization": "",
     "region": {
       "India": 1
@@ -290648,11 +290649,11 @@
   "3334094331": {
     "title": "This Is How We Get Moral A.I. Companies: Guest Essay",
     "author": "Ford, Paul",
-    "date": "2026-04-26",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/this-is-how-we-get-moral-i-companies/docview/3334094331/se-2?accountid=28598",
     "summary": "",
+    "date": "04-26-2026",
     "organization": "New York Times Co",
     "region": {
       "Japan": 2,
@@ -290686,11 +290687,11 @@
   "3334115962": {
     "title": "Platner Has a Simple Message for Democrats: [Op-Ed]",
     "author": "Rhodes, Ben",
-    "date": "2026-04-26",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/platner-has-simple-message-democrats/docview/3334115962/se-2?accountid=28598",
     "summary": "",
+    "date": "04-26-2026",
     "organization": "Democratic Party",
     "region": {
       "Afghanistan": 3,
@@ -290723,11 +290724,11 @@
   "3334612197": {
     "title": "DBS drives S$20b in Apac data centre deals as AI boom tests bank funding limits",
     "author": "Young, Zhan Heng",
-    "date": "2026-04-27",
     "publication": "The Business Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/dbs-drives-s-20b-apac-data-centre-deals-as-ai/docview/3334612197/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "",
     "region": {
       "Singapore": 1
@@ -290750,11 +290751,11 @@
   "3334505350": {
     "title": "EU Tells Google to Open Android to AI Rivals; It's the latest move by the bloc to rein in the search giant's market power",
     "author": "Hancock, Edith",
-    "date": "2026-04-27",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/eu-tells-google-open-android-ai-rivals-latest/docview/3334505350/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "",
     "region": {
       "United States": 1,
@@ -290780,11 +290781,11 @@
   "3334410078": {
     "title": "Altman, Musk and the A.I. Spectacle Come to \u2018The Town\u2019",
     "author": "Huang, Kalley; Henry, Jason",
-    "date": "2026-04-27",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/altman-musk-i-spectacle-come-town/docview/3334410078/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "OpenAI",
     "region": {
       "Germany": 2,
@@ -290811,11 +290812,11 @@
   "3334325553": {
     "title": "Microsoft and OpenAI Loosen Their Partnership",
     "author": "Metz, Cade; Weise, Karen",
-    "date": "2026-04-27",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/microsoft-openai-loosen-their-partnership/docview/3334325553/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "OpenAI",
     "region": {
       "United States": 1
@@ -290840,11 +290841,11 @@
   "3334253916": {
     "title": "Musk\u2019s Fight With Altman Goes to Court",
     "author": "Metz, Cade",
-    "date": "2026-04-27",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/musk-s-fight-with-altman-goes-court/docview/3334253916/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "OpenAI",
     "region": {
       "China": 1
@@ -290870,11 +290871,11 @@
   "3334322092": {
     "title": "In a first, Israel deploys Iron Dome to UAE to counter Iran missile and drone attacks",
     "author": "",
-    "date": "2026-04-27",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/first-israel-deploys-iron-dome-uae-counter-iran/docview/3334322092/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "",
     "region": {
       "Australia": 1,
@@ -290900,11 +290901,11 @@
   "3334220924": {
     "title": "Elon Musk Is an Underdog in His $180 Billion Fight Against OpenAI; The lawsuit seeks to oust Sam Altman and claw back billions, testing legal theories about nonprofit governance",
     "author": "Keach Hagey",
-    "date": "2026-04-27",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/elon-musk-is-underdog-his-180-billion-fight/docview/3334220924/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {
@@ -290927,11 +290928,11 @@
   "3334230620": {
     "title": "The Stock Market's AI Rally Will Get a Test From Apple, Big Tech Earnings",
     "author": "Baccardax, Martin",
-    "date": "2026-04-27",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/stock-markets-ai-rally-will-get-test-apple-big/docview/3334230620/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "",
     "region": {
       "United States": 1
@@ -290956,11 +290957,11 @@
   "3334240984": {
     "title": "5 Tall Tasks That Apple's Next Leader Needs to Tackle: [Business/Financial Desk]",
     "author": "Huang, Kalley",
-    "date": "2026-04-27",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/5-tall-tasks-that-apples-next-leader-needs-tackle/docview/3334240984/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "",
     "region": {
       "China": 6,
@@ -290991,11 +290992,11 @@
   "3334252391": {
     "title": "ASML Races to Make AI Chip Gear --- Dutch company is the only supplier of mechanism needed to produce at scale",
     "author": "Kim Mackrael",
-    "date": "2026-04-27",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/asml-races-make-ai-chip-gear-dutch-company-is/docview/3334252391/se-2?accountid=28598",
     "summary": "",
+    "date": "04-27-2026",
     "organization": "ASML",
     "region": {
       "Germany": 2,
@@ -291025,11 +291026,11 @@
   "3334603195": {
     "title": "Google staff call for US military ban on AI use",
     "author": "Morris, Stephen",
-    "date": "2026-04-28",
     "publication": "Irish Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/google-staff-call-us-military-ban-on-ai-use/docview/3334603195/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "",
     "region": {
       "China": 1
@@ -291053,11 +291054,11 @@
   "3334628442": {
     "title": "Google workers petition CEO to refuse classified AI work with Pentagon",
     "author": "De Vynck, Gerrit",
-    "date": "2026-04-28",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/google-workers-petition-ceo-refuse-classified-ai/docview/3334628442/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "Department of Defense",
     "region": {
       "Iran (Islamic Republic of)": 1,
@@ -291082,11 +291083,11 @@
   "3334663150": {
     "title": "Chatbots Help Fight Medical Bills: [Science Desk]",
     "author": "Kwon, Sarah",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/chatbots-help-fight-medical-bills/docview/3334663150/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -291110,11 +291111,11 @@
   "3334663213": {
     "title": "Microsoft And OpenAI Loosen Ties: [Business/Financial Desk]",
     "author": "Metz, Cade; Weise, Karen",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/microsoft-openai-loosen-ties/docview/3334663213/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "OpenAI",
     "region": {
       "United States": 1
@@ -291139,11 +291140,11 @@
   "3334673049": {
     "title": "Don't Get Greedy With Memory-Chip Stocks",
     "author": "Jakab, Spencer",
-    "date": "2026-04-28",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/dont-get-greedy-with-memory-chip-stocks/docview/3334673049/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -291161,11 +291162,11 @@
   "3334673168": {
     "title": "The Best Place for a Data Center? Croatia",
     "author": "Ryan, Rich",
-    "date": "2026-04-28",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/best-place-data-center-croatia/docview/3334673168/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "",
     "region": {
       "Croatia": 9,
@@ -291190,11 +291191,11 @@
   "3334677884": {
     "title": "EU Warns Google to Open Up Android to AI Rivals",
     "author": "Hancock, Edith",
-    "date": "2026-04-28",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/eu-warns-google-open-up-android-ai-rivals/docview/3334677884/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "European Union",
     "region": {
       "United States": 1,
@@ -291220,11 +291221,11 @@
   "3334709435": {
     "title": "What Worries Me Most About \u2018Abundance\u2019: The Ezra Klein Show",
     "author": "Klein, Ezra; Galvin, Annie",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/what-worries-me-most-about-abundance/docview/3334709435/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "Democratic Party",
     "region": {
       "Canada": 1,
@@ -291275,11 +291276,11 @@
   "3334709808": {
     "title": "Your Doctor Is Using A.I. to Take Notes. What Could Go Wrong?",
     "author": "Bajaj, Simar",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/your-doctor-is-using-i-take-notes-what-could-go/docview/3334709808/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "",
     "region": {
       "United States": 1
@@ -291302,11 +291303,11 @@
   "3334709809": {
     "title": "Et Tu, Brute? What Elon Musk\u2019s Clash With Sam Altman Is Really About.: News Analysis",
     "author": "Streitfeld, David",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/et-tu-brute-what-elon-musk-s-clash-with-sam/docview/3334709809/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "X.AI Corp",
     "region": {},
     "usState": {
@@ -291331,11 +291332,11 @@
   "3334725838": {
     "title": "Oracle Stock Is Paying the Price for OpenAI's Failures",
     "author": "Clark, Adam; Hamilton, Anita",
-    "date": "2026-04-28",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/oracle-stock-is-paying-price-openais-failures/docview/3334725838/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "CoreWeave",
     "region": {
       "Japan": 1
@@ -291360,11 +291361,11 @@
   "3334663163": {
     "title": "Oakland Braces to Host Musk-Altman Showdown: [Business/Financial Desk]",
     "author": "Huang, Kalley; Henry, Jason",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/oakland-braces-host-musk-altman-showdown/docview/3334663163/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "OpenAI",
     "region": {
       "Germany": 4,
@@ -291391,11 +291392,11 @@
   "3334752460": {
     "title": "The Best Place for a Data Center? Croatia; Its location, stable rules and energy grid land a record project.",
     "author": "Ryan, Rich",
-    "date": "2026-04-28",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/best-place-data-center-croatia-location-stable/docview/3334752460/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "",
     "region": {
       "Croatia": 9,
@@ -291420,11 +291421,11 @@
   "3334772785": {
     "title": "Congress ramps up bipartisan AI efforts",
     "author": "Gold, Ashley",
-    "date": "2026-04-28",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/congress-ramps-up-bipartisan-ai-efforts/docview/3334772785/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -291448,11 +291449,11 @@
   "3334766551": {
     "title": "Corning Profit, Core Revenue Rises; The specialty materials company cited surging demand for its optical fiber products used in artificial intelligence data centers",
     "author": "Marchese, Adriano",
-    "date": "2026-04-28",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/corning-profit-core-revenue-rises-specialty/docview/3334766551/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "",
     "region": {
       "United States": 2
@@ -291472,11 +291473,11 @@
   "3335130731": {
     "title": "A Trump-branded nuclear power project thrilled investors. Then came the crash.",
     "author": "",
-    "date": "2026-04-28",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/trump-branded-nuclear-power-project-thrilled/docview/3335130731/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "OpenAI",
     "region": {
       "Republic of Korea": 5,
@@ -291505,11 +291506,11 @@
   "3335112973": {
     "title": "AI & Tech Brief: The \u201cturning point\u201d in the AI economy",
     "author": "",
-    "date": "2026-04-28",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/ai-amp-tech-brief-turning-point-economy/docview/3335112973/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "Harvard Business Review",
     "region": {},
     "usState": {
@@ -291534,11 +291535,11 @@
   "3335053488": {
     "title": "OpenAI's Struggles Aren't Weighing Heavily on Bond Market",
     "author": "Vanjani, Karishma",
-    "date": "2026-04-28",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/openais-struggles-arent-weighing-heavily-on-bond/docview/3335053488/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "CoreWeave",
     "region": {},
     "usState": {},
@@ -291562,11 +291563,11 @@
   "3335045161": {
     "title": "AI Worries Have Returned to Wall Street. Now Come Earnings. A slide in artificial-intelligence stocks comes ahead of earnings from key tech giants",
     "author": "Mitovich, Jared; Olson, Bradley",
-    "date": "2026-04-28",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/ai-worries-have-returned-wall-street-now-come/docview/3335045161/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "CoreWeave",
     "region": {
       "Iran (Islamic Republic of)": 1,
@@ -291596,11 +291597,11 @@
   "3335041214": {
     "title": "OpenAI Trial Starts With Two Very Different Tales of a Company\u2019s Early Years",
     "author": "Metz, Cade; Isaac, Mike",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/openai-trial-starts-with-two-very-different-tales/docview/3335041214/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "X.AI Corp",
     "region": {
       "United States": 1
@@ -291624,11 +291625,11 @@
   "3335102842": {
     "title": "Et Tu, Brute? What Elon Musk\u2019s Clash With Sam Altman Is Really About.",
     "author": "Streitfeld, David",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/et-tu-brute-what-elon-musk-s-clash-with-sam/docview/3335102842/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "New York Times Co",
     "region": {
       "Saudi Arabia": 1,
@@ -291657,11 +291658,11 @@
   "3334950020": {
     "title": "Elon Musk Testifies of AI Risk at Trial, Says OpenAI Tried to 'Steal' a Charity; Opening statements in Musk's lawsuit offered differing views of his early financial support of OpenAI and its conversion to a for-profit company",
     "author": "Au-Yeung, Angel",
-    "date": "2026-04-28",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/elon-musk-testifies-ai-risk-at-trial-says-openai/docview/3334950020/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "OpenAI",
     "region": {
       "United States": 1
@@ -291686,11 +291687,11 @@
   "3334844611": {
     "title": "The personal pettiness of the Elon Musk v OpenAI trial",
     "author": "Montgomery, Blake",
-    "date": "2026-04-28",
     "publication": "Guardian",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/personal-pettiness-elon-musk-v-openai-trial/docview/3334844611/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "X.AI Corp",
     "region": {
       "Canada": 1
@@ -291718,11 +291719,11 @@
   "3334841931": {
     "title": "Elon Musk Assails Sam Altman on Social Media Before OpenAI Trial",
     "author": "Ryan, Mac",
-    "date": "2026-04-28",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/elon-musk-assails-sam-altman-on-social-media/docview/3334841931/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "OpenAI",
     "region": {
       "United States": 1
@@ -291748,11 +291749,11 @@
   "3334775185": {
     "title": "Arizona's data center industry is booming",
     "author": "Duda, Jeremy",
-    "date": "2026-04-28",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/arizonas-data-center-industry-is-booming/docview/3334775185/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "",
     "region": {
       "Georgia": 1,
@@ -291778,11 +291779,11 @@
   "3334773400": {
     "title": "Elon Musk vs OpenAI: Inside the battle over broken promises",
     "author": "",
-    "date": "2026-04-28",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/elon-musk-vs-openai-inside-battle-over-broken/docview/3334773400/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {
@@ -291806,11 +291807,11 @@
   "3334950319": {
     "title": "How Cyber Command is building its AI cyber war playbook",
     "author": "Sabin, Sam",
-    "date": "2026-04-28",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/how-cyber-command-is-building-ai-war-playbook/docview/3334950319/se-2?accountid=28598",
     "summary": "",
+    "date": "04-28-2026",
     "organization": "Department of Defense",
     "region": {
       "China": 2,
@@ -291836,11 +291837,11 @@
   "3335491561": {
     "title": "Why some Republicans split with Trump on AI",
     "author": "",
-    "date": "2026-04-29",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/why-some-republicans-split-with-trump-on-ai/docview/3335491561/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "X.AI Corp",
     "region": {},
     "usState": {
@@ -291863,11 +291864,11 @@
   "3335470159": {
     "title": "AI Bots Told Scientists How to Make Biological Weapons",
     "author": "Gabriel J.X. Dance",
-    "date": "2026-04-29",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ai-bots-told-scientists-how-make-biological/docview/3335470159/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "New York Times Co",
     "region": {
       "India": 1,
@@ -291896,11 +291897,11 @@
   "3335457711": {
     "title": "SoftBank Plots IPO for New Robotics Venture; Roze AI plans to focus on AI and robotics, an area CEO Masayoshi Son sees as the 'next frontier' for SoftBank",
     "author": "Clark, Kate",
-    "date": "2026-04-29",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/softbank-plots-ipo-new-robotics-venture-roze-ai/docview/3335457711/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "OpenAI",
     "region": {
       "France": 1,
@@ -291925,11 +291926,11 @@
   "3335454910": {
     "title": "Google Profit Jumps 81% as Cloud Business Booms; Artificial intelligence is 'lighting up every part of the business,' Chief Executive Sundar Pichai says",
     "author": "Blunt, Katherine",
-    "date": "2026-04-29",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/google-profit-jumps-81-as-cloud-business-booms/docview/3335454910/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "Wall Street Journal",
     "region": {
       "United States": 1
@@ -291953,11 +291954,11 @@
   "3335425999": {
     "title": "Musk Says He \u2018Was a Fool\u2019 to Provide OpenAI\u2019s Early Funding",
     "author": "Metz, Cade; Isaac, Mike",
-    "date": "2026-04-29",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/musk-says-he-was-fool-provide-openai-s-early/docview/3335425999/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "X.AI Corp",
     "region": {},
     "usState": {},
@@ -291979,11 +291980,11 @@
   "3335416957": {
     "title": "A.I. Spending Sets a Record, With No End in Sight",
     "author": "Weise, Karen",
-    "date": "2026-04-29",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/i-spending-sets-record-with-no-end-sight/docview/3335416957/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -292008,11 +292009,11 @@
   "3335288667": {
     "title": "AI for warfare: Why Google, Anthropic and rest of big tech is split over Pentagon deals",
     "author": "",
-    "date": "2026-04-29",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ai-warfare-why-google-anthropic-rest-big-tech-is/docview/3335288667/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "X.AI Corp",
     "region": {
       "Israel": 3,
@@ -292038,11 +292039,11 @@
   "3335241757": {
     "title": "Bloom Energy Stock Surges 27% on 'Robust' AI Pipeline. Why Analysts Are Taking Note.",
     "author": "Mackenzie Tatananni; Moyer, Liz; Norton, Kit",
-    "date": "2026-04-29",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/bloom-energy-stock-surges-27-on-robust-ai/docview/3335241757/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "Bloom Energy Corp",
     "region": {
       "Mexico": 1
@@ -292064,11 +292065,11 @@
   "3335205551": {
     "title": "A.I. Bots Told Scientists How to Make Biological Weapons",
     "author": "Gabriel J.X. Dance",
-    "date": "2026-04-29",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/i-bots-told-scientists-how-make-biological/docview/3335205551/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "OpenAI",
     "region": {
       "India": 1,
@@ -292097,11 +292098,11 @@
   "3335078137": {
     "title": "UK-based AI firm targets Australia\u2019s NDIS admin crisis",
     "author": "",
-    "date": "2026-04-29",
     "publication": "The Australian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/uk-based-ai-firm-targets-australia-s-ndis-admin/docview/3335078137/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "",
     "region": {
       "Australia": 10,
@@ -292125,11 +292126,11 @@
   "3335193062": {
     "title": "Microsoft Stock Trying to Bounce Back on Strong Azure Growth Outlook",
     "author": "Palumbo, Angela",
-    "date": "2026-04-29",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/microsoft-stock-trying-bounce-back-on-strong/docview/3335193062/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -292149,11 +292150,11 @@
   "3335190529": {
     "title": "Musk Suit Against OpenAI Begins",
     "author": "Au-Yeung, Angel",
-    "date": "2026-04-29",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/musk-suit-against-openai-begins/docview/3335190529/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -292175,11 +292176,11 @@
   "3335168433": {
     "title": "Is There Such a Thing as a Good A.I. Company?",
     "author": "Ford, Paul",
-    "date": "2026-04-29",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/is-there-such-thing-as-good-i-company/docview/3335168433/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "New York Times Co",
     "region": {
       "Japan": 2,
@@ -292213,11 +292214,11 @@
   "3335165696": {
     "title": "Stocks Linked to AI Retreat Ahead of Tech Giants' Results --- OpenAI misses its targets, sparking worries sector hope doesn't match reality",
     "author": "Mitovich, Jared; Olson, Bradley",
-    "date": "2026-04-29",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/stocks-linked-ai-retreat-ahead-tech-giants/docview/3335165696/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "CoreWeave",
     "region": {
       "Iran (Islamic Republic of)": 1,
@@ -292247,11 +292248,11 @@
   "3335163415": {
     "title": "Next High-Wire Act For Altman: Making OpenAI More Money.: [Business/Financial Desk]",
     "author": "Isaac, Mike",
-    "date": "2026-04-29",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/next-high-wire-act-altman-making-openai-more/docview/3335163415/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "Space Exploration Technologies Corp",
     "region": {},
     "usState": {},
@@ -292275,11 +292276,11 @@
   "3335163371": {
     "title": "How to Measure the Development of A.I.? METR Has a Time-Horizon Chart.: [Business/Financial Desk]",
     "author": "Roose, Kevin",
-    "date": "2026-04-29",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/how-measure-development-i-metr-has-time-horizon/docview/3335163371/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -292300,11 +292301,11 @@
   "3335163370": {
     "title": "Something Rotten in OpenAI? Mega-Moguls Meet in Court.: [Business/Financial Desk]",
     "author": "Streitfeld, David",
-    "date": "2026-04-29",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/something-rotten-openai-mega-moguls-meet-court/docview/3335163370/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "X.AI Corp",
     "region": {},
     "usState": {
@@ -292329,11 +292330,11 @@
   "3335143563": {
     "title": "In a sea of red, how a smallcap defence company delivered multibagger returns this year",
     "author": "Podishetti, Akash",
-    "date": "2026-04-29",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/sea-red-how-smallcap-defence-company-delivered/docview/3335143563/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -292351,11 +292352,11 @@
   "3335212156": {
     "title": "Congress stalls on military AI as Google and the Pentagon strike deal",
     "author": "Curi, Maria",
-    "date": "2026-04-29",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/congress-stalls-on-military-ai-as-google-pentagon/docview/3335212156/se-2?accountid=28598",
     "summary": "",
+    "date": "04-29-2026",
     "organization": "Department of Defense",
     "region": {
       "Iran (Islamic Republic of)": 1
@@ -292381,11 +292382,11 @@
   "3335823888": {
     "title": "The AI Rally Is on a Collision Course With a Divided Fed",
     "author": "",
-    "date": "2026-04-30",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ai-rally-is-on-collision-course-with-divided-fed/docview/3335823888/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {
       "Iran (Islamic Republic of)": 2,
@@ -292413,11 +292414,11 @@
   "3335863633": {
     "title": "Here\u2019s the latest.",
     "author": "Metz, Cade; Isaac, Mike",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/here-s-latest/docview/3335863633/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "X.AI Corp",
     "region": {},
     "usState": {},
@@ -292440,11 +292441,11 @@
   "3335916964": {
     "title": "Inside the Courtroom at the OpenAI Trial",
     "author": "Metz, Cade",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/inside-courtroom-at-openai-trial/docview/3335916964/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "New York Times Co",
     "region": {},
     "usState": {},
@@ -292465,11 +292466,11 @@
   "3335918593": {
     "title": "When digital frauds get smarter",
     "author": "",
-    "date": "2026-04-30",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/when-digital-frauds-get-smarter/docview/3335918593/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {
       "India": 2
@@ -292489,11 +292490,11 @@
   "3335787340": {
     "title": "Citizens fight data center proposal Mayor says there\u2019s no formal plan yet",
     "author": "Wright, Addison",
-    "date": "2026-04-30",
     "publication": "Chicago Tribune",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/citizens-fight-data-center-proposal-mayor-says/docview/3335787340/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -292511,11 +292512,11 @@
   "3336011131": {
     "title": "Constellation Energy Stock Jumps on AI Boom. Why Power Producers Will Gain.",
     "author": "Cho, Janet H",
-    "date": "2026-04-30",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/constellation-energy-stock-jumps-on-ai-boom-why/docview/3336011131/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "Public Service Enterprise Group Inc",
     "region": {
       "United States": 2
@@ -292539,11 +292540,11 @@
   "3336029771": {
     "title": "Sandisk, Western Digital Report Jumps in Third-Quarter Profit on AI Data Storage Demand; Sandisk and Western Digital logged profits of $3.62 billion and $3.21 billion, respectively",
     "author": "Schisgall, Elias",
-    "date": "2026-04-30",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/sandisk-western-digital-report-jumps-third/docview/3336029771/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "Western Digital Corp",
     "region": {},
     "usState": {},
@@ -292561,11 +292562,11 @@
   "3336070074": {
     "title": "AI Spending Sets a Record, With No End in Sight",
     "author": "Weise, Karen",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ai-spending-sets-record-with-no-end-sight/docview/3336070074/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "New York Times Co",
     "region": {},
     "usState": {},
@@ -292592,11 +292593,11 @@
   "3336117200": {
     "title": "\u2018I built an AI CEO with 7 AI employees\u2019: How a founder automated his daily workflow",
     "author": "",
-    "date": "2026-04-30",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/i-built-ai-ceo-with-7-employees-how-founder/docview/3336117200/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -292614,11 +292615,11 @@
   "3335924873": {
     "title": "Is A.I. a Threat to Humanity? Not in This Trial.",
     "author": "Metz, Cade; Isaac, Mike",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/is-i-threat-humanity-not-this-trial/docview/3335924873/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -292640,11 +292641,11 @@
   "3335563698": {
     "title": "There\u2019s a 900-Year-Old Answer to Our Most Modern Problem",
     "author": "French, David",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/there-s-900-year-old-answer-our-most-modern/docview/3335563698/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "X.AI Corp",
     "region": {
       "Chad": 9,
@@ -292673,11 +292674,11 @@
   "3336098797": {
     "title": "AI & Tech brief: States regulate AI in health care",
     "author": "",
-    "date": "2026-04-30",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/ai-amp-tech-brief-states-regulate-health-care/docview/3336098797/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "Republican Party",
     "region": {
       "China": 6,
@@ -292708,11 +292709,11 @@
   "3335529084": {
     "title": "Something Rotten in OpenAI? Mega-Moguls Meet in Court.",
     "author": "Streitfeld, David",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/something-rotten-openai-mega-moguls-meet-court/docview/3335529084/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "X.AI Corp",
     "region": {},
     "usState": {
@@ -292737,11 +292738,11 @@
   "3335556024": {
     "title": "How A.I. Killed Student Writing (and Revived It)",
     "author": "Goldstein, Dana; Lancaster, Lauren",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/how-i-killed-student-writing-revived/docview/3335556024/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -292765,11 +292766,11 @@
   "3335465939": {
     "title": "It\u2019S People Power",
     "author": "",
-    "date": "2026-04-30",
     "publication": "The Australian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/s-people-power/docview/3335465939/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {
       "Australia": 8
@@ -292787,11 +292788,11 @@
   "3335466517": {
     "title": "West Asia\u2019s digital fault lines",
     "author": "",
-    "date": "2026-04-30",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/west-asia-s-digital-fault-lines/docview/3335466517/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "European Union",
     "region": {
       "India": 30,
@@ -292816,11 +292817,11 @@
   "3335467018": {
     "title": "Big Tech Strikes Gold With AI, but at a Steep Cost; While Microsoft, Alphabet, Meta and Amazon ride AI to strong earnings, some investors are still worried about spending",
     "author": "Whelan, Robbie",
-    "date": "2026-04-30",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/big-tech-strikes-gold-with-ai-at-steep-cost-while/docview/3335467018/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -292845,11 +292846,11 @@
   "3335469016": {
     "title": "Oracle plans to shed 150 jobs in Ireland",
     "author": "Curran, Ian",
-    "date": "2026-04-30",
     "publication": "Irish Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/oracle-plans-shed-150-jobs-ireland/docview/3335469016/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -292870,11 +292871,11 @@
   "3335461019": {
     "title": "Samsung's Net Profit Soars as AI Demand Fuels Record Chip Earnings; Net profit for the three months ended March rose 474% from the year earlier",
     "author": "Kwanwoo Jun",
-    "date": "2026-04-30",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/samsungs-net-profit-soars-as-ai-demand-fuels/docview/3335461019/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {
       "France": 1,
@@ -292895,11 +292896,11 @@
   "3335509505": {
     "title": "There\u2019s a 900-year-old answer to our most modern problem",
     "author": "French, David",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/there-s-900-year-old-answer-our-most-modern/docview/3335509505/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "Florida State University",
     "region": {
       "Chad": 9,
@@ -292929,11 +292930,11 @@
   "3335519601": {
     "title": "Scientists Fear A.I.'s Capability To Design Biological Weapons: [National Desk]",
     "author": "Gabriel J.X. Dance",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/scientists-fear-i-s-capability-design-biological/docview/3335519601/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "OpenAI",
     "region": {
       "India": 1,
@@ -292963,11 +292964,11 @@
   "3335519602": {
     "title": "A.I. Legal Briefs Add Hint of Absurdity to Family Feud Over Winery: [Business/Financial Desk]",
     "author": "Gorelick, Evan; Griffin, Anna",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/i-legal-briefs-add-hint-absurdity-family-feud/docview/3335519602/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {
       "France": 1,
@@ -292992,11 +292993,11 @@
   "3335519768": {
     "title": "OpenAI Trial Starts With Different Tales of Early Years: [Business/Financial Desk]",
     "author": "Metz, Cade; Isaac, Mike",
-    "date": "2026-04-30",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/openai-trial-starts-with-different-tales-early/docview/3335519768/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "X.AI Corp",
     "region": {
       "United States": 2
@@ -293020,11 +293021,11 @@
   "3335523486": {
     "title": "Meta Posts 33% Jump In Revenue, Pours More Into AI",
     "author": "Bobrowsky, Meghan",
-    "date": "2026-04-30",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/meta-posts-33-jump-revenue-pours-more-into-ai/docview/3335523486/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {
       "Iran (Islamic Republic of)": 1,
@@ -293052,11 +293053,11 @@
   "3335469113": {
     "title": "Bernie Sanders urges international cooperation to halt AI\u2019s \u2018runaway train\u2019",
     "author": "Ede-Osifo, Uwa",
-    "date": "2026-04-30",
     "publication": "Guardian",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/bernie-sanders-urges-international-cooperation/docview/3335469113/se-2?accountid=28598",
     "summary": "",
+    "date": "04-30-2026",
     "organization": "",
     "region": {
       "China": 5,
@@ -293080,11 +293081,11 @@
   "3336299522": {
     "title": "AI Investor Coatue Joins Data-Center Frenzy With New Venture to Buy Land; Philippe Laffont's firm has launched Next Frontier, whose facilities will be meant for AI companies including Anthropic",
     "author": "Rudegeair, Peter; Clark, Kate",
-    "date": "2026-05-01",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/ai-investor-coatue-joins-data-center-frenzy-with/docview/3336299522/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "OpenAI",
     "region": {
       "Australia": 1,
@@ -293116,11 +293117,11 @@
   "3336455399": {
     "title": "AI Roundup April 2026: Claude Mythos, GPT 5.5, Musk-Altman lawsuit, and more",
     "author": "",
-    "date": "2026-05-01",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ai-roundup-april-2026-claude-mythos-gpt-5-musk/docview/3336455399/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {
@@ -293144,11 +293145,11 @@
   "3336437289": {
     "title": "AI & Tech Brief: Dean Ball on the shift in AI policy",
     "author": "",
-    "date": "2026-05-01",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/ai-amp-tech-brief-dean-ball-on-shift-policy/docview/3336437289/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "Department of Defense",
     "region": {
       "China": 2,
@@ -293176,11 +293177,11 @@
   "3336432619": {
     "title": "Why \u2018ETF and chill\u2019 may no longer be enough",
     "author": "Ganeriwal, Ritesh",
-    "date": "2026-05-01",
     "publication": "The Business Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/why-etf-chill-may-no-longer-be-enough/docview/3336432619/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "",
     "region": {
       "Singapore": 1
@@ -293200,11 +293201,11 @@
   "3336431926": {
     "title": "From Indiana to Idaho, a Backlash Against AI Gathers Momentum",
     "author": "Mickle, Tripp",
-    "date": "2026-05-01",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/indiana-idaho-backlash-against-ai-gathers/docview/3336431926/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "New York Times Co",
     "region": {
       "India": 1,
@@ -293241,11 +293242,11 @@
   "3336396646": {
     "title": "Apple Boosts Starting Price for Mac Mini After AI Demand Surge; Chief Executive Tim Cook has said desktop computers likely to face supply-demand imbalance for several months",
     "author": "Winkler, Rolfe",
-    "date": "2026-05-01",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/apple-boosts-starting-price-mac-mini-after-ai/docview/3336396646/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -293265,11 +293266,11 @@
   "3336379478": {
     "title": "U.S. Dips Into Oil Reserves as Iran War Enters Its Third Month",
     "author": "",
-    "date": "2026-05-01",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/u-s-dips-into-oil-reserves-as-iran-war-enters/docview/3336379478/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "Federal Open Market Committee--FOMC",
     "region": {
       "Iran (Islamic Republic of)": 3,
@@ -293293,11 +293294,11 @@
   "3336371372": {
     "title": "Week's Best: Fidelity Fined for Data Handling",
     "author": "Barron's Advisor Staff",
-    "date": "2026-05-01",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/weeks-best-fidelity-fined-data-handling/docview/3336371372/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "",
     "region": {
       "United States": 1
@@ -293319,11 +293320,11 @@
   "3336356433": {
     "title": "Apple Stock Surged After Earnings. 3 Concerns Lurking Beneath the Surface.",
     "author": "Palumbo, Angela",
-    "date": "2026-05-01",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/apple-stock-surged-after-earnings-3-concerns/docview/3336356433/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -293346,11 +293347,11 @@
   "3336274653": {
     "title": "Ares Management Stock Rises After Earnings. Institutions Still Love Private Credit.",
     "author": "Alpert, Bill; Denton, Jack",
-    "date": "2026-05-01",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ares-management-stock-rises-after-earnings/docview/3336274653/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "Ares Management LLC",
     "region": {},
     "usState": {},
@@ -293368,11 +293369,11 @@
   "3336135980": {
     "title": "Behind the Scenes of a Blockbuster OpenAI Trial: [National Desk]",
     "author": "Metz, Cade",
-    "date": "2026-05-01",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/behind-scenes-blockbuster-openai-trial/docview/3336135980/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "New York Times Co",
     "region": {},
     "usState": {},
@@ -293393,11 +293394,11 @@
   "3336232306": {
     "title": "China-related reporting from smaller South Asian countries 25",
     "author": "",
-    "date": "2026-05-01",
     "publication": "BBC Monitoring South Asia",
     "url": "",
     "proquest": "https://www.proquest.com/wire-feeds/china-related-reporting-smaller-south-asian/docview/3336232306/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "Daily Star",
     "region": {
       "Australia": 1,
@@ -293432,11 +293433,11 @@
   "3336211881": {
     "title": "Sandisk Earnings Were Excellent. Why This Analyst Says the Stock Could Double.",
     "author": "Levine, Adam; Wolf, Nate",
-    "date": "2026-05-01",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/sandisk-earnings-were-excellent-why-this-analyst/docview/3336211881/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "NVidia Corp",
     "region": {},
     "usState": {},
@@ -293458,11 +293459,11 @@
   "3336151101": {
     "title": "Why BlackRock's Rick Rieder Thinks the U.S. Economy Is Basically Recession-Proof",
     "author": "Russell, Emily",
-    "date": "2026-05-01",
     "publication": "Barron's",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/why-blackrocks-rick-rieder-thinks-u-s-economy-is/docview/3336151101/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "",
     "region": {
       "Iran (Islamic Republic of)": 1,
@@ -293483,11 +293484,11 @@
   "3336135550": {
     "title": "Spending On A.I. Has Broken A Record: [Business/Financial Desk]",
     "author": "Weise, Karen",
-    "date": "2026-05-01",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/spending-on-i-has-broken-record/docview/3336135550/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {},
@@ -293512,11 +293513,11 @@
   "3336135496": {
     "title": "Musk: 'I Was a Fool' To Provide OpenAI With Early Funding: [Business/Financial Desk]",
     "author": "Metz, Cade; Isaac, Mike",
-    "date": "2026-05-01",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/musk-i-was-fool-provide-openai-with-early-funding/docview/3336135496/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "X.AI Corp NAICS : 541715",
     "region": {
       "European Union": 1
@@ -293540,11 +293541,11 @@
   "3336131851": {
     "title": "Highlights from India's Hindi-language press, websites 1 May 26",
     "author": "",
-    "date": "2026-05-01",
     "publication": "BBC Monitoring South Asia",
     "url": "",
     "proquest": "https://www.proquest.com/wire-feeds/highlights-indias-hindi-language-press-websites-1/docview/3336131851/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "Bharatiya Janata Party",
     "region": {
       "China": 4,
@@ -293573,11 +293574,11 @@
   "3336069677": {
     "title": "Job cuts in tech feel very different this time",
     "author": "",
-    "date": "2026-05-01",
     "publication": "Irish Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/job-cuts-tech-feel-very-different-this-time/docview/3336069677/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "",
     "region": {
       "Ireland": 11
@@ -293603,11 +293604,11 @@
   "3336069654": {
     "title": "\u2018What we are building is the next step in the evolution of electronic health records\u2019: Top Doctors Group provides cutting-edge technology that offers health systems efficient and accessible digital solutions",
     "author": "",
-    "date": "2026-05-01",
     "publication": "Irish Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/what-we-are-building-is-next-step-evolution/docview/3336069654/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "Doctors Group",
     "region": {
       "Ireland": 2,
@@ -293633,11 +293634,11 @@
   "3336061391": {
     "title": "$1 trillion AI bet divides investors",
     "author": "",
-    "date": "2026-05-01",
     "publication": "The Australian",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/1-trillion-ai-bet-divides-investors/docview/3336061391/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "",
     "region": {
       "Australia": 5
@@ -293668,11 +293669,11 @@
   "3336271949": {
     "title": "DealBook: OpenAI and A.I.\u2019s resource war",
     "author": "",
-    "date": "2026-05-01",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/dealbook-openai-i-s-resource-war/docview/3336271949/se-2?accountid=28598",
     "summary": "",
+    "date": "05-01-2026",
     "organization": "Rothschild & Co",
     "region": {
       "France": 1,
@@ -293702,11 +293703,11 @@
   "3336570373": {
     "title": "How AI Killed Student Writing (and Revived It)",
     "author": "Goldstein, Dana",
-    "date": "2026-05-02",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/how-ai-killed-student-writing-revived/docview/3336570373/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "New York Times Co",
     "region": {
       "United States": 1
@@ -293735,11 +293736,11 @@
   "3336786869": {
     "title": "Who is Varun Sivaram? CEO of NVIDIA-backed Emerald AI makes TIME 100 Most Influential Companies list of 2026",
     "author": "",
-    "date": "2026-05-02",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/who-is-varun-sivaram-ceo-nvidia-backed-emerald-ai/docview/3336786869/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "NVidia Corp",
     "region": {
       "India": 1,
@@ -293762,11 +293763,11 @@
   "3336594831": {
     "title": "Trump\u2019s tariff-friendly White House celebrates these foreign imports",
     "author": "",
-    "date": "2026-05-02",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/trump-s-tariff-friendly-white-house-celebrates/docview/3336594831/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "McKinsey Global Institute",
     "region": {
       "Denmark": 1,
@@ -293803,11 +293804,11 @@
   "3336523168": {
     "title": "AI can't steal your job! A China twist can avert AI jobs apocalypse",
     "author": "",
-    "date": "2026-05-02",
     "publication": "The Economic Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ai-cant-steal-your-job-china-twist-can-avert-jobs/docview/3336523168/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "",
     "region": {
       "China": 9,
@@ -293832,11 +293833,11 @@
   "3336012012": {
     "title": "Marie Potel-Saville",
     "author": "",
-    "date": "2026-05-02",
     "publication": "The Economist",
     "url": "",
     "proquest": "https://www.proquest.com/magazines/marie-potel-saville/docview/3336012012/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "Federal Trade Commission--FTC",
     "region": {},
     "usState": {},
@@ -293859,11 +293860,11 @@
   "3336459844": {
     "title": "One Thing Unites Bannon and Sanders: Concern About A.I.: [National Desk]",
     "author": "Mickle, Tripp",
-    "date": "2026-05-02",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/one-thing-unites-bannon-sanders-concern-about-i/docview/3336459844/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "OpenAI",
     "region": {
       "Mexico": 1,
@@ -293897,11 +293898,11 @@
   "3336432730": {
     "title": "Iran War Gives U.S.'s Rivals a Real-Time Look at Its Firepower; Adversaries have watched the U.S. burn through missile stockpiles, seen new tech in action and witnessed what cheap weapons can do to a stronger foe",
     "author": "Martin, Timothy W; Grove, Thomas; Chun Han Wong",
-    "date": "2026-05-02",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/iran-war-gives-u-s-rivals-real-time-look-at/docview/3336432730/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "North Atlantic Treaty Organization--NATO",
     "region": {
       "China": 14,
@@ -293928,11 +293929,11 @@
   "3336011979": {
     "title": "Sequel struggles",
     "author": "",
-    "date": "2026-05-02",
     "publication": "The Economist",
     "url": "",
     "proquest": "https://www.proquest.com/magazines/sequel-struggles/docview/3336011979/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "Hangzhou DeepSeek Artificial Intelligence Co Ltd",
     "region": {
       "China": 9,
@@ -293960,11 +293961,11 @@
   "3336462535": {
     "title": "EXCHANGE --- Apple Boosts Starting Price for Mac Mini",
     "author": "Winkler, Rolfe",
-    "date": "2026-05-02",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/exchange-apple-boosts-starting-price-mac-mini/docview/3336462535/se-2?accountid=28598",
     "summary": "",
+    "date": "05-02-2026",
     "organization": "Taiwan Semiconductor Manufacturing Co Ltd",
     "region": {},
     "usState": {},
@@ -293984,11 +293985,11 @@
   "3336596660": {
     "title": "Trump-branded nuclear power project thrilled investors, then crashed",
     "author": "Halper, Evan",
-    "date": "2026-05-03",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/trump-branded-nuclear-power-project-thrilled/docview/3336596660/se-2?accountid=28598",
     "summary": "",
+    "date": "05-03-2026",
     "organization": "OpenAI",
     "region": {
       "Republic of Korea": 5,
@@ -294017,11 +294018,11 @@
   "3336617298": {
     "title": "A.I. Prompting Writing Revival In Classrooms: [National Desk]",
     "author": "Goldstein, Dana; Lancaster, Lauren",
-    "date": "2026-05-03",
     "publication": "New York Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/i-prompting-writing-revival-classrooms/docview/3336617298/se-2?accountid=28598",
     "summary": "",
+    "date": "05-03-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -294045,11 +294046,11 @@
   "3336658515": {
     "title": "Residents speak out against possible data center",
     "author": "Wright, Addison",
-    "date": "2026-05-03",
     "publication": "Chicago Tribune",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/residents-speak-out-against-possible-data-center/docview/3336658515/se-2?accountid=28598",
     "summary": "",
+    "date": "05-03-2026",
     "organization": "",
     "region": {},
     "usState": {
@@ -294067,11 +294068,11 @@
   "3336708566": {
     "title": "Colorado lawmakers introduce new AI rules",
     "author": "Frank, John",
-    "date": "2026-05-03",
     "publication": "Axios",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/colorado-lawmakers-introduce-new-ai-rules/docview/3336708566/se-2?accountid=28598",
     "summary": "",
+    "date": "05-03-2026",
     "organization": "",
     "region": {
       "United States": 1
@@ -294093,11 +294094,11 @@
   "3337055179": {
     "title": "AI & Tech Brief: The dangers of \u201cfine-tuning\u201d AI",
     "author": "Document type: News",
-    "date": "2026-05-04",
     "publication": "Document type: News",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/ai-amp-tech-brief-dangers-fine-tuning/docview/3337055179/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "European Commission",
     "region": {
       "United States": 2,
@@ -294124,11 +294125,11 @@
   "3336992339": {
     "title": "Elon Musk\u2019s Lawyers Ask OpenAI\u2019s President Why He Is Worth $30 Billion",
     "author": "Metz, Cade",
-    "date": "2026-05-04",
     "publication": "ProQuest document ID: 3072211413",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/elon-musk-s-lawyers-ask-openai-president-why-he/docview/3336992339/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "OpenAI",
     "region": {},
     "usState": {
@@ -294153,11 +294154,11 @@
   "3336937173": {
     "title": "Think AI Spending Won't Stoke Inflation? This Time Could Be Different.",
     "author": "Baccardax, Martin",
-    "date": "2026-05-04",
     "publication": "Copyright: \u00a9 2024 Singapore Press Holdings",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/think-ai-spending-wont-stoke-inflation-this-time/docview/3336937173/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "",
     "region": {
       "Iran (Islamic Republic of)": 2,
@@ -294182,11 +294183,11 @@
   "3336820486": {
     "title": "Pixxel, Sarvam plan orbital data centre after Agnikul Cosmos-Neev Cloud",
     "author": "Last updated: 2026-02-17",
-    "date": "2026-05-04",
     "publication": "Last updated: 2026-02-17",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/pixxel-sarvam-plan-orbital-data-centre-after/docview/3336820486/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "",
     "region": {
       "India": 3
@@ -294208,11 +294209,11 @@
   "3336989009": {
     "title": "Trump administration considering safety review for new AI models",
     "author": "Sam Sabin Ashley Gold",
-    "date": "2026-05-04",
     "publication": "entre-adds/docview/3072211413/se-2?accountid=28598",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/trump-administration-considering-safety-review/docview/3336989009/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "Department of Defense",
     "region": {},
     "usState": {},
@@ -294234,11 +294235,11 @@
   "3336735283": {
     "title": "Trump's tariff-friendly White House celebrates these imports: Artificial intelligence is reshaping trade patterns, as companies order from abroad what's needed to build AI infrastructure",
     "author": "Lynch, David J",
-    "date": "2026-05-04",
     "publication": "The Washington Post",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/trumps-tariff-friendly-white-house-celebrates/docview/3336735283/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "McKinsey Global Institute",
     "region": {
       "Denmark": 1,
@@ -294275,11 +294276,11 @@
   "3336726001": {
     "title": "L&T AI playbook: Build for self, then find buyers",
     "author": "",
-    "date": "2026-05-04",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/l-amp-t-ai-playbook-build-self-then-find-buyers/docview/3336726001/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "",
     "region": {
       "India": 1
@@ -294302,11 +294303,11 @@
   "3336725936": {
     "title": "As Claude Mythos raises stakes, banks shift to continuous security model",
     "author": "",
-    "date": "2026-05-04",
     "publication": "Financial Express",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/as-claude-mythos-raises-stakes-banks-shift/docview/3336725936/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "Alvarez & Marsal Inc",
     "region": {
       "India": 1
@@ -294328,11 +294329,11 @@
   "3336725900": {
     "title": "Here's What's Shoring Up the Global Economy During the Energy Shock; Oil reserves, leaps in energy efficiency and the AI boom have helped stave off a slump for now",
     "author": "Douglas, Jason",
-    "date": "2026-05-04",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/heres-whats-shoring-up-global-economy-during/docview/3336725900/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "International Bank for Reconstruction & Development--World Bank",
     "region": {
       "Bangladesh": 1,
@@ -294366,11 +294367,11 @@
   "3336757929": {
     "title": "Global Economy Powers Ahead Despite Growing Energy Shock --- Full oil inventories, advances in energy efficiency, AI boom help put off a slump",
     "author": "Douglas, Jason",
-    "date": "2026-05-04",
     "publication": "Wall Street Journal",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/global-economy-powers-ahead-despite-growing/docview/3336757929/se-2?accountid=28598",
     "summary": "",
+    "date": "05-04-2026",
     "organization": "International Bank for Reconstruction & Development--World Bank",
     "region": {
       "Bangladesh": 1,
@@ -294404,11 +294405,11 @@
   "3337182821": {
     "title": "Five Publishers and Scott Turow Sue Meta and Mark Zuckerberg",
     "author": "Alter, Alexandra",
-    "date": "2026-05-05",
     "publication": "in&amp;date=2024&amp;spage=&amp;issue=&amp;volume=",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/five-publishers-scott-turow-sue-meta-mark/docview/3337182821/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "OpenAI",
     "region": {
       "United States": 1
@@ -294433,11 +294434,11 @@
   "3337174543": {
     "title": "NASSCOM CoE bets on real-world deployment to scale India\u2019s innovation ecosystem",
     "author": "Khan, Shariq",
-    "date": "2026-05-05",
     "publication": "in&amp;date=2024&amp;spage=&amp;issue=&amp;volume=",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/nasscom-coe-bets-on-real-world-deployment-scale/docview/3337174543/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "",
     "region": {
       "India": 5
@@ -294457,11 +294458,11 @@
   "3337151637": {
     "title": "Time limits, curfews or a full ban: how UK may restrict social media for under-16s",
     "author": "Dan Milmo technology",
-    "date": "2026-05-05",
     "publication": "o adopt renewable energy to save power,\" said Low.",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/time-limits-curfews-full-ban-how-uk-may-restrict/docview/3337151637/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "",
     "region": {
       "Australia": 1,
@@ -294485,11 +294486,11 @@
   "3337147966": {
     "title": "U.S. ramps up frontier AI testing as White House pivots toward safety",
     "author": "Gold, Ashley",
-    "date": "2026-05-05",
     "publication": "igence; Workloads; Cybersecurity; Computer centers",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/u-s-ramps-up-frontier-ai-testing-as-white-house/docview/3337147966/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "X.AI Corp",
     "region": {
       "China": 3
@@ -294518,11 +294519,11 @@
   "3337094548": {
     "title": "In AI We Trust: Why Spending Is So Buoyant",
     "author": "Jakab, Spencer",
-    "date": "2026-05-05",
     "publication": "The Business Times",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/ai-we-trust-why-spending-is-so-buoyant/docview/3337094548/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -294542,11 +294543,11 @@
   "3337079255": {
     "title": "Big tech wants to punish Australia over Albanese\u2019s media bargaining code \u2013 and Trump might be inclined to listen",
     "author": "Wolpe, Bruce",
-    "date": "2026-05-05",
     "publication": "Section: COMPANIES & MARKETS",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/big-tech-wants-punish-australia-over-albanese-s/docview/3337079255/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "TikTok Inc",
     "region": {
       "Australia": 18,
@@ -294572,11 +294573,11 @@
   "3337071808": {
     "title": "Brookfield partners with U.S. startup to revive South Carolina nuclear project",
     "author": "Mcgee, Niall",
-    "date": "2026-05-05",
     "publication": "Publisher: SPH Media Limited",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/brookfield-partners-with-u-s-startup-revive-south/docview/3337071808/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "",
     "region": {
       "Georgia": 1,
@@ -294602,11 +294603,11 @@
   "3337071796": {
     "title": "IT companies fast aligning compliance architecture with DPDP enroute",
     "author": "Suraksha, P; Achar, Shristi",
-    "date": "2026-05-05",
     "publication": "Place of publication: Singapore",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/companies-fast-aligning-compliance-architecture/docview/3337071796/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "",
     "region": {
       "India": 5
@@ -294626,11 +294627,11 @@
   "3337069393": {
     "title": "IBM CEO Says AI Triggers Need for New Operating Models; Arvind Krishna says the key to unlocking returns on AI is less about technology alone than a wholesale shift in the way companies approach their workflows",
     "author": "Rosenbush, Steven",
-    "date": "2026-05-05",
     "publication": "Country of publication: Singapore",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/ibm-ceo-says-ai-triggers-need-new-operating/docview/3337069393/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "",
     "region": {},
     "usState": {},
@@ -294652,11 +294653,11 @@
   "3337044911": {
     "title": "Legal test as AI bots linked to deaths",
     "author": "Source type: Newspaper",
-    "date": "2026-05-05",
     "publication": "Source type: Newspaper",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/legal-test-as-ai-bots-linked-deaths/docview/3337044911/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "OpenAI",
     "region": {
       "Denmark": 1
@@ -294682,11 +294683,11 @@
   "3337092786": {
     "title": "Trusting the Doctor's A.I. Assistant: [Science Desk]",
     "author": "Bajaj, Simar",
-    "date": "2026-05-05",
     "publication": "Publication year: 2024",
     "url": "",
     "proquest": "https://www.proquest.com/newspapers/trusting-doctors-i-assistant/docview/3337092786/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "",
     "region": {
       "United States": 1
@@ -294709,11 +294710,11 @@
   "3337199114": {
     "title": "Protesters push Portland to investigate firm that appears to supply drone tech to Israel",
     "author": "Hayden, Jeremiah",
-    "date": "2026-05-05",
     "publication": "Abstract: None available.",
     "url": "",
     "proquest": "https://www.proquest.com/blogs-podcasts-websites/protesters-push-portland-investigate-firm-that/docview/3337199114/se-2?accountid=28598",
     "summary": "",
+    "date": "05-05-2026",
     "organization": "Elbit Systems Ltd",
     "region": {
       "Iran (Islamic Republic of)": 1,

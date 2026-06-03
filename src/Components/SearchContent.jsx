@@ -242,7 +242,7 @@ export default function SearchContent(searchProps) {
     let articlesDict = {};  // law data processed as dictionary based on year
     for(let i = 0; i < articles.length; i++) {
       let article = articles[i];
-      let label = article.date == null ? "?" : parseInt(article.date.substring(article.date.length-4));
+      let label = article.year == null ? "?" : article.year;
 
       if (articlesDict[label]) {
         articlesDict[label].push(article);
